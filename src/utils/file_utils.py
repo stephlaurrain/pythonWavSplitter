@@ -1,6 +1,17 @@
-import os
+import os, shutil
 import time
 
+def clean_dir(self, dir_to_clean):                        
+                
+    for filename in os.listdir(dir_to_clean):
+            file_path = os.path.join(dir_to_clean, filename)
+            try:
+                    if os.path.isfile(file_path) or os.path.islink(file_path):
+                            os.unlink(file_path)
+                    elif os.path.isdir(file_path):
+                            shutil.rmtree(file_path)
+            except Exception as e:
+                    print('Failed to delete %s. Reason: %s' % (file_path, e))
 
 def remove_old_files(dir_path, days):
     all_files = os.listdir(dir_path)

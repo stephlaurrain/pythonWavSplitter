@@ -1,0 +1,34 @@
+{
+    "keep_log_days":1,
+    "org_sound_dir":"org",
+    "result_sound_dir":"result",
+    "drumkit_name":"kult2-origin",
+    "velocities":[
+        127, 111, 95, 79, 63, 47, 31
+    ],
+    "sounds":[
+        "kick", "snare", "hhcl", "hhcl2", "hhop", "splash1", "crash1",
+        "crash1chok", "fxcymb1", "china2", "fxcymb2", "crash2", "crash2chok", "china1",
+        "ridetop", "ridebell", "ridecrash", "tom1","tom2", "tom3", "tom4", "tom5"
+
+    ],
+    "split_time":100,
+    "split_treshold":-90,
+    "keep_silence":false,
+    "seek_step":2,
+    "loop_wait":1,
+    "good_for_kult_main" : {
+        "split_time":100,
+        "split_treshold":-70,
+        "keep_silence":false,
+        "seek_step":2,
+        "loop_wait":1
+    },
+    "good_for_kult_over" : {
+        "split_time":100,
+        "split_treshold":-80,
+        "keep_silence":false,
+        "seek_step":2,
+        "loop_wait":1
+    }
+}

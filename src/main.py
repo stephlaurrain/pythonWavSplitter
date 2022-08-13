@@ -43,21 +43,6 @@ class Wavesplit:
                 except Exception as e:
                         print("wasted")
                         raise
-        
-        @_trace_decorator        
-        @_error_decorator()
-        def clean_dir(self, dir_to_clean):                        
-                # for pth in sorted(Path(dir_to_clean).rglob('*.wav')):                                                                      
-                #        os.remove(str(pth))                            
-                for filename in os.listdir(dir_to_clean):
-                        file_path = os.path.join(dir_to_clean, filename)
-                        try:
-                                if os.path.isfile(file_path) or os.path.islink(file_path):
-                                        os.unlink(file_path)
-                                elif os.path.isdir(file_path):
-                                        shutil.rmtree(file_path)
-                        except Exception as e:
-                                print('Failed to delete %s. Reason: %s' % (file_path, e))
 
         @_trace_decorator        
         @_error_decorator()
@@ -76,8 +61,7 @@ class Wavesplit:
                 print(wavefile_path)
                 dest_dir_name = self.set_version_dir(wavefile_path)                
                 myaudio = AudioSegment.from_wav(wavefile_path)                               
-                # res = silence.split_on_silence(myaudio, min_silence_len=self.jsprms.prms['first_split_time'], silence_thresh=-40)
-                ## GOOD
+                ## SPLIT
                 res = silence.split_on_silence(myaudio, min_silence_len=self.jsprms.prms['split_time'], 
                                 silence_thresh=self.jsprms.prms['split_treshold'], keep_silence=self.jsprms.prms['keep_silence'], seek_step=self.jsprms.prms['seek_step'])              
                 velocities = self.jsprms.prms['velocities']
@@ -112,11 +96,10 @@ class Wavesplit:
         @_trace_decorator        
         @_error_decorator()
         def split_waves(self):
-                self.clean_dir(self.result_sound_dir)
-                # sound_files = [f for f in listdir(org_sound_dir) if isfile(join(org_sound_dir, f))]
+                file_utils.clean_dir(self.result_sound_dir)            
                 for pth in sorted(Path(self.org_sound_dir).rglob('*.Wav')):
                                 if pth.is_file():
-                                        print(pth)
+                                        print(f"split sequence file{pth}")
                                         self.treat_wave(pth)
 
         def main(self, command="", jsonfile="", param1="", param2=""):
@@ -134,7 +117,7 @@ class Wavesplit:
                                 print("params=", command, jsonfile, param1, param2, param3)
                         # logs
                         print(command)     
-                        command="split"
+                        # command="split"
                         self.init_main(command, jsonfile)                        
                         
                         if (command == "split"):                                
