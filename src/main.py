@@ -61,35 +61,28 @@ class Wavesplit:
 
         @_trace_decorator        
         @_error_decorator()
-        def split_wav(self, wavefile_path):
-                print(wavefile_path)
-                
+        def set_version_dir(self, wavefile_path):
                 head, tail = os.path.split(wavefile_path)
                 dest_dir_name = os.path.splitext(tail)[0]
                 version_dir =f"{self.result_sound_dir}{os.path.sep}{dest_dir_name}"
                 
                 if not os.path.exists(version_dir):
-                        os.mkdir(version_dir)                
-                myaudio = AudioSegment.from_wav(wavefile_path)                
-                # dBFS=myaudio.dBFS
-                # lsilence = silence.detect_silence(myaudio, min_silence_len=1000, silence_thresh=dBFS-16)
-                # lsilence = [((start/1000),(stop/1000)) for start,stop in lsilence] #in sec
-                # print(lsilence)
-                
-                # first split
+                        os.mkdir(version_dir)  
+                return dest_dir_name              
+
+        @_trace_decorator        
+        @_error_decorator()
+        def split_wav(self, wavefile_path):
+                print(wavefile_path)
+                dest_dir_name = self.set_version_dir(wavefile_path)                
+                myaudio = AudioSegment.from_wav(wavefile_path)                               
                 # res = silence.split_on_silence(myaudio, min_silence_len=self.jsprms.prms['first_split_time'], silence_thresh=-40)
                 ## GOOD
                 res = silence.split_on_silence(myaudio, min_silence_len=self.jsprms.prms['split_time'], 
-                                silence_thresh=self.jsprms.prms['split_treshold'], keep_silence=self.jsprms.prms['keep_silence'], seek_step=self.jsprms.prms['seek_step'])
-                # res = silence.split_on_silence(myaudio, min_silence_len=2000, silence_thresh=-40, keep_silence=False)
-                # res = silence.detect_nonsilent(myaudio,11)
-                # print (f"res = {res}")
+                                silence_thresh=self.jsprms.prms['split_treshold'], keep_silence=self.jsprms.prms['keep_silence'], seek_step=self.jsprms.prms['seek_step'])              
                 velocities = self.jsprms.prms['velocities']
                 sounds = self.jsprms.prms['sounds']
                 loop_wait =self.jsprms.prms['loop_wait']
-                # print(self.jsprms.prms['velocities'])
-                
-                # for snd in res:
                 # print (len(res))
                 cpt_velocity =0
                 cpt_sound=0
@@ -98,11 +91,6 @@ class Wavesplit:
                         if not os.path.exists(dest_dir):
                                 os.mkdir(dest_dir)
                         #print(velocities[idx])
-                        #
-                        # now = datetime.now() # current date and time
-                        # date_time = now.strftime("%m%d%Y%H%M%S")
-                        # timestamp=round(time.time() * 1000)
-                        #snd.export(f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}{timestamp}.wav", format="wav")
                         export_file_path =f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"
                         print(f"generate {export_file_path}")
                         snd.export(export_file_path, format="wav")
@@ -114,29 +102,21 @@ class Wavesplit:
                                 cpt_sound+=1
                                 if cpt_sound>=len(sounds):
                                         cpt_sound=0
-
                         
         @_trace_decorator        
         @_error_decorator()
         def treat_wave(self, wavefile_path):
                 self.clean_dir(self.result_sound_dir)
                 self.split_wav(wavefile_path)
-                
-                
 
         @_trace_decorator        
         @_error_decorator()
         def split_waves(self):
-                
-                
                 # sound_files = [f for f in listdir(org_sound_dir) if isfile(join(org_sound_dir, f))]
                 for pth in sorted(Path(self.org_sound_dir).rglob('*.Wav')):
                                 if pth.is_file():
                                         print(pth)
                                         self.treat_wave(pth)
-                                        
-                                        
-
 
         def main(self, command="", jsonfile="", param1="", param2=""):
                 try:
@@ -154,7 +134,6 @@ class Wavesplit:
                         # logs
                         print(command)     
                         command="split"
-                        
                         self.init_main(command, jsonfile)                        
                         
                         if (command == "split"):                                
