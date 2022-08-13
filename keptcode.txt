@@ -1,7 +1,0 @@
-                        #
-                        # now = datetime.now() # current date and time
-                        # date_time = now.strftime("%m%d%Y%H%M%S")
-                        # timestamp=round(time.time() * 1000)
-                        #snd.export(f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}{timestamp}.wav", format="wav")
-  # res = silence.split_on_silence(myaudio, min_silence_len=2000, silence_thresh=-40, keep_silence=False)
-                # print (f"res = {res}")

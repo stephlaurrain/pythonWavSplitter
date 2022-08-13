@@ -58,55 +58,17 @@ class Wavesplit:
                 return dest_dir_name              
 
         
-        @_trace_decorator        
-        @_error_decorator()
-        def treat_wave(self, wavefile_path):        
-                print(wavefile_path)
-                dest_dir_name = self.set_version_dir(wavefile_path)                
-                myaudio = AudioSegment.from_wav(wavefile_path)                               
-                ## SPLIT
-                res = silence.split_on_silence(myaudio, min_silence_len=self.jsprms.prms['split_time']['value'], 
-                                silence_thresh=-self.jsprms.prms['split_threshold']['value'], keep_silence=self.jsprms.prms['keep_silence'], seek_step=self.jsprms.prms['seek_step']['value'])              
+        
+        def treat_wave(self, psplit_threshold, psplit_time, pseek_step, pwavefile_path, paudio,  calculate=False):
+                watch_time_start = time.process_time()
+                print(f"split_threshold = {psplit_threshold} - split_time = {psplit_time} - seek_step = {pseek_step}")
+                if calculate is False:
+                        dest_dir_name = self.set_version_dir(pwavefile_path)  
+                res = silence.split_on_silence(paudio, min_silence_len=psplit_time, 
+                                silence_thresh=-psplit_threshold, keep_silence=False, seek_step=pseek_step)              
                 velocities = self.jsprms.prms['velocities']
                 sounds = self.jsprms.prms['sounds']
                 loop_wait =self.jsprms.prms['loop_wait']
-                # print (len(res))
-                cpt_velocity =0
-                cpt_sound=0
-                res_length =len(res)                
-                good_length = len(sounds)*len(velocities)
-                nb_errors = 0
-                if good_length == res_length:  
-                        for idx, snd in enumerate(res):
-                                dest_dir =f"{self.result_sound_dir}{os.path.sep}{dest_dir_name}{os.path.sep}{cpt_sound}{sounds[cpt_sound]}"
-                                if not os.path.exists(dest_dir):
-                                        os.mkdir(dest_dir)
-                                #print(velocities[idx])
-                                export_file_path =f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"
-                                print(f"generate {export_file_path}")
-                                # print (f"snd.duration_seconds = {snd.duration_seconds}")
-                                if snd.duration_seconds > self.jsprms.prms['size_threshold']:                                                     
-                                        snd.export(export_file_path, format="wav")
-                                        if loop_wait >0:
-                                                time.sleep(loop_wait)
-                                                cpt_velocity +=1
-                                                if cpt_velocity>=len(velocities):
-                                                        cpt_velocity=0
-                                                        cpt_sound+=1
-                                                        if cpt_sound>=len(sounds):
-                                                                cpt_sound=0
-                                else:
-                                        self.log.lg(f"FILE NOT EXPORTED = {export_file_path}  duration = {snd.duration_seconds}")  
-                        else:
-                                self.log.lg(f"SEGMENTS TAB LENGTH IS NOT GOOD= {export_file_path}")     
-
-        def split_for_optimisation(self, psplit_threshold, psplit_time, pseek_step, paudio):
-                watch_time_start = time.process_time()
-                print(f"split_threshold = {psplit_threshold} - split_time = {psplit_time} - seek_step = {pseek_step}")
-                res = silence.split_on_silence(paudio, min_silence_len=psplit_time, 
-                silence_thresh=-psplit_threshold, keep_silence=False, seek_step=pseek_step)              
-                velocities = self.jsprms.prms['velocities']
-                sounds = self.jsprms.prms['sounds']
                 cpt_velocity =0
                 cpt_sound=0
                 res_length =len(res)                
@@ -114,12 +76,20 @@ class Wavesplit:
                 nb_errors = 0
                 if good_length == res_length:  
                         self.log.lg(f"FOUND GOOD SEGMENTS TAB LENGTH")                       
-                        for idx, snd in enumerate(res):                                                
+                        for idx, snd in enumerate(res):
+                                if calculate is False:
+                                        dest_dir =f"{self.result_sound_dir}{os.path.sep}{dest_dir_name}{os.path.sep}{cpt_sound}{sounds[cpt_sound]}"
+                                        if not os.path.exists(dest_dir):
+                                                os.mkdir(dest_dir)                                                
                                 #print(velocities[idx])
                                 export_file_path =f"{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"                        
-                                #self.log.lg(f"{export_file_path}, duration_seconds = {snd.duration_seconds}")
+                                self.log.lg(f"{export_file_path}, duration_seconds = {snd.duration_seconds}")
                                 # print (f"snd.duration_seconds = {snd.duration_seconds}")
-                                if snd.duration_seconds > self.jsprms.prms['size_threshold']:                                                     
+                                if snd.duration_seconds > self.jsprms.prms['size_threshold']:  
+                                        if calculate is False:
+                                                snd.export(export_file_path, format="wav")
+                                                if loop_wait >0:
+                                                        time.sleep(loop_wait)                                                   
                                         cpt_velocity +=1
                                         if cpt_velocity>=len(velocities):
                                                 cpt_velocity=0
@@ -148,9 +118,9 @@ class Wavesplit:
                 myaudio = AudioSegment.from_wav(wavefile_path)                               
                 ## SPLIT
                 # ICI
-                # split_threshold = 100
-                # split_time = 90                
-                # seek_step = 2
+                # split_threshold = 90
+                # split_time = 100                
+                # seek_step = 32 (more fast)
 
                 for split_time in range(self.jsprms.prms['split_time']['min'], self.jsprms.prms['split_time']['max'], self.jsprms.prms['split_time']['step']):
                         # print(f"split_time={split_time}")                      
@@ -160,7 +130,7 @@ class Wavesplit:
                                         # print(f"seek_step={seek_step}")
                                         print(f"#####################################################")
                                         print(f"wavefile_path = {wavefile_path}")
-                                        self.split_for_optimisation(split_threshold, split_time, seek_step, myaudio)
+                                        self.treat_wave(split_threshold, split_time, seek_step, pwavefile_path=wavefile_path, myaudio, calculate=True)
                                                 
 
         @_trace_decorator        
@@ -175,10 +145,16 @@ class Wavesplit:
         @_error_decorator()
         def split_waves(self):
                 file_utils.clean_dir(self.result_sound_dir)            
-                for pth in sorted(Path(self.org_sound_dir).rglob('*.Wav')):
-                                if pth.is_file():
-                                        print(f"split sequence file{pth}")
-                                        self.treat_wave(pth)
+                split_threshold = self.jsprms.prms['split_threshold']['value']
+                split_time = self.jsprms.prms['split_time']['value']
+                seek_step = self.jsprms.prms['seek_step']['value']
+                
+                for wavefile_path in sorted(Path(self.org_sound_dir).rglob('*.Wav')):
+                                if wavefile_path.is_file():
+                                        print(wavefile_path) 
+                                        myaudio = AudioSegment.from_wav(wavefile_path) 
+                                        self.treat_wave(psplit_threshold=split_threshold, psplit_time=split_time,
+                                                                pseek_step=seek_step, pwavefile_path=wavefile_path, paudio=myaudio, calculate=False)                                                        )
 
         def main(self, command="", jsonfile="", param1="", param2=""):
                 try:
