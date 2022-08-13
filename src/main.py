@@ -38,8 +38,9 @@ class Wavesplit:
                         self.result_sound_dir = f"{sounds_dir}{os.path.sep}{self.jsprms.prms['result_sound_dir']}"
                         self.log.lg("=HERE WE GO=")
                         keep_log_time = self.jsprms.prms['keep_log_time']
-                        self.log.lg(f"=>clean logs older than {keep_log_time} hours")
-                        file_utils.remove_old_files(f"{self.root_app}{os.path.sep}log", keep_log_time, self.jsprms.prms['keep_log_unit'])
+                        keep_log_unit = self.jsprms.prms['keep_log_unit']
+                        self.log.lg(f"=>clean logs older than {keep_log_time} {keep_log_unit}")
+                        file_utils.remove_old_files(f"{self.root_app}{os.path.sep}log", keep_log_time, keep_log_unit)
                         
                 except Exception as e:
                         print("wasted")
@@ -102,11 +103,11 @@ class Wavesplit:
                 sounds = self.jsprms.prms['sounds']
                 cpt_velocity =0
                 cpt_sound=0
-                res_length =len(res)
-                self.log.lg(f"split result length = {res_length}")                
+                res_length =len(res)                
                 good_length = len(sounds)*len(velocities)
                 nb_errors = 0
-                if good_length == res_length:                        
+                if good_length == res_length:  
+                        self.log.lg(f"FOUND GOOD SEGMENTS LENGTH")                       
                         for idx, snd in enumerate(res):                                                
                                 #print(velocities[idx])
                                 export_file_path =f"{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"                        
@@ -120,13 +121,18 @@ class Wavesplit:
                                                 if cpt_sound>=len(sounds):
                                                         cpt_sound=0
                                 else:
-                                        # self.log.lg(f"FILE NOT EXPORTED = {export_file_path}  duration = {snd.duration_seconds}") 
+                                        self.log.lg(f"FILE NOT EXPORTED = {export_file_path}  duration = {snd.duration_seconds}") 
                                         nb_errors +=1
                 else : 
-                        self.log.lg(f"ERROR = excepted length = {good_length}, length = {res_length}") 
-                        nb_errors = 9999
-                if nb_errors != 9999:
-                        self.log.lg(f"NB ERRORS = {nb_errors}") 
+                        # self.log.lg(f"ERROR = excepted length = {good_length}, length = {res_length}") 
+                        nb_errors = 9999                        
+                # if nb_errors >0 and nb_errors != 9999:
+                #        self.log.lg(f"NB ERRORS")                         
+                if nb_errors == 0:
+                        self.log.lg(f"=== NO ERROR ! ===")
+                        # self.log.lg(f"split_threshold= {psplit_threshold} - split_time= {psplit_time} - seek_step= {pseek_step}")
+                        # self.log.lg(f"split result length = {res_length}")
+                        
 
         @_trace_decorator        
         @_error_decorator()
@@ -147,7 +153,8 @@ class Wavesplit:
                                         # print(f"seek_step={seek_step}")
                                         self.log.lg(f"#####################################################")
                                         self.log.lg(f"wavefile_path = {wavefile_path}")
-                                        self.split_for_optimisation(split_threshold, split_time, seek_step, myaudio)                         
+                                        self.split_for_optimisation(split_threshold, split_time, seek_step, myaudio)
+                                                
 
         @_trace_decorator        
         @_error_decorator()

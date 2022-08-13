@@ -13,9 +13,9 @@
         "ridetop", "ridebell", "ridecrash", "tom1","tom2", "tom3", "tom4", "tom5"
 
     ],
-    "split_time":{ "value":100, "min":40, "max":100, "step":5 },
-    "split_threshold":{ "value":70, "min":40, "max":100, "step":5 },
-    "seek_step":{ "value":2, "min":2, "max":42, "step":5 },
+    "split_time":{ "value":100, "min":60, "max":140, "step":10 },
+    "split_threshold":{ "value":70, "min":40, "max":100, "step":10 },
+    "seek_step":{ "value":2, "min":2, "max":42, "step":10 },
     "keep_silence":false,
     "loop_wait":1,
     "size_threshold": 0.1,
