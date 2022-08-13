@@ -13,15 +13,15 @@ enjoy !
 
 install : pip3 install -r requirements.txt
 
-## créer environnement virtuel :
+## Create virtual env :
 
 python3 -m venv env
 
-## activer
+## Activate it
 
 source env/bin/activate
 
-## installer les dépendances
+## Install dependencies
 
 pip3 install -r requirements.txt
 
@@ -29,19 +29,19 @@ pip3 install -r requirements.txt
 
 pipenv --version
 
-## connaître où est l'env virtuel
+## Where is virtual env
 
 pipenv --venv
 
-## le détruire
+## Destroy it
 
 pipenv --rm
 
-## Sauvegarder paquets
+## Save dependencies
 
 pip freeze > requirements.txt
 
-# Références
+# References
 
 https://github.com/jiaaro/pydub/blob/master/pydub/silence.py
 
@@ -49,24 +49,24 @@ https://github.com/jiaaro/pydub/blob/master/pydub/silence.py
 sox -V3 input.wav out.wav silence -l 1 0.0 -40d 1 1.0 -40d  : newfile : restart
 
 # Configuration
-# marche avec tempo 40
+# Work with tempo 40
  res = silence.split_on_silence(myaudio, min_silence_len=70, silence_thresh=-40, keep_silence=False)
 
-# confs
-## pas mal  
+# Confs
+## not bad
     "split_time":70,
     "split_treshold":-40,
     "keep_silence":false,
     "seek_step":25
 
-## quasi parfait
+## Quasi perfect
     split_time":500,
     "split_treshold":-40,
     "keep_silence":false,
     "seek_step":10
 }
 
-## TRES BIEN
+## Very good
     "split_time":100,
     "split_treshold":-50,
     "keep_silence":false,
@@ -82,7 +82,7 @@ sox -V3 input.wav out.wav silence -l 1 0.0 -40d 1 1.0 -40d  : newfile : restart
     "seek_step":5,
     "loop_wait":1
 
-### Bons paramètres
+### Best
    "split_time":100,
     "split_treshold":-70,
     "keep_silence":false,
