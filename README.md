@@ -1,6 +1,17 @@
 # pythonWavSplitter
 splitting waves with python
 
+extract sounds from drumkits like KVLT or EZDrummer
+
+usage :
+use Mulab to generate base sounds (see /mulab / drumkitexploder)
+extract tracks
+copy tracks into sounds/org
+run pythonWavSplitter with run.sh
+
+enjoy !
+
+install : pip3 install -r requirements.txt
 
 ## créer environnement virtuel :
 
