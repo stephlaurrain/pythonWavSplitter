@@ -13,7 +13,7 @@
 
     ],
     "split_time":100,
-    "split_treshold":-80,
+    "split_treshold":-90,
     "keep_silence":false,
     "seek_step":2,
     "loop_wait":1,
@@ -24,7 +24,7 @@
         "seek_step":2,
         "loop_wait":1
     },
-    "good_for_kult_room" : {
+    "good_for_kult_over" : {
         "split_time":100,
         "split_treshold":-80,
         "keep_silence":false,

@@ -63,6 +63,13 @@ class Wavesplit:
         @_error_decorator()
         def split_wav(self, wavefile_path):
                 print(wavefile_path)
+                
+                head, tail = os.path.split(wavefile_path)
+                dest_dir_name = os.path.splitext(tail)[0]
+                version_dir =f"{self.result_sound_dir}{os.path.sep}{dest_dir_name}"
+                
+                if not os.path.exists(version_dir):
+                        os.mkdir(version_dir)                
                 myaudio = AudioSegment.from_wav(wavefile_path)                
                 # dBFS=myaudio.dBFS
                 # lsilence = silence.detect_silence(myaudio, min_silence_len=1000, silence_thresh=dBFS-16)
@@ -87,16 +94,18 @@ class Wavesplit:
                 cpt_velocity =0
                 cpt_sound=0
                 for idx, snd in enumerate(res):
-                        dest_dir =f"{self.result_sound_dir}{os.path.sep}{cpt_sound}{sounds[cpt_sound]}"
+                        dest_dir =f"{self.result_sound_dir}{os.path.sep}{dest_dir_name}{os.path.sep}{cpt_sound}{sounds[cpt_sound]}"
                         if not os.path.exists(dest_dir):
                                 os.mkdir(dest_dir)
                         #print(velocities[idx])
                         #
-                        now = datetime.now() # current date and time
+                        # now = datetime.now() # current date and time
                         # date_time = now.strftime("%m%d%Y%H%M%S")
-                        timestamp=round(time.time() * 1000)
+                        # timestamp=round(time.time() * 1000)
                         #snd.export(f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}{timestamp}.wav", format="wav")
-                        snd.export(f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav", format="wav")
+                        export_file_path =f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"
+                        print(f"generate {export_file_path}")
+                        snd.export(export_file_path, format="wav")
                         if loop_wait >0:
                                 time.sleep(loop_wait)
                         cpt_velocity +=1
