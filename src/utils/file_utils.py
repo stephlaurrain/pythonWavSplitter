@@ -13,13 +13,15 @@ def clean_dir(dir_to_clean):
             except Exception as e:
                     print('Failed to delete %s. Reason: %s' % (file_path, e))
 
-def remove_old_files(dir_path, ptime, unit="days"):
+def remove_old_files(dir_path, ptime, unit="d"):
     all_files = os.listdir(dir_path)
     now = time.time()
-    if unit=="days":        
+    if unit=="d":        
         ltime = ptime * 86400
-    if unit=="hours":        
+    if unit=="h":        
         ltime = ptime * 3600
+    if unit=="m":        
+        ltime = ptime * 60
     for f in all_files:
         file_path = os.path.join(dir_path, f)
         if not os.path.isfile(file_path):

@@ -1,1 +1,1 @@
-python3 run.py calculate default
+python3 run.py split default

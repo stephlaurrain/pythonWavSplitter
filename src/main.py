@@ -37,9 +37,9 @@ class Wavesplit:
                         self.org_sound_dir = f"{sounds_dir}{os.path.sep}{self.jsprms.prms['org_sound_dir']}"                        
                         self.result_sound_dir = f"{sounds_dir}{os.path.sep}{self.jsprms.prms['result_sound_dir']}"
                         self.log.lg("=HERE WE GO=")
-                        keep_log_time = self.jsprms.prms['keep_log_hours']
+                        keep_log_time = self.jsprms.prms['keep_log_time']
                         self.log.lg(f"=>clean logs older than {keep_log_time} hours")
-                        file_utils.remove_old_files(f"{self.root_app}{os.path.sep}log", keep_log_time, "hours")
+                        file_utils.remove_old_files(f"{self.root_app}{os.path.sep}log", keep_log_time, self.jsprms.prms['keep_log_unit'])
                         
                 except Exception as e:
                         print("wasted")
@@ -64,8 +64,8 @@ class Wavesplit:
                 dest_dir_name = self.set_version_dir(wavefile_path)                
                 myaudio = AudioSegment.from_wav(wavefile_path)                               
                 ## SPLIT
-                res = silence.split_on_silence(myaudio, min_silence_len=self.jsprms.prms['split_time'], 
-                                silence_thresh=self.jsprms.prms['split_threshold'], keep_silence=self.jsprms.prms['keep_silence'], seek_step=self.jsprms.prms['seek_step'])              
+                res = silence.split_on_silence(myaudio, min_silence_len=self.jsprms.prms['split_time']['value'], 
+                                silence_thresh=-self.jsprms.prms['split_threshold']['value'], keep_silence=self.jsprms.prms['keep_silence'], seek_step=self.jsprms.prms['seek_step']['value'])              
                 velocities = self.jsprms.prms['velocities']
                 sounds = self.jsprms.prms['sounds']
                 loop_wait =self.jsprms.prms['loop_wait']
@@ -93,32 +93,24 @@ class Wavesplit:
                         else:
                                  self.log.lg(f"FILE NOT EXPORTED = {export_file_path}  duration = {snd.duration_seconds}")       
 
-        @_trace_decorator        
-        @_error_decorator()
-        def calculate_params(self, wavefile_path):        
-                print(wavefile_path)                      
-                myaudio = AudioSegment.from_wav(wavefile_path)                               
-                ## SPLIT
-                # ICI
-                # split_threshold = 100
-                split_time = 90                
-                seek_step = 2
-
-                
-                for split_threshold in range(70, 150):
-                        res = silence.split_on_silence(myaudio, min_silence_len=split_time, 
-                                silence_thresh=-split_threshold, keep_silence=False, seek_step=seek_step)              
-                        velocities = self.jsprms.prms['velocities']
-                        sounds = self.jsprms.prms['sounds']
-                        cpt_velocity =0
-                        cpt_sound=0
-                        self.log.lg(f"res len= {len(res)}")
-                        self.log.lg(f"split_threshold= {split_threshold}")
-
+        def split_for_optimisation(self, psplit_threshold, psplit_time, pseek_step, paudio):
+               
+                self.log.lg(f"split_threshold= {psplit_threshold} - split_time= {psplit_time} - seek_step= {pseek_step}")
+                res = silence.split_on_silence(paudio, min_silence_len=psplit_time, 
+                silence_thresh=-psplit_threshold, keep_silence=False, seek_step=pseek_step)              
+                velocities = self.jsprms.prms['velocities']
+                sounds = self.jsprms.prms['sounds']
+                cpt_velocity =0
+                cpt_sound=0
+                res_length =len(res)
+                self.log.lg(f"split result length = {res_length}")                
+                good_length = len(sounds)*len(velocities)
+                nb_errors = 0
+                if good_length == res_length:                        
                         for idx, snd in enumerate(res):                                                
                                 #print(velocities[idx])
-                                export_file_path =f"{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"
-                                print(f"generate {export_file_path}")
+                                export_file_path =f"{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"                        
+                                #self.log.lg(f"{export_file_path}, duration_seconds = {snd.duration_seconds}")
                                 # print (f"snd.duration_seconds = {snd.duration_seconds}")
                                 if snd.duration_seconds > self.jsprms.prms['size_threshold']:                                                     
                                         cpt_velocity +=1
@@ -128,7 +120,34 @@ class Wavesplit:
                                                 if cpt_sound>=len(sounds):
                                                         cpt_sound=0
                                 else:
-                                        self.log.lg(f"FILE NOT EXPORTED = {export_file_path}  duration = {snd.duration_seconds}")                            
+                                        # self.log.lg(f"FILE NOT EXPORTED = {export_file_path}  duration = {snd.duration_seconds}") 
+                                        nb_errors +=1
+                else : 
+                        self.log.lg(f"ERROR = excepted length = {good_length}, length = {res_length}") 
+                        nb_errors = 9999
+                if nb_errors != 9999:
+                        self.log.lg(f"NB ERRORS = {nb_errors}") 
+
+        @_trace_decorator        
+        @_error_decorator()
+        def calculate_params(self, wavefile_path):        
+                print(wavefile_path)                      
+                myaudio = AudioSegment.from_wav(wavefile_path)                               
+                ## SPLIT
+                # ICI
+                # split_threshold = 100
+                # split_time = 90                
+                # seek_step = 2
+
+                for split_time in range(self.jsprms.prms['split_time']['min'], self.jsprms.prms['split_time']['max'], self.jsprms.prms['split_time']['step']):
+                        # print(f"split_time={split_time}")                      
+                        for split_threshold in range(self.jsprms.prms['split_threshold']['min'], self.jsprms.prms['split_threshold']['max'], self.jsprms.prms['split_threshold']['step']):                                                
+                                # print(f"split_threshold={split_threshold}")
+                                for seek_step in range(self.jsprms.prms['seek_step']['min'], self.jsprms.prms['seek_step']['max'], self.jsprms.prms['seek_step']['step']):
+                                        # print(f"seek_step={seek_step}")
+                                        self.log.lg(f"#####################################################")
+                                        self.log.lg(f"wavefile_path = {wavefile_path}")
+                                        self.split_for_optimisation(split_threshold, split_time, seek_step, myaudio)                         
 
         @_trace_decorator        
         @_error_decorator()

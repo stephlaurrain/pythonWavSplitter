@@ -1,5 +1,6 @@
 {
-    "keep_log_hours":1,
+    "keep_log_time":1,
+    "keep_log_unit":"m",
     "org_sound_dir":"org",
     "result_sound_dir":"result",
     "drumkit_name":"kult2-origin",
@@ -12,12 +13,13 @@
         "ridetop", "ridebell", "ridecrash", "tom1","tom2", "tom3", "tom4", "tom5"
 
     ],
-    "split_time":100,
-    "split_threshold":-70,
+    "split_time":{ "value":100, "min":40, "max":100, "step":5 },
+    "split_threshold":{ "value":70, "min":40, "max":100, "step":5 },
+    "seek_step":{ "value":2, "min":2, "max":42, "step":5 },
     "keep_silence":false,
-    "seek_step":2,
     "loop_wait":1,
-    "size_threshold": 0.01,
+    "size_threshold": 0.1,
+    "nsize_threshold": 0.1,
     "good_for_kult_main" : {
         "split_time":100,
         "split_threshold":-70,
