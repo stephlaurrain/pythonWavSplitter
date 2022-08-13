@@ -13,8 +13,9 @@
 
     ],
     "split_time":100,
-    "split_treshold":-50,
+    "split_treshold":-70,
     "keep_silence":false,
-    "seek_step":10
+    "seek_step":5,
+    "relative_wait":2
 
 }

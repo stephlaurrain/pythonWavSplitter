@@ -79,6 +79,7 @@ class Wavesplit:
                 # print (f"res = {res}")
                 velocities = self.jsprms.prms['velocities']
                 sounds = self.jsprms.prms['sounds']
+                relative_wait =self.jsprms.prms['relative_wait']
                 # print(self.jsprms.prms['velocities'])
                 
                 # for snd in res:
@@ -94,8 +95,9 @@ class Wavesplit:
                         now = datetime.now() # current date and time
                         # date_time = now.strftime("%m%d%Y%H%M%S")
                         timestamp=round(time.time() * 1000)
-                        snd.export(f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}{timestamp}.wav", format="wav")
-                        time.sleep(1)
+                        #snd.export(f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}{timestamp}.wav", format="wav")
+                        snd.export(f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav", format="wav")
+                        time.sleep(relative_wait)
                         cpt_velocity +=1
                         if cpt_velocity>=len(velocities):
                                 cpt_velocity=0
