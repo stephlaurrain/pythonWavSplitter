@@ -63,7 +63,7 @@ class Wavesplit:
                 myaudio = AudioSegment.from_wav(wavefile_path)                               
                 ## SPLIT
                 res = silence.split_on_silence(myaudio, min_silence_len=self.jsprms.prms['split_time'], 
-                                silence_thresh=self.jsprms.prms['split_treshold'], keep_silence=self.jsprms.prms['keep_silence'], seek_step=self.jsprms.prms['seek_step'])              
+                                silence_thresh=self.jsprms.prms['split_threshold'], keep_silence=self.jsprms.prms['keep_silence'], seek_step=self.jsprms.prms['seek_step'])              
                 velocities = self.jsprms.prms['velocities']
                 sounds = self.jsprms.prms['sounds']
                 loop_wait =self.jsprms.prms['loop_wait']
@@ -77,7 +77,10 @@ class Wavesplit:
                         #print(velocities[idx])
                         export_file_path =f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"
                         print(f"generate {export_file_path}")
-                        snd.export(export_file_path, format="wav")
+                        print (f"snd.duration_seconds = {snd.duration_seconds}")
+                        if snd.duration_seconds > self.jsprms.prms['size_threshold']:  
+                                self.log.lg(f"FILE NOT EXPORTED = {export_file_path}  duration = {snd.duration_seconds}")                           
+                                snd.export(export_file_path, format="wav")
                         if loop_wait >0:
                                 time.sleep(loop_wait)
                         cpt_velocity +=1

@@ -1,7 +1,7 @@
 import os, shutil
 import time
 
-def clean_dir(self, dir_to_clean):                        
+def clean_dir(dir_to_clean):                        
                 
     for filename in os.listdir(dir_to_clean):
             file_path = os.path.join(dir_to_clean, filename)

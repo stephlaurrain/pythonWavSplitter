@@ -17,6 +17,7 @@
     "keep_silence":false,
     "seek_step":2,
     "loop_wait":1,
+    "size_treshold": 0.08,
     "good_for_kult_main" : {
         "split_time":100,
         "split_treshold":-70,
