@@ -12,9 +12,9 @@
         "ridetop", "ridebell", "ridecrash", "tom1"," tom2", "tom3", "tom4", "tom5"
 
     ],
-    "split_time":100,
-    "split_treshold":-50,
+    "split_time":70,
+    "split_treshold":-40,
     "keep_silence":false,
-    "seek_step":10
+    "seek_step":25
 
 }

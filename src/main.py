@@ -14,6 +14,8 @@ from utils.mydecorators import _error_decorator, _trace_decorator
 
 from pydub import AudioSegment, silence
 from pathlib import Path
+from datetime import datetime
+import time
 
 class Wavesplit:
 
@@ -59,7 +61,7 @@ class Wavesplit:
 
         @_trace_decorator        
         @_error_decorator()
-        def first_split(self, wavefile_path):
+        def split_wav(self, wavefile_path):
                 print(wavefile_path)
                 myaudio = AudioSegment.from_wav(wavefile_path)                
                 # dBFS=myaudio.dBFS
@@ -71,7 +73,7 @@ class Wavesplit:
                 # res = silence.split_on_silence(myaudio, min_silence_len=self.jsprms.prms['first_split_time'], silence_thresh=-40)
                 ## GOOD
                 res = silence.split_on_silence(myaudio, min_silence_len=self.jsprms.prms['split_time'], 
-                                silence_thresh=self.jsprms.prms['split_treshold'], keep_silence=self.jsprms.prms['keep_silence'])
+                                silence_thresh=self.jsprms.prms['split_treshold'], keep_silence=self.jsprms.prms['keep_silence'], seek_step=self.jsprms.prms['seek_step'])
                 # res = silence.split_on_silence(myaudio, min_silence_len=2000, silence_thresh=-40, keep_silence=False)
                 # res = silence.detect_nonsilent(myaudio,11)
                 # print (f"res = {res}")
@@ -89,7 +91,11 @@ class Wavesplit:
                                 os.mkdir(dest_dir)
                         #print(velocities[idx])
                         #
-                        snd.export(f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav", format="wav")
+                        now = datetime.now() # current date and time
+                        # date_time = now.strftime("%m%d%Y%H%M%S")
+                        timestamp=round(time.time() * 1000)
+                        snd.export(f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}{timestamp}.wav", format="wav")
+                        time.sleep(1)
                         cpt_velocity +=1
                         if cpt_velocity>=len(velocities):
                                 cpt_velocity=0
@@ -102,7 +108,7 @@ class Wavesplit:
         @_error_decorator()
         def treat_wave(self, wavefile_path):
                 self.clean_dir(self.result_sound_dir)
-                self.first_split(wavefile_path)
+                self.split_wav(wavefile_path)
                 
                 
 
