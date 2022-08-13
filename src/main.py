@@ -17,6 +17,15 @@ from pathlib import Path
 from datetime import datetime
 import time
 
+class GoodRes():
+        def __init__(self, split_threshold, split_time, seek_step, process_time): 
+                self.split_threshold = split_threshold
+                self.split_time = split_time
+                self.seek_step = seek_step
+                self.process_time = process_time
+        
+        def __str__(self):
+                return f"split_threshold= {self.split_threshold}, split_time= {self.split_time}, seek_step= {self.seek_step}, process_time= {self.process_time}"
 class Wavesplit:
 
         def trace(self, stck):
@@ -40,6 +49,7 @@ class Wavesplit:
                         keep_log_time = self.jsprms.prms['keep_log_time']
                         keep_log_unit = self.jsprms.prms['keep_log_unit']
                         self.log.lg(f"=>clean logs older than {keep_log_time} {keep_log_unit}")
+                        self.goodRes_array = []
                         file_utils.remove_old_files(f"{self.root_app}{os.path.sep}log", keep_log_time, keep_log_unit)
                         
                 except Exception as e:
@@ -81,24 +91,24 @@ class Wavesplit:
                                         dest_dir =f"{self.result_sound_dir}{os.path.sep}{dest_dir_name}{os.path.sep}{cpt_sound}{sounds[cpt_sound]}"
                                         if not os.path.exists(dest_dir):
                                                 os.mkdir(dest_dir)                                                
-                                #print(velocities[idx])
+                                # print(velocities[idx])
                                 export_file_path =f"{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"                        
-                                self.log.lg(f"{export_file_path}, duration_seconds = {snd.duration_seconds}")
+                                # self.log.lg(f"{export_file_path}, duration_seconds = {snd.duration_seconds}")
                                 # print (f"snd.duration_seconds = {snd.duration_seconds}")
                                 if snd.duration_seconds > self.jsprms.prms['size_threshold']:  
                                         if calculate is False:
                                                 snd.export(export_file_path, format="wav")
-                                                if loop_wait >0:
+                                                if loop_wait > 0:
                                                         time.sleep(loop_wait)                                                   
                                         cpt_velocity +=1
                                         if cpt_velocity>=len(velocities):
-                                                cpt_velocity=0
-                                                cpt_sound+=1
-                                                if cpt_sound>=len(sounds):
-                                                        cpt_sound=0
+                                                cpt_velocity = 0
+                                                cpt_sound += 1
+                                                if cpt_sound >= len(sounds):
+                                                        cpt_sound = 0
                                 else:
                                         self.log.lg(f"FILE NOT EXPORTED = {export_file_path}  duration = {snd.duration_seconds}") 
-                                        nb_errors +=1
+                                        nb_errors += 1
                 else : 
                         # self.log.lg(f"ERROR = excepted length = {good_length}, length = {res_length}") 
                         nb_errors = 9999                        
@@ -106,7 +116,11 @@ class Wavesplit:
                 #        self.log.lg(f"NB ERRORS")                         
                 if nb_errors == 0:
                         self.log.lg(f"=== NO ERROR ! ===")
-                        self.log.lg (f"Time = {time.process_time() - watch_time_start} seconds process time")
+                        process_time = time.process_time() - watch_time_start
+                        self.log.lg (f"Time = {process_time} seconds process time")
+                        good_res = GoodRes(split_threshold=psplit_threshold, split_time=psplit_time, seek_step=pseek_step, process_time=process_time)
+                        self.goodRes_array.append(good_res)
+                        
                         # self.log.lg(f"split_threshold= {psplit_threshold} - split_time= {psplit_time} - seek_step= {pseek_step}")
                         # self.log.lg(f"split result length = {res_length}")
                         
@@ -130,8 +144,21 @@ class Wavesplit:
                                         # print(f"seek_step={seek_step}")
                                         print(f"#####################################################")
                                         print(f"wavefile_path = {wavefile_path}")
-                                        self.treat_wave(split_threshold, split_time, seek_step, pwavefile_path=wavefile_path, myaudio, calculate=True)
-                                                
+                                        self.treat_wave(psplit_threshold=split_threshold, psplit_time=split_time, pseek_step=seek_step, pwavefile_path=wavefile_path, paudio=myaudio, calculate=True)
+
+                # show results
+                for good_res in self.goodRes_array:
+                        print(str(good_res))
+                        """ print(f"split_threshold= {good_res.split_threshold}")
+                        print(f"split_time= {good_res.split_time}")
+                        print(f"seek_step= {good_res.seek_step}")
+                        print(f"process_time= {good_res.process_time}")
+                        """
+                
+                self.goodRes_array.sort(key=lambda x: x.process_time, reverse=False)
+                print(f"BEST SCORE= {self.goodRes_array[0].process_time}")
+                # To return a new list, use the sorted() built-in function...
+                #newlist = sorted(ut, key=lambda x: x.count, reverse=True)
 
         @_trace_decorator        
         @_error_decorator()
@@ -153,8 +180,7 @@ class Wavesplit:
                                 if wavefile_path.is_file():
                                         print(wavefile_path) 
                                         myaudio = AudioSegment.from_wav(wavefile_path) 
-                                        self.treat_wave(psplit_threshold=split_threshold, psplit_time=split_time,
-                                                                pseek_step=seek_step, pwavefile_path=wavefile_path, paudio=myaudio, calculate=False)                                                        )
+                                        self.treat_wave(psplit_threshold=split_threshold, psplit_time=split_time, pseek_step=seek_step, pwavefile_path=wavefile_path, paudio=myaudio, calculate=False)
 
         def main(self, command="", jsonfile="", param1="", param2=""):
                 try:
