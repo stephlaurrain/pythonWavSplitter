@@ -106,12 +106,13 @@ class Wavesplit:
         @_trace_decorator        
         @_error_decorator()
         def treat_wave(self, wavefile_path):
-                self.clean_dir(self.result_sound_dir)
+                
                 self.split_wav(wavefile_path)
 
         @_trace_decorator        
         @_error_decorator()
         def split_waves(self):
+                self.clean_dir(self.result_sound_dir)
                 # sound_files = [f for f in listdir(org_sound_dir) if isfile(join(org_sound_dir, f))]
                 for pth in sorted(Path(self.org_sound_dir).rglob('*.Wav')):
                                 if pth.is_file():
