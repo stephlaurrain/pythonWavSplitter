@@ -54,3 +54,26 @@ sox -V3 input.wav out.wav silence -l 1 0.0 -40d 1 1.0 -40d  : newfile : restart
     "keep_silence":false,
     "seek_step":10
 }
+
+## TRES BIEN
+    "split_time":100,
+    "split_treshold":-50,
+    "keep_silence":false,
+    "seek_step":10,
+    "relative_wait":2
+
+    provoque juste décalage à partir de ridebell
+
+    un seul decalage :
+    "split_time":110,
+    "split_treshold":-50,
+    "keep_silence":false,
+    "seek_step":5,
+    "loop_wait":1
+
+### Bons paramètres
+   "split_time":100,
+    "split_treshold":-70,
+    "keep_silence":false,
+    "seek_step":2,
+    "loop_wait":1
