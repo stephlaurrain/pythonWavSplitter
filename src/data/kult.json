@@ -1,5 +1,5 @@
 {
-    "keep_log_days":1,
+    "keep_log_hours":1,
     "org_sound_dir":"org",
     "result_sound_dir":"result",
     "drumkit_name":"kult2-origin",
@@ -13,21 +13,21 @@
 
     ],
     "split_time":100,
-    "split_treshold":-90,
+    "split_threshold":-90,
     "keep_silence":false,
     "seek_step":2,
     "loop_wait":1,
-    "size_treshold": 0.08,
+    "size_threshold": 0.08,
     "good_for_kult_main" : {
         "split_time":100,
-        "split_treshold":-70,
+        "split_threshold":-70,
         "keep_silence":false,
         "seek_step":2,
         "loop_wait":1
     },
     "good_for_kult_over" : {
         "split_time":100,
-        "split_treshold":-80,
+        "split_threshold":-80,
         "keep_silence":false,
         "seek_step":2,
         "loop_wait":1

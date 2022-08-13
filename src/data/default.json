@@ -1,5 +1,5 @@
 {
-    "keep_log_days":0,
+    "keep_log_hours":1,
     "org_sound_dir":"org",
     "result_sound_dir":"result",
     "drumkit_name":"kult2-origin",
