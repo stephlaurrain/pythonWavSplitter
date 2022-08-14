@@ -1,5 +1,5 @@
 # PythonWavSplitter
-splitting waves with python
+splitting waves with Python
 
 extract sounds from drumkits like KVLT or EZDrummer
 
@@ -19,7 +19,7 @@ run with run.sh
 
 you'll find your splitted drumkit into data/sounds/result
 
-change parameters in data/default.json (or your own json file as a parameter for python3 run.py [command] [json parameter file name without .json] )
+change parameters in data/default.json (or your own json file as a parameter for python3 run.py split [json parameter file name without .json] )
 
 enjoy !
 
