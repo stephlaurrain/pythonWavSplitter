@@ -113,13 +113,12 @@ class Wavesplit:
                 # if nb_errors >0 and nb_errors != 9999:
                 #        self.log.lg(f"NB ERRORS")                         
                 if nb_errors == 0:
-                        self.log.lg(f"=== NO ERROR ! ===")
+                        self.log.lg(f"=== GOOD CONF FOUND ! ===")
                         process_time = time.process_time() - watch_time_start
                         self.log.lg (f"Time = {process_time} seconds process time")
                         good_res = GoodRes(split_threshold=psplit_threshold, split_time=psplit_time, seek_step=pseek_step, process_time=process_time)
-                        self.goodRes_array.append(good_res)
-                        
-                        # self.log.lg(f"split_threshold= {psplit_threshold} - split_time= {psplit_time} - seek_step= {pseek_step}")
+                        self.goodRes_array.append(good_res)                        
+                        self.log.lg(str(good_res))
                         # self.log.lg(f"split result length = {res_length}")
                         
 
@@ -129,14 +128,12 @@ class Wavesplit:
                 self.log.lg("====================================================================")
                 self.log.lg(f"== FINDING BEST SCORE for {pwavefile_path} ==")
                 self.log.lg("====================================================================")
-                for split_time in range(self.jsprms.prms['split_time']['min'], self.jsprms.prms['split_time']['max'], self.jsprms.prms['split_time']['step']):
-                        # print(f"split_time={split_time}")                      
+                for split_time in range(self.jsprms.prms['split_time']['min'], self.jsprms.prms['split_time']['max'], self.jsprms.prms['split_time']['step']):                        
                         for split_threshold in range(self.jsprms.prms['split_threshold']['min'], self.jsprms.prms['split_threshold']['max'], self.jsprms.prms['split_threshold']['step']):                                                
-                                # print(f"split_threshold={split_threshold}")
                                 for seek_step in range(self.jsprms.prms['seek_step']['min'], self.jsprms.prms['seek_step']['max'], self.jsprms.prms['seek_step']['step']):
                                         # print(f"seek_step={seek_step}")
-                                        print(f"#####################################################")
-                                        print(f"wavefile_path = {pwavefile_path}")
+                                        # print(f"#####################################################")
+                                        # print(f"wavefile_path = {pwavefile_path}")
                                         self.treat_wave(psplit_threshold=split_threshold, psplit_time=split_time, pseek_step=seek_step, pwavefile_path=pwavefile_path, paudio=paudio, calculate=True)
 
         @_trace_decorator        
@@ -147,20 +144,19 @@ class Wavesplit:
                                 if wavefile_path.is_file():
                                         print(wavefile_path) 
                                         myaudio = AudioSegment.from_wav(wavefile_path) 
-                                        self.calculate_params(wavefile_path, myaudio)     
-                                        self.goodRes_array.sort(key=lambda x: x.process_time, reverse=False)
-                                        # To return a new list, use the sorted() built-in function...
-                                        # newlist = sorted(ut, key=lambda x: x.count, reverse=True)
-                                        best_res = self.goodRes_array[0]
-                                        print(f"BEST SCORE= {str(self.goodRes_array[0])}")
+                                        self.calculate_params(wavefile_path, myaudio)                                                                                                                           
                                         if len(self.goodRes_array)>0:
+                                                self.goodRes_array.sort(key=lambda x: x.process_time, reverse=False)
+                                                # To return a new list, use the sorted() built-in function...
+                                                # newlist = sorted(ut, key=lambda x: x.count, reverse=True)  
+                                                best_res = self.goodRes_array[0]
+                                                print(f"BEST SCORE= {str(self.goodRes_array[0])}")
                                                 self.log.lg("====================================================================")
                                                 self.log.lg(f"== SPLITTING {wavefile_path} ==")
                                                 self.log.lg("====================================================================")
                                                 self.treat_wave(psplit_threshold=best_res.split_threshold, psplit_time=best_res.split_time, pseek_step=best_res.seek_step, pwavefile_path=wavefile_path, paudio=myaudio, calculate=False)
                                         else:
                                                 self.log.errlg(f"NO BEST SCORE FOR : {wavefile_path}, FILE WAS NOT SPLITTED, PLEASE CHANGE PARAMS")
-                                        
                                         self.goodRes_array.clear()
 
         def main(self, command="", jsonfile="", param1="", param2=""):
@@ -179,12 +175,10 @@ class Wavesplit:
                         # logs
                         print(command)     
                         # command="split"
-                        self.init_main(command, jsonfile)                        
-                        
+                        self.init_main(command, jsonfile)                                                
                         if (command == "split"):                                
                                 # input("Press Enter to continue...")
                                 self.split_waves()
-
                         self.log.lg("=THE END COMPLETE=")
                 except KeyboardInterrupt:
                         print("==Interrupted==")
@@ -195,4 +189,4 @@ class Wavesplit:
                         # raise
                         #
                 finally:
-                        print("finally")
+                        print("DONE")
