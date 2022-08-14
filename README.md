@@ -6,11 +6,15 @@ extract sounds from drumkits like KVLT or EZDrummer
 usage :
 
 use Mulab to generate base sounds (see / mulab / drumkitexploder)
+
 extract tracks
+
 copy tracks into sounds/org
 
 PythonWavSplitter finds the best parameters for split_threshold, split_time, seek_step and process time
+
 then splits the files
+
 run with run.sh
 
 you'll find your splitted drumkit into data/sounds/result
