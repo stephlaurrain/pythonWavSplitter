@@ -11,11 +11,10 @@
         "kick", "snare", "hhcl", "hhcl2", "hhop", "splash1", "crash1",
         "crash1chok", "fxcymb1", "china2", "fxcymb2", "crash2", "crash2chok", "china1",
         "ridetop", "ridebell", "ridecrash", "tom1","tom2", "tom3", "tom4", "tom5"
-
     ],
-    "split_threshold":{ "value":70, "min":80, "max":101, "step":10 },
-    "split_time":{ "value":100, "min":80, "max":101, "step":10 },
-    "seek_step":{ "value":2, "min":22, "max":33, "step":10 },
+    "split_threshold":{ "min":80, "max":101, "step":10 },
+    "split_time":{ "min":80, "max":101, "step":10 },
+    "seek_step":{ "min":22, "max":33, "step":10 },
     "keep_silence":false,
     "loop_wait":1,
     "size_threshold": 0.1    
