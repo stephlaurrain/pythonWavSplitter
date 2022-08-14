@@ -85,11 +85,9 @@ class Wavesplit:
                                 if calculate is False:
                                         dest_dir = f"{self.result_sound_dir}{os.path.sep}{dest_dir_name}{os.path.sep}{cpt_sound}{sounds[cpt_sound]}"
                                         if not os.path.exists(dest_dir):
-                                                os.mkdir(dest_dir)                                                
-                                # print(velocities[idx])
+                                                os.mkdir(dest_dir)                                                                                
                                         export_file_path = f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"
-                                        print(f"{export_file_path}, duration_seconds = {snd.duration_seconds}")
-                                # print (f"snd.duration_seconds = {snd.duration_seconds}")
+                                        # print(f"{export_file_path}, duration_seconds = {snd.duration_seconds}")                                
                                 if snd.duration_seconds > self.jsprms.prms['size_threshold']:  
                                         if calculate is False:
                                                 snd.export(export_file_path, format="wav")
@@ -102,7 +100,7 @@ class Wavesplit:
                                                 if cpt_sound >= len(sounds):
                                                         cpt_sound = 0
                                 else:
-                                        self.log.lg(f"FILE NOT EXPORTED = {export_file_path}  duration = {snd.duration_seconds}") 
+                                        self.log.lg(f"FILE NOT EXPORTED = {velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav duration = {snd.duration_seconds}") 
                                         nb_errors += 1
                 else : 
                         # self.log.lg(f"ERROR = excepted length = {good_length}, length = {res_length}") 
