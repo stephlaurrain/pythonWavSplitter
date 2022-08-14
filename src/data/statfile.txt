@@ -1,0 +1,20 @@
+#####################
+KVLTRoom
+GOOD CONF : split_threshold = 80, split_time = 90, seek_step = 42, process_time = 0.7138378530000011
+#####################
+KVLTdirect
+GOOD CONF : split_threshold = 80, split_time = 110, seek_step = 22, process_time = 1.5277208119999983
+GOOD CONF : split_threshold = 80, split_time = 110, seek_step = 32, process_time = 1.0603161150000062
+#####################
+KVLTover
+GOOD CONF : split_threshold = 80, split_time = 110, seek_step = 52, process_time = 0.7485662660000116
+#####################
+KVLTRoom
+GOOD CONF : split_threshold = 120, split_time = 40, seek_step = 12, process_time = 1.7141114369999997
+GOOD CONF : split_threshold = 120, split_time = 40, seek_step = 42, process_time = 0.5135600409999981
+#####################
+KVLTdirect
+GOOD CONF : split_threshold = 120, split_time = 40, seek_step = 52, process_time = 0.4317401990000036
+#####################
+KVLTover
+GOOD CONF : split_threshold = 100, split_time = 70, seek_step = 52, process_time = 0.5663812969999924

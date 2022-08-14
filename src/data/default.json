@@ -3,7 +3,8 @@
     "keep_log_unit":"m",
     "org_sound_dir":"org",
     "result_sound_dir":"result",
-    "drumkit_name":"kult2-origin",
+    "drumkit_path":"/media/steph/1Tera/VERSSTOCK/drumkits/kult2/OSDM",
+    "drumkit_name":"grindDemon",
     "velocities":[
         127, 111, 95, 79, 63, 47, 31
     ],
@@ -12,10 +13,13 @@
         "crash1chok", "fxcymb1", "china2", "fxcymb2", "crash2", "crash2chok", "china1",
         "ridetop", "ridebell", "ridecrash", "tom1","tom2", "tom3", "tom4", "tom5"
     ],
-    "split_threshold":{ "min":70, "max":111, "step":10 },
-    "split_time":{ "min":70, "max":111, "step":10 },
-    "seek_step":{ "min":12, "max":33, "step":5 },
+    "split_threshold":{ "min":40, "max":121, "step":10 },
+    "split_time":{ "min":40, "max":121, "step":10 },
+    "seek_step":{ "min":12, "max":53, "step":10 },
     "keep_silence":false,
     "loop_wait":1,
-    "size_threshold": 0.1    
+    "size_threshold": 0.1,
+    "stop_at_good_score": 1.3,    
+    "move_drumkits":true,
+    "clean_dirs_at_end": false
 }

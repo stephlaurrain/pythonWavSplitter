@@ -39,9 +39,9 @@ class Wavesplit:
                         jsonFn = f"{self.root_app}{os.path.sep}data{os.path.sep}{jsonfile}.json"
                         self.jsprms = jsonprms.Prms(jsonFn)
                         # self.test = self.jsprms.prms['test']
-                        sounds_dir = f"{self.root_app}{os.path.sep}data{os.path.sep}sounds"
-                        self.org_sound_dir = f"{sounds_dir}{os.path.sep}{self.jsprms.prms['org_sound_dir']}"                        
-                        self.result_sound_dir = f"{sounds_dir}{os.path.sep}{self.jsprms.prms['result_sound_dir']}"
+                        self.sounds_dir = f"{self.root_app}{os.path.sep}data{os.path.sep}sounds"
+                        self.org_sound_dir = f"{self.sounds_dir}{os.path.sep}{self.jsprms.prms['org_sound_dir']}"                        
+                        self.result_sound_dir = f"{self.sounds_dir}{os.path.sep}{self.jsprms.prms['result_sound_dir']}"
                         self.log.lg("=HERE WE GO=")
                         keep_log_time = self.jsprms.prms['keep_log_time']
                         keep_log_unit = self.jsprms.prms['keep_log_unit']
@@ -100,7 +100,8 @@ class Wavesplit:
                                                 if cpt_sound >= len(sounds):
                                                         cpt_sound = 0
                                 else:
-                                        self.log.lg(f"FILE NOT EXPORTED = {velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav duration = {snd.duration_seconds}") 
+                                        self.log.lg(f"FILE TOO SHORT = {velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav duration = {snd.duration_seconds}") 
+                                        self.log.lg(f"CONF IS NOT GOOD") 
                                         error_found = True
                                         break
                 else : 
@@ -111,7 +112,22 @@ class Wavesplit:
                         process_time = time.process_time() - watch_time_start                        
                         good_res = GoodRes(split_threshold=psplit_threshold, split_time=psplit_time, seek_step=pseek_step, process_time=process_time)
                         self.goodRes_array.append(good_res)                        
-                        print(str(good_res))                                                
+                        self.log.lg(str(good_res))
+                        return process_time
+                return 9999                                           
+        
+        @_trace_decorator        
+        @_error_decorator()
+        def save_good_res_to_statfile(self, wavefile_path):
+                statfile_path =  f"{self.root_app}{os.path.sep}data{os.path.sep}statfile.txt"
+                head, tail = os.path.split(wavefile_path)
+                dest_dir_name = os.path.splitext(tail)[0]
+                text_file = open(statfile_path, "a")
+                text_file.write('#####################\n')
+                text_file.write(f"{self.jsprms.prms['drumkit_name']} - {dest_dir_name}\n")
+                for good_res in self.goodRes_array:                        
+                        text_file.write(f"{str(good_res)}\n")
+                text_file.close()
 
         @_trace_decorator        
         @_error_decorator()
@@ -125,8 +141,18 @@ class Wavesplit:
                                         # print(f"seek_step = {seek_step}")
                                         # print(f"#####################################################")
                                         # print(f"wavefile_path = {pwavefile_path}")
-                                        self.treat_wave(psplit_threshold=split_threshold, psplit_time=split_time, pseek_step=seek_step, pwavefile_path=pwavefile_path, paudio=paudio, calculate=True)
-
+                                        time_spend = self.treat_wave(psplit_threshold=split_threshold, psplit_time=split_time, pseek_step=seek_step, pwavefile_path=pwavefile_path, paudio=paudio, calculate=True)
+                                        stop_at_good_score = self.jsprms.prms['stop_at_good_score']
+                                        print(f"stop_at_good_score = {stop_at_good_score} time_spend = {time_spend}")
+                                        if (stop_at_good_score > 0 and stop_at_good_score > time_spend):
+                                                self.log.lg(f"=== STOPPED AT CONF FOUND < stop_at_good_score ! ===")
+                                                break
+                                else: 
+                                        continue
+                                break
+                        else:
+                                continue
+                        break
         @_trace_decorator        
         @_error_decorator()
         def split_waves(self):
@@ -136,6 +162,7 @@ class Wavesplit:
                                         myaudio = AudioSegment.from_wav(wavefile_path) 
                                         self.calculate_params(wavefile_path, myaudio)                                                                                                                           
                                         if len(self.goodRes_array)>0:
+                                                self.save_good_res_to_statfile(wavefile_path)
                                                 self.goodRes_array.sort(key=lambda x: x.process_time, reverse=False)
                                                 # To return a new list, use the sorted() built-in function...
                                                 # newlist = sorted(ut, key=lambda x: x.count, reverse=True)  
@@ -148,6 +175,15 @@ class Wavesplit:
                                         else:
                                                 self.log.errlg(f"NO BEST SCORE FOR : {wavefile_path}, FILE WAS NOT SPLITTED, PLEASE CHANGE PARAMS")
                                         self.goodRes_array.clear()
+        def move_drum_kit(self):
+                drumkit_path = f"{self.jsprms.prms['drumkit_path']}{os.path.sep}{self.jsprms.prms['drumkit_name']}"
+                if not os.path.exists(drumkit_path):
+                        os.mkdir(drumkit_path)                  
+
+                for dir_path in os.scandir(self.result_sound_dir):
+                        if dir_path.is_dir():       
+                                shutil.move(self.result_sound_dir, drumkit_path)
+
 
         def main(self, command="", jsonfile="", param1="", param2=""):
                 try:
@@ -169,6 +205,14 @@ class Wavesplit:
                         if (command == "split"):                                
                                 # input("Press Enter to continue...")
                                 self.split_waves()
+                                input("Press Enter to copy drumkit and clean org path...")
+                                if self.jsprms.prms['move_drumkits']:
+                                        self.move_drum_kit() 
+                                if self.jsprms.prms['move_drumkits'] and self.jsprms.prms['clean_dirs_at_end']:
+                                        file_utils.clean_dir(self.org_sound_dir)
+                                        file_utils.clean_dir(self.result_sound_dir)          
+                                
+
                         self.log.lg("=>> THE END COMPLETE <<=")
                 except KeyboardInterrupt:
                         print("==>> Interrupted <<==")
