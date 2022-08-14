@@ -25,7 +25,7 @@ class GoodRes():
                 self.process_time = process_time
         
         def __str__(self):
-                return f"split_threshold= {self.split_threshold}, split_time= {self.split_time}, seek_step= {self.seek_step}, process_time= {self.process_time}"
+                return f"GOOD CONF : split_threshold = {self.split_threshold}, split_time = {self.split_time}, seek_step = {self.seek_step}, process_time = {self.process_time}"
 class Wavesplit:
 
         def trace(self, stck):
@@ -61,7 +61,7 @@ class Wavesplit:
         def set_version_dir(self, wavefile_path):
                 head, tail = os.path.split(wavefile_path)
                 dest_dir_name = os.path.splitext(tail)[0]
-                version_dir =f"{self.result_sound_dir}{os.path.sep}{dest_dir_name}"
+                version_dir = f"{self.result_sound_dir}{os.path.sep}{dest_dir_name}"
                 
                 if not os.path.exists(version_dir):
                         os.mkdir(version_dir)  
@@ -76,21 +76,21 @@ class Wavesplit:
                                 silence_thresh=-psplit_threshold, keep_silence=False, seek_step=pseek_step)              
                 velocities = self.jsprms.prms['velocities']
                 sounds = self.jsprms.prms['sounds']
-                loop_wait =self.jsprms.prms['loop_wait']
-                cpt_velocity =0
-                cpt_sound=0
-                res_length =len(res)                
+                loop_wait = self.jsprms.prms['loop_wait']
+                cpt_velocity = 0
+                cpt_sound = 0
+                res_length = len(res)                
                 good_length = len(sounds)*len(velocities)
                 nb_errors = 0
                 if good_length == res_length:  
                         self.log.lg(f"FOUND GOOD SEGMENTS TAB LENGTH")                       
                         for idx, snd in enumerate(res):
                                 if calculate is False:
-                                        dest_dir =f"{self.result_sound_dir}{os.path.sep}{dest_dir_name}{os.path.sep}{cpt_sound}{sounds[cpt_sound]}"
+                                        dest_dir = f"{self.result_sound_dir}{os.path.sep}{dest_dir_name}{os.path.sep}{cpt_sound}{sounds[cpt_sound]}"
                                         if not os.path.exists(dest_dir):
                                                 os.mkdir(dest_dir)                                                
                                 # print(velocities[idx])
-                                        export_file_path =f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"
+                                        export_file_path = f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"
                                         print(f"{export_file_path}, duration_seconds = {snd.duration_seconds}")
                                 # print (f"snd.duration_seconds = {snd.duration_seconds}")
                                 if snd.duration_seconds > self.jsprms.prms['size_threshold']:  
@@ -98,8 +98,8 @@ class Wavesplit:
                                                 snd.export(export_file_path, format="wav")
                                                 if loop_wait > 0:
                                                         time.sleep(loop_wait)                                                   
-                                        cpt_velocity +=1
-                                        if cpt_velocity>=len(velocities):
+                                        cpt_velocity += 1
+                                        if cpt_velocity >= len(velocities):
                                                 cpt_velocity = 0
                                                 cpt_sound += 1
                                                 if cpt_sound >= len(sounds):
@@ -115,7 +115,7 @@ class Wavesplit:
                 if nb_errors == 0:
                         self.log.lg(f"=== GOOD CONF FOUND ! ===")
                         process_time = time.process_time() - watch_time_start
-                        self.log.lg (f"Time = {process_time} seconds process time")
+                        # self.log.lg (f"Time = {process_time} seconds process time")
                         good_res = GoodRes(split_threshold=psplit_threshold, split_time=psplit_time, seek_step=pseek_step, process_time=process_time)
                         self.goodRes_array.append(good_res)                        
                         print(str(good_res))
@@ -126,12 +126,12 @@ class Wavesplit:
         @_error_decorator()
         def calculate_params(self, pwavefile_path, paudio):                                                                    
                 self.log.lg("====================================================================")
-                self.log.lg(f"== FINDING BEST SCORE for {pwavefile_path} ==")
+                self.log.lg(f"==>> FINDING BEST SCORE for {pwavefile_path}")
                 self.log.lg("====================================================================")
                 for split_time in range(self.jsprms.prms['split_time']['min'], self.jsprms.prms['split_time']['max'], self.jsprms.prms['split_time']['step']):                        
                         for split_threshold in range(self.jsprms.prms['split_threshold']['min'], self.jsprms.prms['split_threshold']['max'], self.jsprms.prms['split_threshold']['step']):                                                
                                 for seek_step in range(self.jsprms.prms['seek_step']['min'], self.jsprms.prms['seek_step']['max'], self.jsprms.prms['seek_step']['step']):
-                                        # print(f"seek_step={seek_step}")
+                                        # print(f"seek_step = {seek_step}")
                                         # print(f"#####################################################")
                                         # print(f"wavefile_path = {pwavefile_path}")
                                         self.treat_wave(psplit_threshold=split_threshold, psplit_time=split_time, pseek_step=seek_step, pwavefile_path=pwavefile_path, paudio=paudio, calculate=True)
@@ -149,9 +149,9 @@ class Wavesplit:
                                                 # To return a new list, use the sorted() built-in function...
                                                 # newlist = sorted(ut, key=lambda x: x.count, reverse=True)  
                                                 best_res = self.goodRes_array[0]
-                                                self.log.lg(f"BEST SCORE= {str(self.goodRes_array[0])}")
+                                                self.log.lg(f"BEST SCORE = {str(self.goodRes_array[0])}")
                                                 self.log.lg("====================================================================")
-                                                self.log.lg(f"== SPLITTING {wavefile_path} ==")
+                                                self.log.lg(f"==>> SPLITTING {wavefile_path}")
                                                 self.log.lg("====================================================================")
                                                 self.treat_wave(psplit_threshold=best_res.split_threshold, psplit_time=best_res.split_time, pseek_step=best_res.seek_step, pwavefile_path=wavefile_path, paudio=myaudio, calculate=False)
                                         else:
@@ -178,14 +178,14 @@ class Wavesplit:
                         if (command == "split"):                                
                                 # input("Press Enter to continue...")
                                 self.split_waves()
-                        self.log.lg("=THE END COMPLETE=")
+                        self.log.lg("=>> THE END COMPLETE <<=")
                 except KeyboardInterrupt:
-                        print("==Interrupted==")
+                        print("==>> Interrupted <<==")
                         pass
                 except Exception as e:
-                        print("GLOBAL MAIN EXCEPTION")
+                        print("==>> GLOBAL MAIN EXCEPTION <<==")
                         self.log.errlg(e)
                         # raise
                         #
                 finally:
-                        print("DONE")
+                        print("==>> DONE <<==")
