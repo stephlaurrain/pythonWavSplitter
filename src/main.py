@@ -109,13 +109,10 @@ class Wavesplit:
                 #        self.log.lg(f"NB ERRORS")                         
                 if nb_errors == 0:
                         self.log.lg(f"=== GOOD CONF FOUND ! ===")
-                        process_time = time.process_time() - watch_time_start
-                        # self.log.lg (f"Time = {process_time} seconds process time")
+                        process_time = time.process_time() - watch_time_start                        
                         good_res = GoodRes(split_threshold=psplit_threshold, split_time=psplit_time, seek_step=pseek_step, process_time=process_time)
                         self.goodRes_array.append(good_res)                        
-                        print(str(good_res))
-                        # self.log.lg(f"split result length = {res_length}")
-                        
+                        print(str(good_res))                                                
 
         @_trace_decorator        
         @_error_decorator()
