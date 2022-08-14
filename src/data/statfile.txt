@@ -18,3 +18,17 @@ GOOD CONF : split_threshold = 120, split_time = 40, seek_step = 52, process_time
 #####################
 KVLTover
 GOOD CONF : split_threshold = 100, split_time = 70, seek_step = 52, process_time = 0.5663812969999924
+#####################
+TrveKvlt - KVLTRoom
+GOOD CONF : split_threshold = 110, split_time = 40, seek_step = 12, process_time = 1.7135842149999974
+GOOD CONF : split_threshold = 110, split_time = 40, seek_step = 22, process_time = 0.9544490870000004
+#####################
+TrveKvlt - KVLTdirect
+GOOD CONF : split_threshold = 110, split_time = 40, seek_step = 32, process_time = 0.6744690330000083
+#####################
+TrveKvlt - KVLTover
+GOOD CONF : split_threshold = 110, split_time = 40, seek_step = 12, process_time = 1.7569950860000034
+GOOD CONF : split_threshold = 110, split_time = 40, seek_step = 22, process_time = 0.9599896590000014
+#####################
+metalFinland2002 - KVLTRoom
+GOOD CONF : split_threshold = 100, split_time = 40, seek_step = 52, process_time = 0.41423559000000054

@@ -182,7 +182,7 @@ class Wavesplit:
 
                 for dir_path in os.scandir(self.result_sound_dir):
                         if dir_path.is_dir():       
-                                shutil.move(self.result_sound_dir, drumkit_path)
+                                shutil.move(dir_path.path, drumkit_path)
 
 
         def main(self, command="", jsonfile="", param1="", param2=""):
@@ -210,7 +210,7 @@ class Wavesplit:
                                         self.move_drum_kit() 
                                 if self.jsprms.prms['move_drumkits'] and self.jsprms.prms['clean_dirs_at_end']:
                                         file_utils.clean_dir(self.org_sound_dir)
-                                        file_utils.clean_dir(self.result_sound_dir)          
+                                        # file_utils.clean_dir(self.result_sound_dir)          
                                 
 
                         self.log.lg("=>> THE END COMPLETE <<=")

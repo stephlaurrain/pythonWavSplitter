@@ -22,5 +22,5 @@
     "size_threshold": 0.1,
     "stop_at_good_score": 1.3,    
     "move_drumkits":true,
-    "clean_dirs_at_end": false
+    "clean_dirs_at_end":false
 }
