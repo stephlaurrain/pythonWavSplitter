@@ -9,9 +9,7 @@ import inspect
 import utils.file_utils as file_utils
 import utils.mylog as mylog
 import utils.jsonprms as jsonprms
-
 from utils.mydecorators import _error_decorator, _trace_decorator
-
 from pydub import AudioSegment, silence
 from pathlib import Path
 from datetime import datetime
@@ -31,7 +29,6 @@ class Wavesplit:
         def trace(self, stck):
                 #print (f"{stck.function} ({ stck.filename}-{stck.lineno})")                                
                 self.log.lg(f"{stck.function} ({ stck.filename}-{stck.lineno})")
-    
    
         def init_main(self, command, jsonfile):
                 try:
@@ -51,9 +48,8 @@ class Wavesplit:
                         self.log.lg(f"=>clean logs older than {keep_log_time} {keep_log_unit}")
                         self.goodRes_array = []
                         file_utils.remove_old_files(f"{self.root_app}{os.path.sep}log", keep_log_time, keep_log_unit)
-                        
                 except Exception as e:
-                        print("wasted")
+                        print(f"Wasted, very wasted : {e}")
                         raise
 
         @_trace_decorator        
@@ -62,11 +58,12 @@ class Wavesplit:
                 head, tail = os.path.split(wavefile_path)
                 dest_dir_name = os.path.splitext(tail)[0]
                 version_dir = f"{self.result_sound_dir}{os.path.sep}{dest_dir_name}"
-                
                 if not os.path.exists(version_dir):
                         os.mkdir(version_dir)  
                 return dest_dir_name              
         
+        @_trace_decorator        
+        @_error_decorator()
         def treat_wave(self, psplit_threshold, psplit_time, pseek_step, pwavefile_path, paudio,  calculate=False):
                 watch_time_start = time.process_time()
                 print(f"split_threshold = {psplit_threshold} - split_time = {psplit_time} - seek_step = {pseek_step}")
@@ -185,7 +182,6 @@ class Wavesplit:
                 except Exception as e:
                         print("==>> GLOBAL MAIN EXCEPTION <<==")
                         self.log.errlg(e)
-                        # raise
-                        #
+                        # raise                        
                 finally:
                         print("==>> DONE <<==")
