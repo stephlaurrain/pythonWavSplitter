@@ -5,7 +5,7 @@
     "result_sound_dir":"result",
     "drumkit_path":"/media/steph/1Tera/VERSSTOCK/drumkits/kult2/Origin",
     "odrumkit_path":"/media/steph/1Tera/VERSSTOCK/drumkits/kult2/OSDM",
-    "drumkit_name":"metalFinland2002",
+    "drumkit_name":"cardinalKings",
     "velocities":[
         127, 111, 95, 79, 63, 47, 31
     ],
@@ -22,5 +22,5 @@
     "size_threshold": 0.1,
     "stop_at_good_score": 1.3,    
     "move_drumkits":true,
-    "clean_dirs_at_end": false
+    "clean_dirs_at_end": true
 }

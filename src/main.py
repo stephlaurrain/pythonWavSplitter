@@ -205,7 +205,7 @@ class Wavesplit:
                         if (command == "split"):                                
                                 # input("Press Enter to continue...")
                                 self.split_waves()
-                                input("Press Enter to copy drumkit and clean org path...")
+                                # input("Press Enter to copy drumkit and clean org path...")
                                 if self.jsprms.prms['move_drumkits']:
                                         self.move_drum_kit() 
                                 if self.jsprms.prms['move_drumkits'] and self.jsprms.prms['clean_dirs_at_end']:

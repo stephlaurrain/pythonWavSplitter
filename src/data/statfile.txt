@@ -32,3 +32,24 @@ GOOD CONF : split_threshold = 110, split_time = 40, seek_step = 22, process_time
 #####################
 metalFinland2002 - KVLTRoom
 GOOD CONF : split_threshold = 100, split_time = 40, seek_step = 52, process_time = 0.41423559000000054
+#####################
+metalFinland2002 - KVLTdirect
+GOOD CONF : split_threshold = 100, split_time = 70, seek_step = 47, process_time = 0.6147960260000076
+#####################
+metalFinland2002 - KVLTover
+GOOD CONF : split_threshold = 100, split_time = 40, seek_step = 27, process_time = 0.7831270450000005
+#####################
+netomb - KVLTRoom
+GOOD CONF : split_threshold = 90, split_time = 120, seek_step = 42, process_time = 0.9620599579999976
+#####################
+netomb - KVLTdirect
+GOOD CONF : split_threshold = 80, split_time = 120, seek_step = 37, process_time = 1.0857022349999852
+#####################
+netomb - KVLTover
+GOOD CONF : split_threshold = 100, split_time = 80, seek_step = 42, process_time = 0.7293684750000011
+#####################
+cardinalKings - KVLTRoom
+GOOD CONF : split_threshold = 100, split_time = 90, seek_step = 42, process_time = 0.7794274179999832
+#####################
+cardinalKings - KVLTdirect
+GOOD CONF : split_threshold = 100, split_time = 40, seek_step = 42, process_time = 0.5425254699999869
