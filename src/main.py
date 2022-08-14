@@ -91,7 +91,7 @@ class Wavesplit:
                                                 os.mkdir(dest_dir)                                                
                                 # print(velocities[idx])
                                         export_file_path =f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"
-                                # self.log.lg(f"{export_file_path}, duration_seconds = {snd.duration_seconds}")
+                                        print(f"{export_file_path}, duration_seconds = {snd.duration_seconds}")
                                 # print (f"snd.duration_seconds = {snd.duration_seconds}")
                                 if snd.duration_seconds > self.jsprms.prms['size_threshold']:  
                                         if calculate is False:
@@ -118,7 +118,7 @@ class Wavesplit:
                         self.log.lg (f"Time = {process_time} seconds process time")
                         good_res = GoodRes(split_threshold=psplit_threshold, split_time=psplit_time, seek_step=pseek_step, process_time=process_time)
                         self.goodRes_array.append(good_res)                        
-                        self.log.lg(str(good_res))
+                        print(str(good_res))
                         # self.log.lg(f"split result length = {res_length}")
                         
 
@@ -141,8 +141,7 @@ class Wavesplit:
         def split_waves(self):
                 file_utils.clean_dir(self.result_sound_dir)            
                 for wavefile_path in sorted(Path(self.org_sound_dir).rglob('*.Wav')):
-                                if wavefile_path.is_file():
-                                        print(wavefile_path) 
+                                if wavefile_path.is_file():                                        
                                         myaudio = AudioSegment.from_wav(wavefile_path) 
                                         self.calculate_params(wavefile_path, myaudio)                                                                                                                           
                                         if len(self.goodRes_array)>0:
@@ -150,7 +149,7 @@ class Wavesplit:
                                                 # To return a new list, use the sorted() built-in function...
                                                 # newlist = sorted(ut, key=lambda x: x.count, reverse=True)  
                                                 best_res = self.goodRes_array[0]
-                                                print(f"BEST SCORE= {str(self.goodRes_array[0])}")
+                                                self.log.lg(f"BEST SCORE= {str(self.goodRes_array[0])}")
                                                 self.log.lg("====================================================================")
                                                 self.log.lg(f"== SPLITTING {wavefile_path} ==")
                                                 self.log.lg("====================================================================")
