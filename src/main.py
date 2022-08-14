@@ -104,9 +104,7 @@ class Wavesplit:
                                         nb_errors += 1
                 else : 
                         # self.log.lg(f"ERROR = excepted length = {good_length}, length = {res_length}") 
-                        nb_errors = 9999                        
-                # if nb_errors >0 and nb_errors != 9999:
-                #        self.log.lg(f"NB ERRORS")                         
+                        nb_errors = 9999                                              
                 if nb_errors == 0:
                         self.log.lg(f"=== GOOD CONF FOUND ! ===")
                         process_time = time.process_time() - watch_time_start                        
