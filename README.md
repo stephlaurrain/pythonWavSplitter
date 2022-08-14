@@ -23,7 +23,7 @@ change parameters in data/default.json (or your own json file as a parameter for
 
 enjoy !
 
-## Paremeters
+## Parameters
 
 stop_at_good_score_found : if this value = 0, then it wont stop until the testing is complete
 else, this parameter is the threshold for process_time will stop the loop and beging the split
