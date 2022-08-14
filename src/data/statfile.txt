@@ -53,3 +53,6 @@ GOOD CONF : split_threshold = 100, split_time = 90, seek_step = 42, process_time
 #####################
 cardinalKings - KVLTdirect
 GOOD CONF : split_threshold = 100, split_time = 40, seek_step = 42, process_time = 0.5425254699999869
+#####################
+cardinalKings - KVLTover
+GOOD CONF : split_threshold = 100, split_time = 40, seek_step = 42, process_time = 0.5362013230000002
