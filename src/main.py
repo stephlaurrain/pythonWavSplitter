@@ -77,8 +77,8 @@ class Wavesplit:
                 cpt_velocity = 0
                 cpt_sound = 0
                 res_length = len(res)                
-                good_length = len(sounds)*len(velocities)
-                nb_errors = 0
+                good_length = len(sounds) * len(velocities)
+                error_found = False
                 if good_length == res_length:  
                         self.log.lg(f"FOUND GOOD SEGMENTS TAB LENGTH")                       
                         for idx, snd in enumerate(res):
@@ -87,7 +87,7 @@ class Wavesplit:
                                         if not os.path.exists(dest_dir):
                                                 os.mkdir(dest_dir)                                                                                
                                         export_file_path = f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"
-                                        # print(f"{export_file_path}, duration_seconds = {snd.duration_seconds}")                                
+                                        print(f"{export_file_path}, duration_seconds = {snd.duration_seconds}")                                
                                 if snd.duration_seconds > self.jsprms.prms['size_threshold']:  
                                         if calculate is False:
                                                 snd.export(export_file_path, format="wav")
@@ -101,11 +101,12 @@ class Wavesplit:
                                                         cpt_sound = 0
                                 else:
                                         self.log.lg(f"FILE NOT EXPORTED = {velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav duration = {snd.duration_seconds}") 
-                                        nb_errors += 1
+                                        error_found = True
+                                        break
                 else : 
                         # self.log.lg(f"ERROR = excepted length = {good_length}, length = {res_length}") 
-                        nb_errors = 9999                                              
-                if nb_errors == 0:
+                        error_found = True                                              
+                if calculate and not error_found:
                         self.log.lg(f"=== GOOD CONF FOUND ! ===")
                         process_time = time.process_time() - watch_time_start                        
                         good_res = GoodRes(split_threshold=psplit_threshold, split_time=psplit_time, seek_step=pseek_step, process_time=process_time)
