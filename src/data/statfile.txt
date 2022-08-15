@@ -56,3 +56,134 @@ GOOD CONF : split_threshold = 100, split_time = 40, seek_step = 42, process_time
 #####################
 cardinalKings - KVLTover
 GOOD CONF : split_threshold = 100, split_time = 40, seek_step = 42, process_time = 0.5362013230000002
+#####################
+mysteriousSatan - KVLTRoom
+GOOD CONF : split_threshold = 100, split_time = 70, seek_step = 22, process_time = 1.2687014010000013
+#####################
+mysteriousSatan - KVLTdirect
+GOOD CONF : split_threshold = 100, split_time = 40, seek_step = 32, process_time = 0.691897462
+#####################
+mysteriousSatan - KVLTover
+GOOD CONF : split_threshold = 100, split_time = 40, seek_step = 37, process_time = 0.5983143810000087#####################
+2208151635 good_length = 112
+
+#####################
+2208151723 good_length = 224
+jazz - EZdirect
+GOOD CONF : split_threshold = 50, split_time = 40, seek_step = 52, process_time = 0.4288578350000307, segment length = 147
+#####################
+2208151743 good_length = 224
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 110, seek_step = 47, process_time = 0.7895511949999943, segments tab length = 224
+#####################
+2208151743 good_length = 224
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 110, seek_step = 52, process_time = 0.7261470529999983, segments tab length = 224
+#####################
+2208151743 good_length = 224
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 120, seek_step = 52, process_time = 0.7556549939999968, segments tab length = 224
+#####################
+2208151749 good_length = 224
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 110, seek_step = 47, process_time = 0.7928169899999986, segments tab length = 224
+#####################
+2208151749 good_length = 224
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 110, seek_step = 52, process_time = 0.7096580159999988, segments tab length = 224
+#####################
+2208151750 good_length = 224
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 120, seek_step = 52, process_time = 0.7566621010000034, segments tab length = 224
+#####################
+2208151814 good_length = 385
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 90, seek_step = 42, process_time = 1.3459208589999996, segments tab length = 386
+#####################
+2208151815 good_length = 385
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 110, seek_step = 52, process_time = 1.2521355959999987, segments tab length = 384
+#####################
+2208151815 good_length = 385
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 120, seek_step = 52, process_time = 1.3178302469999963, segments tab length = 384
+#####################
+2208151830 good_length = 330
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 90, seek_step = 42, process_time = 1.3591192640000003, segments tab length = 330
+#####################
+2208151830 good_length = 330
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 100, seek_step = 32, process_time = 1.8889985409999994, segments tab length = 330
+#####################
+2208151830 good_length = 330
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 110, seek_step = 42, process_time = 1.5703284449999977, segments tab length = 328
+#####################
+2208151830 good_length = 330
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 110, seek_step = 52, process_time = 1.2642496260000016, segments tab length = 328
+#####################
+2208151830 good_length = 330
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 120, seek_step = 22, process_time = 3.057767278, segments tab length = 328
+#####################
+2208151830 good_length = 330
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 120, seek_step = 32, process_time = 2.132408084000005, segments tab length = 328
+#####################
+2208151830 good_length = 330
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 120, seek_step = 42, process_time = 1.642075884999997, segments tab length = 328
+#####################
+2208151830 good_length = 330
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 120, seek_step = 52, process_time = 1.3618689390000043, segments tab length = 328
+#####################
+2208151840 good_length = 306
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 90, seek_step = 42, process_time = 1.254219877999999, segments tab length = 308
+#####################
+2208151840 good_length = 306
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 100, seek_step = 32, process_time = 1.7434233780000028, segments tab length = 308
+#####################
+2208151840 good_length = 306
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 110, seek_step = 42, process_time = 1.4435509179999997, segments tab length = 306
+#####################
+2208151840 good_length = 306
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 110, seek_step = 52, process_time = 1.1624283539999993, segments tab length = 306
+#####################
+2208151840 good_length = 306
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 120, seek_step = 22, process_time = 2.8411284529999996, segments tab length = 306
+#####################
+2208151840 good_length = 306
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 120, seek_step = 32, process_time = 1.964991977000004, segments tab length = 306
+#####################
+2208151840 good_length = 306
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 120, seek_step = 42, process_time = 1.5102566920000058, segments tab length = 306
+#####################
+2208151840 good_length = 306
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 120, seek_step = 52, process_time = 1.2324871830000035, segments tab length = 306
+#####################
+2208151844 good_length = 306
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 110, seek_step = 42, process_time = 1.4416968329999982, segments tab length = 306
+#####################
+2208151844 good_length = 306
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 110, seek_step = 52, process_time = 1.1480822640000028, segments tab length = 306
+#####################
+2208151857 good_length = 306
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 110, seek_step = 42, process_time = 1.3009167959999957, segments tab length = 306
+#####################
+2208151857 good_length = 306
+jazz - EZdirect
+GOOD CONF : split_threshold = 80, split_time = 110, seek_step = 52, process_time = 1.0873293759999996, segments tab length = 306
