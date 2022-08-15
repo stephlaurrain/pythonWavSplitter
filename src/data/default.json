@@ -48,5 +48,6 @@
     "tolerance_length":0,
     "stop_at_good_score": 1.3,    
     "move_drumkits":true,
-    "clean_dirs_at_end": true
+    "clean_dirs_at_end": true,
+    "tst":true
 }
