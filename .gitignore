@@ -130,7 +130,6 @@ dmypy.json
 
 
 src/data/sounds/*
-src/main.py
 keptcode.py
 src/data/statfile.txt
 notes.txt
