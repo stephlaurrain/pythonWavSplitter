@@ -32,8 +32,9 @@
         "ftomcenter","ftomcenteralt","ftomrimshot","ftomrimonly",
         "ftom2center","ftom2centeralt","ftom2rimshot","ftom2rimonly",
         "clap","shake","tambourine","sticks"
-    ],      
-    "expected_nb_sounds":99,    
+    ],          
+    "mulab_length":397,    
+    "mulab_step":4,  
     "split_threshold":50,
     "split_time":10,
     "duration_threshold":0.012,
