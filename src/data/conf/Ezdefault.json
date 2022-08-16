@@ -35,6 +35,7 @@
     "expected_nb_sounds":99,
     "split_threshold":50,
     "split_time":10,
+    "delete_doubles":true,
     "move_drumkits":true,
     "clean_dirs_at_end": false
 }
