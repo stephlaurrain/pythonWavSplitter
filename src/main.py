@@ -96,9 +96,7 @@ class Wavesplit:
                                 ## velocites à 0 = parts vides des sequences Mulab                                
                                 if velocities[cpt_velocity] != 0:
                                         extract = paudio[idx:extract_size+idx]
-                                        dest_dir = f"{self.result_sound_dir}{os.path.sep}{dest_dir_name}{os.path.sep}{cpt_sound}{sounds[cpt_sound]}"
-                                        if not os.path.exists(dest_dir):
-                                                os.mkdir(dest_dir) 
+                                        dest_dir = f"{self.result_sound_dir}{os.path.sep}{dest_dir_name}{os.path.sep}{cpt_sound}{sounds[cpt_sound]}"                                         
                                         export_file_path = f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"                                        
                                         # export_file_path_org = f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}_org.wav"
                                         # extract.export(export_file_path_org, format="wav")
@@ -112,6 +110,8 @@ class Wavesplit:
                                                         print(f"TROP FAIBLE = export_file_path = {export_file_path}")        
                                                         #input ("VERIFIE")
                                                 else:
+                                                        if not os.path.exists(dest_dir):
+                                                                os.mkdir(dest_dir)
                                                         final_sound.export(export_file_path, format="wav") 
                                                                                        
                                         else:                                        
