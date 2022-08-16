@@ -64,6 +64,8 @@ class Wavesplit:
                         os.mkdir(version_dir)  
                 return dest_dir_name              
 
+        @_trace_decorator
+        @_error_decorator()
         def detect_leading_silence(self, sound, silence_threshold=-50.0, chunk_size=10):
                 trim_ms = 0 # ms
 
@@ -104,8 +106,14 @@ class Wavesplit:
                                         print(f"end_trim = {end_trim}")
                                         if end_trim < extract_size:
                                                 final_sound = extract[:extract_size-end_trim]
-                                                print(f"final_sound segment RMS = {final_sound.dBFS}")
-                                                final_sound.export(export_file_path, format="wav")                                        
+                                                print(f"export_file_path = {export_file_path}")
+                                                print(f"final_sound segment RMS = {final_sound.dBFS}")                                                
+                                                if final_sound.dBFS < split_threshold:
+                                                        print(f"TROP FAIBLE = export_file_path = {export_file_path}")        
+                                                        #input ("VERIFIE")
+                                                else:
+                                                        final_sound.export(export_file_path, format="wav") 
+                                                                                       
                                         else:                                        
                                                 print(f"SILENT = export_file_path = {export_file_path}")
                                 idx += extract_size
