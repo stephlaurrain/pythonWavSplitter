@@ -50,7 +50,8 @@ class Wavesplit:
                         self.sounds_dir = f"{self.root_app}{os.path.sep}data{os.path.sep}sounds"
                         self.org_sound_dir = f"{self.sounds_dir}{os.path.sep}{self.jsprms.prms['org_sound_dir']}"                        
                         self.result_sound_dir = f"{self.sounds_dir}{os.path.sep}{self.jsprms.prms['result_sound_dir']}"
-                        self.drumkit_path = f"{self.jsprms.prms['drumkit_path']}{os.path.sep}{self.jsprms.prms['drumkit_name']}"
+                        self.drumkit_main_path = self.jsprms.prms['drumkit_main_path']
+                        self.drumkit_dest_path = f"{self.drumkit_main_path}{os.path.sep}{self.jsprms.prms['drumkit_master']}{os.path.sep}{self.jsprms.prms['drumkit_name']}"
                         self.global_error = False
                         self.log.lg("=HERE WE GO=")
                         keep_log_time = self.jsprms.prms['keep_log_time']
@@ -116,7 +117,7 @@ class Wavesplit:
                                                 self.log.lg(f"export_file_path = {export_file_path}")
                                                 self.log.lg(f"final_sound segment RMS = {final_sound.dBFS}")                                                
                                                 if final_sound.dBFS < split_threshold or final_sound.duration_seconds < self.jsprms.prms['duration_threshold']:
-                                                        self.log.lg(f"TROP FAIBLE = export_file_path = {export_file_path}")        
+                                                        self.log.lg(f"TOO WEAK = export_file_path = {export_file_path}")        
                                                         #input ("VERIFIE")
                                                 else:
                                                         if not os.path.exists(dest_dir):
@@ -189,7 +190,7 @@ class Wavesplit:
         def move_drum_kit(self):
                 for dir_path in os.scandir(self.result_sound_dir):
                         if dir_path.is_dir():       
-                                shutil.move(dir_path.path, self.drumkit_path)
+                                shutil.move(dir_path.path, self.drumkit_dest_path)
 
         def main(self, command="", jsonfile="", param1="", param2=""):
                 try:
@@ -208,18 +209,22 @@ class Wavesplit:
                         print(command)     
                         # command="split"
                         self.init_main(command, jsonfile)                                                
-                        if (command == "split"):        
-                                if not os.path.exists(self.drumkit_path):
-                                        os.mkdir(self.drumkit_path)
+                        if (command == "split"):  
+                                master_path = f"{self.drumkit_main_path}{os.path.sep}{self.jsprms.prms['drumkit_master']}"    
+                                if not os.path.exists(master_path):
+                                        os.mkdir(master_path)
+                                if not os.path.exists(self.drumkit_dest_path):
+                                        os.mkdir(self.drumkit_dest_path)
                                 else: 
                                         if input ('drumkit path already exists, remove it ? (type yes) : ')=='yes':
-                                                file_utils.clean_dir(self.drumkit_path)
+                                                file_utils.clean_dir(self.drumkit_dest_path)
                                         else:
                                                 raise ValueError('drumkit path already exists')                        
                                 # input("Press Enter to continue...")
                                 self.split_waves()
                                 # input("Press Enter to copy drumkit and clean org path...")
-                                if self.jsprms.prms['delete_doubles']:self.delete_doubles(self.result_sound_dir)
+                                if self.jsprms.prms['delete_doubles']:
+                                        self.delete_doubles(self.result_sound_dir)
                                 if self.global_error is False:
                                         if self.jsprms.prms['move_drumkits']:
                                                 self.move_drum_kit() 
@@ -227,7 +232,7 @@ class Wavesplit:
                                                 file_utils.clean_dir(self.org_sound_dir)
                                                 # file_utils.clean_dir(self.result_sound_dir)          
                         if (command == "clean"):
-                                self.delete_doubles(self.drumkit_path)
+                                self.delete_doubles(self.drumkit_main_path)
                         self.log.lg("=>> THE END COMPLETE <<=")
                 except KeyboardInterrupt:
                         print("==>> Interrupted <<==")

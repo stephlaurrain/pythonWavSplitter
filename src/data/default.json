@@ -3,8 +3,9 @@
     "keep_log_unit":"m",
     "org_sound_dir":"org",
     "result_sound_dir":"result",
-    "drumkit_path":"/media/steph/1Tera/VERSSTOCK/drumkits/ez",
-    "drumkit_name":"jazz",
+    "drumkit_main_path":"/media/steph/1Tera/VERSSTOCK/drumkits/ez",
+    "drumkit_master":"madeofmetal",
+    "drumkit_name":"origin",
     "velocities":[
         127, 111, 95, 79, 63, 47, 0, 0
     ],    

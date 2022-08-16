@@ -2,8 +2,9 @@
     "keep_log_time":1,
     "keep_log_unit":"m",
     "org_sound_dir":"org",
-    "result_sound_dir":"result",
-    "drumkit_path":"/media/steph/1Tera/VERSSTOCK/drumkits/kult2/origin",    
+    "result_sound_dir":"result",    
+    "drumkit_main_path":"/media/steph/1Tera/VERSSTOCK/drumkits/kult2",
+    "drumkit_master":"origin",
     "drumkit_name":"tampa1992",
     "velocities":[
         127, 111, 95, 79, 63, 47, 31, 0

@@ -1,0 +1,370 @@
+#####################
+purple - 111-snfullcircle
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/14snfullcircle/111-snfullcircle.wav
+hash of file =72d75581ff2f5078c6ff4e20dee7545b4cda19d3ff7dedc5bdfdde3b12e25e048b00568a5ea7c55d2f14a617528b709337e824414712b936abc191e8cb4284be = hash found 72d75581ff2f5078c6ff4e20dee7545b4cda19d3ff7dedc5bdfdde3b12e25e048b00568a5ea7c55d2f14a617528b709337e824414712b936abc191e8cb4284be
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/13snhalfcircle/111-snhalfcircle.wav
+#####################
+purple - 79-snfullcircle
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/14snfullcircle/79-snfullcircle.wav
+hash of file =210c6dede95e46d6d35770a83d1cf26c67ebfc5a372eef2c6945218f457ac40b3fe6d42edc99bb8d699446a2264fc973c6c6a67359910738c2b8d54e9671dac3 = hash found 210c6dede95e46d6d35770a83d1cf26c67ebfc5a372eef2c6945218f457ac40b3fe6d42edc99bb8d699446a2264fc973c6c6a67359910738c2b8d54e9671dac3
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/13snhalfcircle/79-snhalfcircle.wav
+#####################
+purple - 95-snfullcircle
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/14snfullcircle/95-snfullcircle.wav
+hash of file =ab78a6be8738c5e3da5471fe0a15cb458e6268b31a107e64b97a6135c73a97668f97fc12357e4234659fbd4bc2dae3fbf187deed966bb8cec78fd88437fac908 = hash found ab78a6be8738c5e3da5471fe0a15cb458e6268b31a107e64b97a6135c73a97668f97fc12357e4234659fbd4bc2dae3fbf187deed966bb8cec78fd88437fac908
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/13snhalfcircle/95-snhalfcircle.wav
+#####################
+purple - 47-kikopenin
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/1kikopenin/47-kikopenin.wav
+hash of file =6e886542195b265dff08c849227e44bbadb3f4782af917bb82360272c61e99dfe81c4dc219fefda38458513f49033624b045b023dceb08605633b5b64a62d1f1 = hash found 6e886542195b265dff08c849227e44bbadb3f4782af917bb82360272c61e99dfe81c4dc219fefda38458513f49033624b045b023dceb08605633b5b64a62d1f1
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/0kikhitin/47-kikhitin.wav
+#####################
+purple - 63-kikopenin
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/1kikopenin/63-kikopenin.wav
+hash of file =e0f7df8c0d0635a06e97ababef2a163c6b9e602f1e56ff97c225a44a37a50b2be8a7c73055a1d0aac070b68476afe95866e7482a83336a02d7979be45b8d3b72 = hash found e0f7df8c0d0635a06e97ababef2a163c6b9e602f1e56ff97c225a44a37a50b2be8a7c73055a1d0aac070b68476afe95866e7482a83336a02d7979be45b8d3b72
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/0kikhitin/63-kikhitin.wav
+#####################
+purple - 79-hhtightip
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/45hhtightip/79-hhtightip.wav
+hash of file =1895773f5f1adddeb3e35cf3b9cf3ff810f13b67a202bef5c1f09e28fb2b98f4d9259a762072ab185a596ee8105eb80b027654102ea05198bf2f780921bccca7 = hash found 1895773f5f1adddeb3e35cf3b9cf3ff810f13b67a202bef5c1f09e28fb2b98f4d9259a762072ab185a596ee8105eb80b027654102ea05198bf2f780921bccca7
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/43hhclosedtip/79-hhclosedtip.wav
+#####################
+purple - 95-hhtightip
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/45hhtightip/95-hhtightip.wav
+hash of file =d948a4e95211b70b6033d96b528b0c82f8442c8ccb4321da795c8c0e76761233cd5e3e9c40b5fcb517424370ad723feb0a6a84c6a691185edf9b6b19345c5f73 = hash found d948a4e95211b70b6033d96b528b0c82f8442c8ccb4321da795c8c0e76761233cd5e3e9c40b5fcb517424370ad723feb0a6a84c6a691185edf9b6b19345c5f73
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/43hhclosedtip/95-hhclosedtip.wav
+#####################
+purple - 127-hhbellclosed
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/50hhbellclosed/127-hhbellclosed.wav
+hash of file =8094b278082d0336f9849fa26d68492404089c2188fc476330f60f24b350bf468cb21ca513d77297d4339ccb098c69d80a929bd4fcee6d536f8fd9b9bc6fa0f0 = hash found 8094b278082d0336f9849fa26d68492404089c2188fc476330f60f24b350bf468cb21ca513d77297d4339ccb098c69d80a929bd4fcee6d536f8fd9b9bc6fa0f0
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/43hhclosedtip/127-hhclosedtip.wav
+#####################
+purple - 79-hhbellclosed
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/50hhbellclosed/79-hhbellclosed.wav
+hash of file =1895773f5f1adddeb3e35cf3b9cf3ff810f13b67a202bef5c1f09e28fb2b98f4d9259a762072ab185a596ee8105eb80b027654102ea05198bf2f780921bccca7 = hash found 1895773f5f1adddeb3e35cf3b9cf3ff810f13b67a202bef5c1f09e28fb2b98f4d9259a762072ab185a596ee8105eb80b027654102ea05198bf2f780921bccca7
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/43hhclosedtip/79-hhclosedtip.wav
+#####################
+purple - 63-hhbellopen1
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/51hhbellopen1/63-hhbellopen1.wav
+hash of file =f639f4d52e07a5c926cf0c2fc56dc386c4fb4e99144d425be895d124cf4755be30e6c01cfa3055ccf83ee04e67bc959304aa01de3b217f333ccfec835acba572 = hash found f639f4d52e07a5c926cf0c2fc56dc386c4fb4e99144d425be895d124cf4755be30e6c01cfa3055ccf83ee04e67bc959304aa01de3b217f333ccfec835acba572
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/46hhopn1/63-hhopn1.wav
+#####################
+purple - 127-hhclosedtip2
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/58hhclosedtip2/127-hhclosedtip2.wav
+hash of file =8cc40a55e404e974af8123dcd15512002124a0ccc1c1fa08eff749578160b1a298ece5604e0239322a2486ce2b193c0655e86070a9960acb6dbb113e38054c8d = hash found 8cc40a55e404e974af8123dcd15512002124a0ccc1c1fa08eff749578160b1a298ece5604e0239322a2486ce2b193c0655e86070a9960acb6dbb113e38054c8d
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/45hhtightip/127-hhtightip.wav
+#####################
+purple - 79-hhclosedtip2
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/58hhclosedtip2/79-hhclosedtip2.wav
+hash of file =1895773f5f1adddeb3e35cf3b9cf3ff810f13b67a202bef5c1f09e28fb2b98f4d9259a762072ab185a596ee8105eb80b027654102ea05198bf2f780921bccca7 = hash found 1895773f5f1adddeb3e35cf3b9cf3ff810f13b67a202bef5c1f09e28fb2b98f4d9259a762072ab185a596ee8105eb80b027654102ea05198bf2f780921bccca7
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/43hhclosedtip/79-hhclosedtip.wav
+#####################
+purple - 95-hhclosedtip2
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/58hhclosedtip2/95-hhclosedtip2.wav
+hash of file =d948a4e95211b70b6033d96b528b0c82f8442c8ccb4321da795c8c0e76761233cd5e3e9c40b5fcb517424370ad723feb0a6a84c6a691185edf9b6b19345c5f73 = hash found d948a4e95211b70b6033d96b528b0c82f8442c8ccb4321da795c8c0e76761233cd5e3e9c40b5fcb517424370ad723feb0a6a84c6a691185edf9b6b19345c5f73
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/43hhclosedtip/95-hhclosedtip.wav
+#####################
+purple - 95-hhop0
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/60hhop0/95-hhop0.wav
+hash of file =76da865369f0cbb3225bda84fb49a68c2f4ebbda44b58a480a3553d9bd48ea7a6a94c39eece15e4e7e7dbb7e0954da8ff4940a0e9f51b75b5e1ddaa8ccb88729 = hash found 76da865369f0cbb3225bda84fb49a68c2f4ebbda44b58a480a3553d9bd48ea7a6a94c39eece15e4e7e7dbb7e0954da8ff4940a0e9f51b75b5e1ddaa8ccb88729
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/42hhcloseedge/95-hhcloseedge.wav
+#####################
+purple - 63-hhtiptrig2
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/62hhtiptrig2/63-hhtiptrig2.wav
+hash of file =9866ea4fc857995ae0c7f8ff366396a40a2107c7dd4a825a6089486a6bff1e27680de4f741af17b968331d1e4e5290c13066ac796175297b55b9a2daddea8ed3 = hash found 9866ea4fc857995ae0c7f8ff366396a40a2107c7dd4a825a6089486a6bff1e27680de4f741af17b968331d1e4e5290c13066ac796175297b55b9a2daddea8ed3
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/55hhhtrig/63-hhhtrig.wav
+#####################
+purple - 47-cymbal2crash
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/67cymbal2crash/47-cymbal2crash.wav
+hash of file =4c3c6009397cfd48f6d8bf5076828d1704bfb4585e2ce17c22d0e39e8979c0f7bb34d341d8060dd2d02d9a85bc25be0afb62a01b57caaef8cef34fcd1c6ca5d9 = hash found 4c3c6009397cfd48f6d8bf5076828d1704bfb4585e2ce17c22d0e39e8979c0f7bb34d341d8060dd2d02d9a85bc25be0afb62a01b57caaef8cef34fcd1c6ca5d9
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/63cymbal1crash/47-cymbal1crash.wav
+#####################
+purple - 111-cymbal2mutehit
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/68cymbal2mutehit/111-cymbal2mutehit.wav
+hash of file =af62a2519bf861a7fee9aa7127d8bf8fe5fb27dad52a1e9ebec15a7bf1946e2d6fdcfa05bd9803a8b6caa8d4521c381f14ebe39b3375927eea8625e306cd941b = hash found af62a2519bf861a7fee9aa7127d8bf8fe5fb27dad52a1e9ebec15a7bf1946e2d6fdcfa05bd9803a8b6caa8d4521c381f14ebe39b3375927eea8625e306cd941b
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/64cymbal1mutehit/111-cymbal1mutehit.wav
+#####################
+purple - 47-cymbal2mutehit
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/68cymbal2mutehit/47-cymbal2mutehit.wav
+hash of file =7b7b0628102db75c8bcff10c504a14bca08dd0587da95cc860ec3a2fe813b088b5db79075f1044d3cc6e0b6ea1ca878aadfa0d13126ecd44cba48fc6d0824d1c = hash found 7b7b0628102db75c8bcff10c504a14bca08dd0587da95cc860ec3a2fe813b088b5db79075f1044d3cc6e0b6ea1ca878aadfa0d13126ecd44cba48fc6d0824d1c
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/64cymbal1mutehit/47-cymbal1mutehit.wav
+#####################
+purple - 63-cymbal2mutehit
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/68cymbal2mutehit/63-cymbal2mutehit.wav
+hash of file =9f79f40f814b31b83fb4d27c7fd3915db75fc713088f5de4675420da9a4400019e07e416822bac419751b4bd097ba27f014d6a6316d456025f0699561d62494a = hash found 9f79f40f814b31b83fb4d27c7fd3915db75fc713088f5de4675420da9a4400019e07e416822bac419751b4bd097ba27f014d6a6316d456025f0699561d62494a
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/64cymbal1mutehit/63-cymbal1mutehit.wav
+#####################
+purple - 79-cymbal2mutehit
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/68cymbal2mutehit/79-cymbal2mutehit.wav
+hash of file =c9dc536beefaf106340acf591cdc7e0cadcaeb357c715ef85d1248be65ba9bbd7623d9f382eeab8e53631fccdf360798e1f91ced4a3e66384c8238ca3062d441 = hash found c9dc536beefaf106340acf591cdc7e0cadcaeb357c715ef85d1248be65ba9bbd7623d9f382eeab8e53631fccdf360798e1f91ced4a3e66384c8238ca3062d441
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/64cymbal1mutehit/79-cymbal1mutehit.wav
+#####################
+purple - 95-cymbal2mutehit
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/68cymbal2mutehit/95-cymbal2mutehit.wav
+hash of file =9a7d30744efb99a93a9a3e007128d44817f5fc7e7923e7ae9c9a3f72ad631be7371d48ff5de1514493b943eee6b88ae2e18eb064fed669f1f4f59505e49ffdb2 = hash found 9a7d30744efb99a93a9a3e007128d44817f5fc7e7923e7ae9c9a3f72ad631be7371d48ff5de1514493b943eee6b88ae2e18eb064fed669f1f4f59505e49ffdb2
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/64cymbal1mutehit/95-cymbal1mutehit.wav
+#####################
+purple - 47-sncenter
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/6sncenter/47-sncenter.wav
+hash of file =c121bd2336dc7c363a4bb1baf1a9e51ed112cb00fbc30ebb9316cfd17bac2d8f6e5c445ac811f6a33fbbed90a45158b33558e39291635bf29958af3aea83a12a = hash found c121bd2336dc7c363a4bb1baf1a9e51ed112cb00fbc30ebb9316cfd17bac2d8f6e5c445ac811f6a33fbbed90a45158b33558e39291635bf29958af3aea83a12a
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/12snshortdrag/47-snshortdrag.wav
+#####################
+purple - 63-sncenter
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/6sncenter/63-sncenter.wav
+hash of file =98e86c7fdc8ebb2af89aeacf9b1d6b1e5d899046993f77d19fa690d1cd3f9ff4635e920da7138827b5cf2a5298610f4ce02ae136c4f7d7269f16b684d7ed598a = hash found 98e86c7fdc8ebb2af89aeacf9b1d6b1e5d899046993f77d19fa690d1cd3f9ff4635e920da7138827b5cf2a5298610f4ce02ae136c4f7d7269f16b684d7ed598a
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/11snmuted/63-snmuted.wav
+#####################
+purple - 79-sncenter
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/6sncenter/79-sncenter.wav
+hash of file =6406696eab7a358ba890f1ffd348bb455289cffb72bbcfd4b809b1694709cd183851778b5b0349813ec8adf01cd687871346df259834fea975b1fd488a95cc9b = hash found 6406696eab7a358ba890f1ffd348bb455289cffb72bbcfd4b809b1694709cd183851778b5b0349813ec8adf01cd687871346df259834fea975b1fd488a95cc9b
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/12snshortdrag/79-snshortdrag.wav
+#####################
+purple - 111-cymbal3mutehit
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/70cymbal3mutehit/111-cymbal3mutehit.wav
+hash of file =178fe579e8acc383f6770b65224e087fd121d0190f8b44e0413115c6ed203bb47604925429f8e7b406154bf3cb15f5b9fa7c261f7e7421d291fa00769daf2c79 = hash found 178fe579e8acc383f6770b65224e087fd121d0190f8b44e0413115c6ed203bb47604925429f8e7b406154bf3cb15f5b9fa7c261f7e7421d291fa00769daf2c79
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/66splashmutehit/111-splashmutehit.wav
+#####################
+purple - 47-cymbal3mutehit
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/70cymbal3mutehit/47-cymbal3mutehit.wav
+hash of file =efe936f4a9ea3f2a1f3c9e58d0517cae954a77c7d85293116ccbd133e4c00a639364b48ce946ff35a1e54f1ee352d34d1b0de9913bda6b519d9a8f681f5bb9f0 = hash found efe936f4a9ea3f2a1f3c9e58d0517cae954a77c7d85293116ccbd133e4c00a639364b48ce946ff35a1e54f1ee352d34d1b0de9913bda6b519d9a8f681f5bb9f0
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/66splashmutehit/47-splashmutehit.wav
+#####################
+purple - 63-cymbal3mutehit
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/70cymbal3mutehit/63-cymbal3mutehit.wav
+hash of file =213b1df2150415d2bc263779db9aa76d7fac4f62029d87fa345d397f2f0889488492d61b032083e3d7bf0862e22b87dfb2e3bdf6af5f58a5eff3266ea96cc6ea = hash found 213b1df2150415d2bc263779db9aa76d7fac4f62029d87fa345d397f2f0889488492d61b032083e3d7bf0862e22b87dfb2e3bdf6af5f58a5eff3266ea96cc6ea
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/66splashmutehit/63-splashmutehit.wav
+#####################
+purple - 79-cymbal3mutehit
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/70cymbal3mutehit/79-cymbal3mutehit.wav
+hash of file =68d7cdc02a48b55c67078f0a93ba791a7dd8300b5ee4ddf59acd0c3bcad2793e7318d7642450d508a7d625c6958e753a4bde9f60dd6e691e7f209bfecb5443e9 = hash found 68d7cdc02a48b55c67078f0a93ba791a7dd8300b5ee4ddf59acd0c3bcad2793e7318d7642450d508a7d625c6958e753a4bde9f60dd6e691e7f209bfecb5443e9
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/66splashmutehit/79-splashmutehit.wav
+#####################
+purple - 95-cymbal3mutehit
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/70cymbal3mutehit/95-cymbal3mutehit.wav
+hash of file =870b1fe60dddd019dc1e7b105f82d638b30ddc3ed785196b0c5b133a21301be3cf8af1cb658daeb4c9d7eb70f3f0840f38df52245d96c243a3030509ba34442a = hash found 870b1fe60dddd019dc1e7b105f82d638b30ddc3ed785196b0c5b133a21301be3cf8af1cb658daeb4c9d7eb70f3f0840f38df52245d96c243a3030509ba34442a
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/66splashmutehit/95-splashmutehit.wav
+#####################
+purple - 111-cymbal4mutehit
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/72cymbal4mutehit/111-cymbal4mutehit.wav
+hash of file =178fe579e8acc383f6770b65224e087fd121d0190f8b44e0413115c6ed203bb47604925429f8e7b406154bf3cb15f5b9fa7c261f7e7421d291fa00769daf2c79 = hash found 178fe579e8acc383f6770b65224e087fd121d0190f8b44e0413115c6ed203bb47604925429f8e7b406154bf3cb15f5b9fa7c261f7e7421d291fa00769daf2c79
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/66splashmutehit/111-splashmutehit.wav
+#####################
+purple - 127-cymbal4mutehit
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/72cymbal4mutehit/127-cymbal4mutehit.wav
+hash of file =7f9fb85d959b695361d868326e4c39ac63e2e2990272f1336ffae1f7fde89eccd277edf5e5eb9349dc6c7a4ea8103b8b3d3d2d5bb0c1d1a26975a6549066379d = hash found 7f9fb85d959b695361d868326e4c39ac63e2e2990272f1336ffae1f7fde89eccd277edf5e5eb9349dc6c7a4ea8103b8b3d3d2d5bb0c1d1a26975a6549066379d
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/66splashmutehit/127-splashmutehit.wav
+#####################
+purple - 47-cymbal4mutehit
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/72cymbal4mutehit/47-cymbal4mutehit.wav
+hash of file =efe936f4a9ea3f2a1f3c9e58d0517cae954a77c7d85293116ccbd133e4c00a639364b48ce946ff35a1e54f1ee352d34d1b0de9913bda6b519d9a8f681f5bb9f0 = hash found efe936f4a9ea3f2a1f3c9e58d0517cae954a77c7d85293116ccbd133e4c00a639364b48ce946ff35a1e54f1ee352d34d1b0de9913bda6b519d9a8f681f5bb9f0
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/66splashmutehit/47-splashmutehit.wav
+#####################
+purple - 63-cymbal4mutehit
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/72cymbal4mutehit/63-cymbal4mutehit.wav
+hash of file =213b1df2150415d2bc263779db9aa76d7fac4f62029d87fa345d397f2f0889488492d61b032083e3d7bf0862e22b87dfb2e3bdf6af5f58a5eff3266ea96cc6ea = hash found 213b1df2150415d2bc263779db9aa76d7fac4f62029d87fa345d397f2f0889488492d61b032083e3d7bf0862e22b87dfb2e3bdf6af5f58a5eff3266ea96cc6ea
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/66splashmutehit/63-splashmutehit.wav
+#####################
+purple - 79-cymbal4mutehit
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/72cymbal4mutehit/79-cymbal4mutehit.wav
+hash of file =68d7cdc02a48b55c67078f0a93ba791a7dd8300b5ee4ddf59acd0c3bcad2793e7318d7642450d508a7d625c6958e753a4bde9f60dd6e691e7f209bfecb5443e9 = hash found 68d7cdc02a48b55c67078f0a93ba791a7dd8300b5ee4ddf59acd0c3bcad2793e7318d7642450d508a7d625c6958e753a4bde9f60dd6e691e7f209bfecb5443e9
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/66splashmutehit/79-splashmutehit.wav
+#####################
+purple - 95-cymbal4mutehit
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/72cymbal4mutehit/95-cymbal4mutehit.wav
+hash of file =870b1fe60dddd019dc1e7b105f82d638b30ddc3ed785196b0c5b133a21301be3cf8af1cb658daeb4c9d7eb70f3f0840f38df52245d96c243a3030509ba34442a = hash found 870b1fe60dddd019dc1e7b105f82d638b30ddc3ed785196b0c5b133a21301be3cf8af1cb658daeb4c9d7eb70f3f0840f38df52245d96c243a3030509ba34442a
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/66splashmutehit/95-splashmutehit.wav
+#####################
+purple - 47-sncenteralt
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/7sncenteralt/47-sncenteralt.wav
+hash of file =fcde3f57dbc01f0eb879c978d0b24ee771e21edfebb00006af631be0f6b26d580b5130bf23517df8d1c563784f1916cbcf2542a9b337bc3b830ed82007f281d7 = hash found fcde3f57dbc01f0eb879c978d0b24ee771e21edfebb00006af631be0f6b26d580b5130bf23517df8d1c563784f1916cbcf2542a9b337bc3b830ed82007f281d7
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/11snmuted/47-snmuted.wav
+#####################
+purple - 47-tom1rimshot
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/81tom1rimshot/47-tom1rimshot.wav
+hash of file =be8571aec09e66ca7d178d19c1ab5647b18dd7478a3e7a113114cdf4d1835b630d5005ccc9fba178663ba0ee4bd73638aaf2095737c080f06a03b6cb6b0cdaa8 = hash found be8571aec09e66ca7d178d19c1ab5647b18dd7478a3e7a113114cdf4d1835b630d5005ccc9fba178663ba0ee4bd73638aaf2095737c080f06a03b6cb6b0cdaa8
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/80tom1center/47-tom1center.wav
+#####################
+purple - 111-tom1rimonly
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/82tom1rimonly/111-tom1rimonly.wav
+hash of file =f0c29e1802c08e1deab35354386798046ab9c8447dcc42df326b1bf90fa89095ca55a4856f99baecb2e815a1472e505a875a8d502327ea1db38116f7c3007f15 = hash found f0c29e1802c08e1deab35354386798046ab9c8447dcc42df326b1bf90fa89095ca55a4856f99baecb2e815a1472e505a875a8d502327ea1db38116f7c3007f15
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/80tom1center/111-tom1center.wav
+#####################
+purple - 63-tom1rimonly
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/82tom1rimonly/63-tom1rimonly.wav
+hash of file =d9fc076c5e6d7f3ae7e50a74ff9b49e1ffbb0563c139e5375f14354d7ba56d5d37486f55eb2a1205370dfe0829fd5170eecc833ea7015fcba7cbec080a0f5c70 = hash found d9fc076c5e6d7f3ae7e50a74ff9b49e1ffbb0563c139e5375f14354d7ba56d5d37486f55eb2a1205370dfe0829fd5170eecc833ea7015fcba7cbec080a0f5c70
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/81tom1rimshot/63-tom1rimshot.wav
+#####################
+purple - 79-tom1rimonly
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/82tom1rimonly/79-tom1rimonly.wav
+hash of file =329b1cc6587aa74f84b5f20b0b813124c5bbc160ac94b04ef31ecac1ae8f3d775901e6d395615c3d9e36ebf82fb450c52c4cab267dfd66fc8bfbc26c3944858b = hash found 329b1cc6587aa74f84b5f20b0b813124c5bbc160ac94b04ef31ecac1ae8f3d775901e6d395615c3d9e36ebf82fb450c52c4cab267dfd66fc8bfbc26c3944858b
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/80tom1center/79-tom1center.wav
+#####################
+purple - 95-tom1rimonly
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/82tom1rimonly/95-tom1rimonly.wav
+hash of file =d61e3b385b05d50185a6b5d06b76430ea87bb482a2e788d19770dbc805a0df053d88586e4629b4837f680c5b14d20a60223d326f2d97b7fcc3160e886be46989 = hash found d61e3b385b05d50185a6b5d06b76430ea87bb482a2e788d19770dbc805a0df053d88586e4629b4837f680c5b14d20a60223d326f2d97b7fcc3160e886be46989
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/80tom1center/95-tom1center.wav
+#####################
+purple - 127-tom2center
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/83tom2center/127-tom2center.wav
+hash of file =fd0fd1c2c7d0d24e6e96d566e21024d9859d567d20d1de524890771e24ef5a94b51c3c02ea9df87849f71fa0e7a5f6fad566b5bd4367221c96ff35f0fdf5b35d = hash found fd0fd1c2c7d0d24e6e96d566e21024d9859d567d20d1de524890771e24ef5a94b51c3c02ea9df87849f71fa0e7a5f6fad566b5bd4367221c96ff35f0fdf5b35d
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/80tom1center/127-tom1center.wav
+#####################
+purple - 47-tom2center
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/83tom2center/47-tom2center.wav
+hash of file =be8571aec09e66ca7d178d19c1ab5647b18dd7478a3e7a113114cdf4d1835b630d5005ccc9fba178663ba0ee4bd73638aaf2095737c080f06a03b6cb6b0cdaa8 = hash found be8571aec09e66ca7d178d19c1ab5647b18dd7478a3e7a113114cdf4d1835b630d5005ccc9fba178663ba0ee4bd73638aaf2095737c080f06a03b6cb6b0cdaa8
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/80tom1center/47-tom1center.wav
+#####################
+purple - 63-tom2center
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/83tom2center/63-tom2center.wav
+hash of file =fad1b17c219db17ca669c859dc6555b4639fd52f68647c3815ddbea030c383b009346df7c906a09080a40719baa5bfdf508a3ea390f9337fb6e4677531b57000 = hash found fad1b17c219db17ca669c859dc6555b4639fd52f68647c3815ddbea030c383b009346df7c906a09080a40719baa5bfdf508a3ea390f9337fb6e4677531b57000
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/80tom1center/63-tom1center.wav
+#####################
+purple - 79-tom2center
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/83tom2center/79-tom2center.wav
+hash of file =2eef8e13b4933160aa1441a641ecc0354226eebe0317badd9b2f697b7c5a3cdaed93d9b6b54741f58b4facc925b46c4d23742824d03d81a1494098b0bae2d463 = hash found 2eef8e13b4933160aa1441a641ecc0354226eebe0317badd9b2f697b7c5a3cdaed93d9b6b54741f58b4facc925b46c4d23742824d03d81a1494098b0bae2d463
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/81tom1rimshot/79-tom1rimshot.wav
+#####################
+purple - 95-tom2center
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/83tom2center/95-tom2center.wav
+hash of file =8ce1c9ac1e0a07a189883ce671e92f7826d9174282987234c9bd138c35b2b3fba50448a0084d40b24b004d993f1a3ac77438fd3b016a21912a9ecae4511ea72d = hash found 8ce1c9ac1e0a07a189883ce671e92f7826d9174282987234c9bd138c35b2b3fba50448a0084d40b24b004d993f1a3ac77438fd3b016a21912a9ecae4511ea72d
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/81tom1rimshot/95-tom1rimshot.wav
+#####################
+purple - 111-tom2centeralt
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/84tom2centeralt/111-tom2centeralt.wav
+hash of file =ccb8712e1f6a8b9f0de0f3b9c4d326ef6f91f175fcd87f865cf47e33611019b2c967c2b90f2c9935dd1f148b2258d261d1c24a9c2728b0134e34e78b675f41b3 = hash found ccb8712e1f6a8b9f0de0f3b9c4d326ef6f91f175fcd87f865cf47e33611019b2c967c2b90f2c9935dd1f148b2258d261d1c24a9c2728b0134e34e78b675f41b3
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/81tom1rimshot/111-tom1rimshot.wav
+#####################
+purple - 127-tom2centeralt
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/84tom2centeralt/127-tom2centeralt.wav
+hash of file =e34d708817903785dbea16d362b61e9e3f011df12a71dde0a6540a4bf5b6bdca0010fd6d8503bc02676f4ee12a25995ecba3bdf5f8bedc92591f6ffa87e9de61 = hash found e34d708817903785dbea16d362b61e9e3f011df12a71dde0a6540a4bf5b6bdca0010fd6d8503bc02676f4ee12a25995ecba3bdf5f8bedc92591f6ffa87e9de61
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/81tom1rimshot/127-tom1rimshot.wav
+#####################
+purple - 47-tom2centeralt
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/84tom2centeralt/47-tom2centeralt.wav
+hash of file =df0b563efa1ba2555cbf62fc9c70d31e8a9a9b23895dd0e57c903c4b0f73e3775f5915802db8f5fff6383cdc957e6012961a3bb32d596d6078f228b4719f2d4d = hash found df0b563efa1ba2555cbf62fc9c70d31e8a9a9b23895dd0e57c903c4b0f73e3775f5915802db8f5fff6383cdc957e6012961a3bb32d596d6078f228b4719f2d4d
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/82tom1rimonly/47-tom1rimonly.wav
+#####################
+purple - 63-tom2centeralt
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/84tom2centeralt/63-tom2centeralt.wav
+hash of file =d9fc076c5e6d7f3ae7e50a74ff9b49e1ffbb0563c139e5375f14354d7ba56d5d37486f55eb2a1205370dfe0829fd5170eecc833ea7015fcba7cbec080a0f5c70 = hash found d9fc076c5e6d7f3ae7e50a74ff9b49e1ffbb0563c139e5375f14354d7ba56d5d37486f55eb2a1205370dfe0829fd5170eecc833ea7015fcba7cbec080a0f5c70
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/81tom1rimshot/63-tom1rimshot.wav
+#####################
+purple - 111-tom2rimonly
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/86tom2rimonly/111-tom2rimonly.wav
+hash of file =3747e5e9590aa5c835352fe7b46accaab6b96ae6360cddf22dd9928c1c590ab70a669b35672cc51cc287c0ab8fbe7aa1ba98ea38744cf40c0d956695a2022523 = hash found 3747e5e9590aa5c835352fe7b46accaab6b96ae6360cddf22dd9928c1c590ab70a669b35672cc51cc287c0ab8fbe7aa1ba98ea38744cf40c0d956695a2022523
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/7sncenteralt/111-sncenteralt.wav
+#####################
+purple - 47-tom2rimonly
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/86tom2rimonly/47-tom2rimonly.wav
+hash of file =fcde3f57dbc01f0eb879c978d0b24ee771e21edfebb00006af631be0f6b26d580b5130bf23517df8d1c563784f1916cbcf2542a9b337bc3b830ed82007f281d7 = hash found fcde3f57dbc01f0eb879c978d0b24ee771e21edfebb00006af631be0f6b26d580b5130bf23517df8d1c563784f1916cbcf2542a9b337bc3b830ed82007f281d7
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/11snmuted/47-snmuted.wav
+#####################
+purple - 63-tom2rimonly
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/86tom2rimonly/63-tom2rimonly.wav
+hash of file =c3ee6bcfe77a6400dd84f9fc42d17e89cba10829fe06a6131a79b6e9db03e971eb3d558478158ca287cc0a8d358953b5f20665f6dd3db74e5393d28cf2bbd173 = hash found c3ee6bcfe77a6400dd84f9fc42d17e89cba10829fe06a6131a79b6e9db03e971eb3d558478158ca287cc0a8d358953b5f20665f6dd3db74e5393d28cf2bbd173
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/7sncenteralt/63-sncenteralt.wav
+#####################
+purple - 79-tom2rimonly
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/86tom2rimonly/79-tom2rimonly.wav
+hash of file =d8447fb2fdd3405886426f08b71bf44f62f782bb8334e675c19ad7306d92d00757d92a23c4ef1c38a477ab4477733f3a97ca48fd9d2b4e0bf68bcc3bb0429b04 = hash found d8447fb2fdd3405886426f08b71bf44f62f782bb8334e675c19ad7306d92d00757d92a23c4ef1c38a477ab4477733f3a97ca48fd9d2b4e0bf68bcc3bb0429b04
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/11snmuted/79-snmuted.wav
+#####################
+purple - 95-tom2rimonly
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/86tom2rimonly/95-tom2rimonly.wav
+hash of file =f9117e8054cf41a3cca04b6fbc36a5e54997accda4c28223f386b8739ba775c8725111040618d03ad06b1f1d78a397ec534d003bf71ca3aaca37bd125915d7d0 = hash found f9117e8054cf41a3cca04b6fbc36a5e54997accda4c28223f386b8739ba775c8725111040618d03ad06b1f1d78a397ec534d003bf71ca3aaca37bd125915d7d0
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/6sncenter/95-sncenter.wav
+#####################
+purple - 111-ftomcenter
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/87ftomcenter/111-ftomcenter.wav
+hash of file =f0c29e1802c08e1deab35354386798046ab9c8447dcc42df326b1bf90fa89095ca55a4856f99baecb2e815a1472e505a875a8d502327ea1db38116f7c3007f15 = hash found f0c29e1802c08e1deab35354386798046ab9c8447dcc42df326b1bf90fa89095ca55a4856f99baecb2e815a1472e505a875a8d502327ea1db38116f7c3007f15
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/80tom1center/111-tom1center.wav
+#####################
+purple - 47-ftomcenter
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/87ftomcenter/47-ftomcenter.wav
+hash of file =be8571aec09e66ca7d178d19c1ab5647b18dd7478a3e7a113114cdf4d1835b630d5005ccc9fba178663ba0ee4bd73638aaf2095737c080f06a03b6cb6b0cdaa8 = hash found be8571aec09e66ca7d178d19c1ab5647b18dd7478a3e7a113114cdf4d1835b630d5005ccc9fba178663ba0ee4bd73638aaf2095737c080f06a03b6cb6b0cdaa8
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/80tom1center/47-tom1center.wav
+#####################
+purple - 63-ftomcenter
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/87ftomcenter/63-ftomcenter.wav
+hash of file =d9fc076c5e6d7f3ae7e50a74ff9b49e1ffbb0563c139e5375f14354d7ba56d5d37486f55eb2a1205370dfe0829fd5170eecc833ea7015fcba7cbec080a0f5c70 = hash found d9fc076c5e6d7f3ae7e50a74ff9b49e1ffbb0563c139e5375f14354d7ba56d5d37486f55eb2a1205370dfe0829fd5170eecc833ea7015fcba7cbec080a0f5c70
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/81tom1rimshot/63-tom1rimshot.wav
+#####################
+purple - 79-ftomcenter
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/87ftomcenter/79-ftomcenter.wav
+hash of file =2eef8e13b4933160aa1441a641ecc0354226eebe0317badd9b2f697b7c5a3cdaed93d9b6b54741f58b4facc925b46c4d23742824d03d81a1494098b0bae2d463 = hash found 2eef8e13b4933160aa1441a641ecc0354226eebe0317badd9b2f697b7c5a3cdaed93d9b6b54741f58b4facc925b46c4d23742824d03d81a1494098b0bae2d463
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/81tom1rimshot/79-tom1rimshot.wav
+#####################
+purple - 95-ftomcenter
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/87ftomcenter/95-ftomcenter.wav
+hash of file =8ce1c9ac1e0a07a189883ce671e92f7826d9174282987234c9bd138c35b2b3fba50448a0084d40b24b004d993f1a3ac77438fd3b016a21912a9ecae4511ea72d = hash found 8ce1c9ac1e0a07a189883ce671e92f7826d9174282987234c9bd138c35b2b3fba50448a0084d40b24b004d993f1a3ac77438fd3b016a21912a9ecae4511ea72d
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/81tom1rimshot/95-tom1rimshot.wav
+#####################
+purple - 111-ftom2center
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/91ftom2center/111-ftom2center.wav
+hash of file =5e0345614f06d7862be972863358feae18aaa8da443fb026fef8265218a9374fb6e663a310d2994d971a0f383c51a387016399fd0697b03a343b88a6b93f4e01 = hash found 5e0345614f06d7862be972863358feae18aaa8da443fb026fef8265218a9374fb6e663a310d2994d971a0f383c51a387016399fd0697b03a343b88a6b93f4e01
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/88ftomcenteralt/111-ftomcenteralt.wav
+#####################
+purple - 47-ftom2center
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/91ftom2center/47-ftom2center.wav
+hash of file =1b2288cfbebc90e5e98517068570ff48fb050fcad6703790521697804d47abd0565f8bef19d8c212ceff9546309b07cd7f336a62412f67302be94fdbc1e55f69 = hash found 1b2288cfbebc90e5e98517068570ff48fb050fcad6703790521697804d47abd0565f8bef19d8c212ceff9546309b07cd7f336a62412f67302be94fdbc1e55f69
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/88ftomcenteralt/47-ftomcenteralt.wav
+#####################
+purple - 79-ftom2center
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/91ftom2center/79-ftom2center.wav
+hash of file =3ce387021360213106feaa865da13b9ea2ab93ac090bca4d9dacd54993ecd6b506c0da6613fe346076655c8143d696032a737e8678fd9fc639860856c3de05a5 = hash found 3ce387021360213106feaa865da13b9ea2ab93ac090bca4d9dacd54993ecd6b506c0da6613fe346076655c8143d696032a737e8678fd9fc639860856c3de05a5
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/88ftomcenteralt/79-ftomcenteralt.wav
+#####################
+purple - 95-ftom2center
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/91ftom2center/95-ftom2center.wav
+hash of file =033c953d35dd324ce7654a35034903094894cdce61bf726a7815345c3307740181d34ebf9c924b3843212b8bd244828e164a3c57736184fc1fb3ce33048eb2d9 = hash found 033c953d35dd324ce7654a35034903094894cdce61bf726a7815345c3307740181d34ebf9c924b3843212b8bd244828e164a3c57736184fc1fb3ce33048eb2d9
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/88ftomcenteralt/95-ftomcenteralt.wav
+#####################
+purple - 111-ftom2centeralt
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/92ftom2centeralt/111-ftom2centeralt.wav
+hash of file =be6d833d287c47d20c2e45730985c26efddeeac1c2f8cee8103cd0ab16019d0f595ccbd3778b353fb7e34b71e3f3f594ef8a6605ba621af901536a364eb9251e = hash found be6d833d287c47d20c2e45730985c26efddeeac1c2f8cee8103cd0ab16019d0f595ccbd3778b353fb7e34b71e3f3f594ef8a6605ba621af901536a364eb9251e
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/89ftomrimshot/111-ftomrimshot.wav
+#####################
+purple - 47-ftom2centeralt
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/92ftom2centeralt/47-ftom2centeralt.wav
+hash of file =3a5930f99053feeace7fc73da7d4a474f7fd21e70228ee78701fe7588b213f75174117f7fd7b1be725323a6946b18651f4ae8f6c702e728d50629b37934b9a93 = hash found 3a5930f99053feeace7fc73da7d4a474f7fd21e70228ee78701fe7588b213f75174117f7fd7b1be725323a6946b18651f4ae8f6c702e728d50629b37934b9a93
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/89ftomrimshot/47-ftomrimshot.wav
+#####################
+purple - 63-ftom2centeralt
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/92ftom2centeralt/63-ftom2centeralt.wav
+hash of file =83088ccd1c854be46984f04fbd0b01ab4d1dbd06a01d7b2b5b572d0b1af7a6307f337240c8f0a09337c4dcd7ac7133e1fc82260833319d5c7aad425289c74f27 = hash found 83088ccd1c854be46984f04fbd0b01ab4d1dbd06a01d7b2b5b572d0b1af7a6307f337240c8f0a09337c4dcd7ac7133e1fc82260833319d5c7aad425289c74f27
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/89ftomrimshot/63-ftomrimshot.wav
+#####################
+purple - 79-ftom2centeralt
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/92ftom2centeralt/79-ftom2centeralt.wav
+hash of file =b9518b58154447dcdfb6bf914a8d26c6d777081fb673e2dfc08484aa2547a6a06035575b37426ceb6117737917c46d1e34b0c980dffbcb56149a651690e05a15 = hash found b9518b58154447dcdfb6bf914a8d26c6d777081fb673e2dfc08484aa2547a6a06035575b37426ceb6117737917c46d1e34b0c980dffbcb56149a651690e05a15
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/89ftomrimshot/79-ftomrimshot.wav
+#####################
+purple - 95-ftom2centeralt
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/92ftom2centeralt/95-ftom2centeralt.wav
+hash of file =45f9d4ab1ca9202774c13120e0e0172dfaa81fb457bd8e0bd40968a92be5c8f8b540048248c7cf3ad0a4722ef66fd85f192354579c5262e50100f327433b65f5 = hash found 45f9d4ab1ca9202774c13120e0e0172dfaa81fb457bd8e0bd40968a92be5c8f8b540048248c7cf3ad0a4722ef66fd85f192354579c5262e50100f327433b65f5
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/89ftomrimshot/95-ftomrimshot.wav
+#####################
+purple - 111-sticks
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/98sticks/111-sticks.wav
+hash of file =72d75581ff2f5078c6ff4e20dee7545b4cda19d3ff7dedc5bdfdde3b12e25e048b00568a5ea7c55d2f14a617528b709337e824414712b936abc191e8cb4284be = hash found 72d75581ff2f5078c6ff4e20dee7545b4cda19d3ff7dedc5bdfdde3b12e25e048b00568a5ea7c55d2f14a617528b709337e824414712b936abc191e8cb4284be
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/13snhalfcircle/111-snhalfcircle.wav
+#####################
+purple - 127-sticks
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/98sticks/127-sticks.wav
+hash of file =fedbedd580c9d6ba32ff0722e4a990665fec40c8783b99ee1a620d201d34d2b42ad9558982e54fde1d04a7cebd536dc598472438297fd193b7f6fc3ba20497da = hash found fedbedd580c9d6ba32ff0722e4a990665fec40c8783b99ee1a620d201d34d2b42ad9558982e54fde1d04a7cebd536dc598472438297fd193b7f6fc3ba20497da
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/14snfullcircle/127-snfullcircle.wav
+#####################
+purple - 79-sticks
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/98sticks/79-sticks.wav
+hash of file =210c6dede95e46d6d35770a83d1cf26c67ebfc5a372eef2c6945218f457ac40b3fe6d42edc99bb8d699446a2264fc973c6c6a67359910738c2b8d54e9671dac3 = hash found 210c6dede95e46d6d35770a83d1cf26c67ebfc5a372eef2c6945218f457ac40b3fe6d42edc99bb8d699446a2264fc973c6c6a67359910738c2b8d54e9671dac3
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/13snhalfcircle/79-snhalfcircle.wav
+#####################
+purple - 95-sticks
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/98sticks/95-sticks.wav
+hash of file =ab78a6be8738c5e3da5471fe0a15cb458e6268b31a107e64b97a6135c73a97668f97fc12357e4234659fbd4bc2dae3fbf187deed966bb8cec78fd88437fac908 = hash found ab78a6be8738c5e3da5471fe0a15cb458e6268b31a107e64b97a6135c73a97668f97fc12357e4234659fbd4bc2dae3fbf187deed966bb8cec78fd88437fac908
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/13snhalfcircle/95-snhalfcircle.wav
+#####################
+purple - 63-snrimonly
+delete /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/9snrimonly/63-snrimonly.wav
+hash of file =740455eff581596d930d8f6070d2e65ddc87c5eaa5042bf5e3e474d307dd5fd7bb4530da0dbfd3959bdf0581ed78f445c2273cca4e1b1ec40478fd1e981e6d5d = hash found 740455eff581596d930d8f6070d2e65ddc87c5eaa5042bf5e3e474d307dd5fd7bb4530da0dbfd3959bdf0581ed78f445c2273cca4e1b1ec40478fd1e981e6d5d
+IS EQUAL TO /media/steph/1Tera/VERSSTOCK/drumkits/ez/vintage/origin/1EZdirect/8snrimshot/63-snrimshot.wav
