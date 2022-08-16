@@ -82,10 +82,14 @@ class Wavesplit:
                 print(paudio.duration_seconds)
                 velocities = self.jsprms.prms['velocities']
                 sounds = self.jsprms.prms['sounds']
+                expected_nb_sounds = self.jsprms.prms['expected_nb_sounds']
+                print(f"expected sounds = {expected_nb_sounds} / number of sounds = {len(sounds)}")
+                if len(sounds)!= expected_nb_sounds:
+                        return
                 split_time = self.jsprms.prms['split_time']
                 split_threshold = -self.jsprms.prms['split_threshold']                 
                 sample_number = len(velocities)*len(sounds)
-                print(f"number of sounds = {len(sounds)}")
+                
                 extract_size = paudio.duration_seconds / sample_number *1000
                 print(f"sample_number = {sample_number}")
                 print(f"extract_size = {extract_size}")                
