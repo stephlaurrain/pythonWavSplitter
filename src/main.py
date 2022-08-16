@@ -66,27 +66,45 @@ class Wavesplit:
         
         @_trace_decorator        
         @_error_decorator()
-        def treat_wave(self, psplit_threshold, psplit_time, pseek_step, pwavefile_path, paudio,  calculate=False):
-                watch_time_start = time.process_time()
-                print(f"split_threshold = {psplit_threshold} - split_time = {psplit_time} - seek_step = {pseek_step}")
-                if calculate is False:
-                        dest_dir_name = self.set_version_dir(pwavefile_path)  
-                res = silence.split_on_silence(paudio, min_silence_len=psplit_time, 
-                                silence_thresh=-psplit_threshold, keep_silence=False, seek_step=pseek_step)              
+        def treat_wave(self, pwavefile_path, paudio):
+                watch_time_start = time.process_time()                
+                dest_dir_name = self.set_version_dir(pwavefile_path)  
+                print(paudio.duration_seconds)
+                
+                #res = silence.split_on_silence(paudio, min_silence_len=psplit_time, 
+                #                silence_thresh=-psplit_threshold, keep_silence=False, seek_step=pseek_step)              
+
                 velocities = self.jsprms.prms['velocities']
                 sounds = self.jsprms.prms['sounds']
-                loop_wait = self.jsprms.prms['loop_wait']
-                tolerance_length = self.jsprms.prms['tolerance_length']
+                extract_size = paudio.duration_seconds / (len(velocities)*len(sounds))*1000
+                print(extract_size)
+                
+                # print(f"audio segment RMS = {snd.dBFS}")
+                print(f"audio segment RMS = {paudio.dBFS}")
+                cpt_sound = 0
+                cpt_velocity = 0
+                dest_dir = f"{self.result_sound_dir}{os.path.sep}{dest_dir_name}{os.path.sep}{cpt_sound}{sounds[cpt_sound]}"
+                if not os.path.exists(dest_dir):
+                                                os.mkdir(dest_dir) 
+                export_file_path = f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"
+                extract = paudio[:extract_size]
+                res = silence.detect_nonsilent(extract, 80, -50)
+                non_silence_len = res[0][1]
+                print(non_silence_len)
+                
+                final_sound = extract[:non_silence_len]
+                print(f"final_sound segment RMS = {final_sound.dBFS}")
+                final_sound.export(export_file_path, format="wav")
+                return
+                
+                
+                
                 cpt_velocity = 0
                 cpt_sound = 0
-                res_length = len(res)                
-                good_length = len(sounds) * len(velocities)
+               
                 error_found = False
-                print(f"excepted length = {good_length}, length = {res_length}") 
-                # test_length = self.jsprms.prms['test_length']
-                # if good_length == res_length or ((test_length is False) \
-                         #and (res_length % len(velocities) == 0) \
-                #         and (res_length <= good_length+tolerance_length and res_length >= good_length-tolerance_length)):  
+             
+             
                 if res_length <= good_length+tolerance_length and res_length >= good_length-tolerance_length:                
                         self.log.lg(f"FOUND GOOD SEGMENTS TAB LENGTH")                       
                         for idx, snd in enumerate(res):
@@ -140,30 +158,7 @@ class Wavesplit:
                 text_file.write(f"{str(good_res)}\n")
                 text_file.close()
 
-        @_trace_decorator        
-        @_error_decorator()
-        def calculate_params(self, pwavefile_path, paudio):                                                                    
-                self.log.lg("====================================================================")
-                self.log.lg(f"==>> FINDING BEST SCORE for {pwavefile_path}")
-                self.log.lg("====================================================================")
-                for split_threshold in range(self.jsprms.prms['split_threshold']['min'], self.jsprms.prms['split_threshold']['max'], self.jsprms.prms['split_threshold']['step']):
-                        for split_time in range(self.jsprms.prms['split_time']['min'], self.jsprms.prms['split_time']['max'], self.jsprms.prms['split_time']['step']):                        
-                                for seek_step in range(self.jsprms.prms['seek_step']['min'], self.jsprms.prms['seek_step']['max'], self.jsprms.prms['seek_step']['step']):
-                                        # print(f"seek_step = {seek_step}")
-                                        # print(f"#####################################################")
-                                        # print(f"wavefile_path = {pwavefile_path}")
-                                        time_spend = self.treat_wave(psplit_threshold=split_threshold, psplit_time=split_time, pseek_step=seek_step, pwavefile_path=pwavefile_path, paudio=paudio, calculate=True)
-                                        stop_at_good_score = self.jsprms.prms['stop_at_good_score']
-                                        print(f"stop_at_good_score = {stop_at_good_score} time_spend = {time_spend}")
-                                        if (stop_at_good_score > 0 and stop_at_good_score > time_spend):
-                                                self.log.lg(f"=== STOPPED AT CONF FOUND < stop_at_good_score ! ===")
-                                                break
-                                else: 
-                                        continue
-                                break
-                        else:
-                                continue
-                        break
+        
         @_trace_decorator        
         @_error_decorator()
         def split_waves(self):
@@ -171,22 +166,10 @@ class Wavesplit:
                 for wavefile_path in sorted(Path(self.org_sound_dir).rglob('*.Wav')):
                                 if wavefile_path.is_file():                                        
                                         myaudio = AudioSegment.from_wav(wavefile_path) 
-                                        self.calculate_params(wavefile_path, myaudio)                                                                                                                           
-                                        if len(self.goodRes_array)>0:
-                                                # self.save_good_res_to_statfile(wavefile_path)
-                                                self.goodRes_array.sort(key=lambda x: x.process_time, reverse=False)
-                                                # To return a new list, use the sorted() built-in function...
-                                                # newlist = sorted(ut, key=lambda x: x.count, reverse=True)  
-                                                best_res = self.goodRes_array[0]
-                                                self.log.lg(f"BEST SCORE = {str(self.goodRes_array[0])}")
-                                                self.log.lg("====================================================================")
-                                                self.log.lg(f"==>> SPLITTING {wavefile_path}")
-                                                self.log.lg("====================================================================")
-                                                self.treat_wave(psplit_threshold=best_res.split_threshold, psplit_time=best_res.split_time, pseek_step=best_res.seek_step, pwavefile_path=wavefile_path, paudio=myaudio, calculate=False)
-                                        else:
-                                                self.log.errlg(f"NO BEST SCORE FOR : {wavefile_path}, FILE WAS NOT SPLITTED, PLEASE CHANGE PARAMS")
-                                                self.global_error = True
-                                        self.goodRes_array.clear()
+                                        
+                                        self.treat_wave(pwavefile_path=wavefile_path, paudio=myaudio)
+                                        
+                                        
         def move_drum_kit(self):
                 drumkit_path = f"{self.jsprms.prms['drumkit_path']}{os.path.sep}{self.jsprms.prms['drumkit_name']}"
                 if not os.path.exists(drumkit_path):
