@@ -34,8 +34,7 @@
         "ftom2center","ftom2rimshot",
         "clap","shake","tambourine","sticks-crashbcrescdkfh"        
     ],      
-    "mulab_length":115,    
-    "mulab_step":4,
+    "expected_nb_sounds":115,    
     "split_threshold":50,
     "split_time":10,
     "duration_threshold":0.012,
