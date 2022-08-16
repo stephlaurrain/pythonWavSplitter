@@ -3,26 +3,15 @@
     "keep_log_unit":"m",
     "org_sound_dir":"org",
     "result_sound_dir":"result",
-    "drumkit_path":"/media/steph/1Tera/VERSSTOCK/drumkits/ez",    
-    "drumkit_name":"vintage-classic",
+    "drumkit_path":"/media/steph/1Tera/VERSSTOCK/drumkits/kult2/origin",    
+    "drumkit_name":"trvekvlt",
     "velocities":[
-        127, 111, 95, 79, 63, 47, 0, 0
+        127, 111, 95, 79, 63, 47, 31, 0
     ],    
     "sounds":[
-        "kikhitin","kikopenin",
-        "kikhitout","kikopenout",        
-        "kikhitsub","kikopensub", 
-        "sncenter","sncenteralt","snrimshot","snrimonly","snsidestick","snmuted","snshortdrag","snhalfcircle","snfullcircle",
-        "sncentertop","sncenteralttop","snrimshottop","snrimonlytop","snsidesticktop","snmutedtop","snshortdragtop","snhalfcircletop","snfullcircletop",
-        "sncenterbottom","sncenteraltbottom","snrimshotbottom","snrimonlybottom","snsidestickbottom","snmutedbottom","snshortdragbottom","snhalfcirclebottom","snfullcirclebottom",
-        "hhcloseEdge","hhclosedTip","hhtightedge","hhtightip","hhopn1","hhopn2","hhopn3","hhopn4",
-        "hhbellclosed","hhbellopen1","hhbellopen2","hhopenpedal","hhclosedpedal","hhhtrig","hhhtiptrig","hhhbelltrig",
-        "crshridecrash","crshridemute",
-        "ridebowtip","ridebowshank","ridebelltip","ridebellshank","rideedge","ridemute",
-        "tom1center","tom1rimshot","tom1rimonly",
-        "tom2center","tom2center alt","tom2rimshot","tom2rimonly",
-        "ftomcenter","ftomcenter alt","ftomrimshot","ftomrimonly",
-        "clap","shake","tambourine","sticks"
+        "kick", "snare", "hhcl", "hhcl2", "hhop", "splash1", "crash1",
+        "crash1chok", "fxcymb1", "china2", "fxcymb2", "crash2", "crash2chok", "china1",
+        "ridetop", "ridebell", "ridecrash", "tom1","tom2", "tom3", "tom4", "tom5"
     ],      
     "split_threshold":50,
     "split_time":10,
