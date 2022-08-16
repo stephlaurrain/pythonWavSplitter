@@ -88,8 +88,8 @@ class Wavesplit:
                 dest_dir_name = self.set_version_dir(pwavefile_path)  
                 self.log.lg(paudio.duration_seconds)
                 velocities = self.jsprms.prms['velocities']
-                sounds = self.jsprms.prms['sounds']
-                expected_nb_sounds = self.jsprms.prms['expected_nb_sounds']
+                sounds = self.jsprms.prms['sounds']                
+                expected_nb_sounds = (self.jsprms.prms['mulab_length']-1)*self.jsprms.prms['mulab_step']
                 self.log.lg(f"expected sounds = {expected_nb_sounds} / number of sounds = {len(sounds)}")
                 if len(sounds)!= expected_nb_sounds:
                        raise ValueError('Expected number of sounds <> number of sounds.')
