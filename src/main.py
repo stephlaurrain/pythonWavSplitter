@@ -75,56 +75,40 @@ class Wavesplit:
         
         @_trace_decorator        
         @_error_decorator()
-        def treat_wave(self, pwavefile_path, paudio):
-                watch_time_start = time.process_time()                
+        def treat_wave(self, pwavefile_path, paudio):                
                 dest_dir_name = self.set_version_dir(pwavefile_path)  
                 print(paudio.duration_seconds)
-                
-                #res = silence.split_on_silence(paudio, min_silence_len=psplit_time, 
-                #                silence_thresh=-psplit_threshold, keep_silence=False, seek_step=pseek_step)              
-
                 velocities = self.jsprms.prms['velocities']
                 sounds = self.jsprms.prms['sounds']
                 split_time = self.jsprms.prms['split_time']
-                split_threshold = -self.jsprms.prms['split_threshold']
-                seek_step = self.jsprms.prms['seek_step']
-                too_silent_threshold = -self.jsprms.prms['too_silent_threshold']
-                sample_number = (len(velocities)+self.jsprms.prms['empty_parts'])*len(sounds)
+                split_threshold = -self.jsprms.prms['split_threshold']                 
+                sample_number = len(velocities)*len(sounds)
                 print(f"number of sounds = {len(sounds)}")
                 extract_size = paudio.duration_seconds / sample_number *1000
-                #print(f"sample_number = {sample_number}")
-                print(f"extract_size = {extract_size}")
-                
-                # print(f"audio segment RMS = {snd.dBFS}")
+                print(f"sample_number = {sample_number}")
+                print(f"extract_size = {extract_size}")                
                 print(f"audio segment RMS = {paudio.dBFS}")
                 idx = 0
                 for cpt_sound in range(len(sounds)):
                         for cpt_velocity in range(len(velocities)):
-                                dest_dir = f"{self.result_sound_dir}{os.path.sep}{dest_dir_name}{os.path.sep}{cpt_sound}{sounds[cpt_sound]}"
-                                if not os.path.exists(dest_dir):
-                                                                os.mkdir(dest_dir) 
-                                export_file_path = f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"
-                                extract = paudio[idx:extract_size+idx]
-                                export_file_path_org = f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}_org.wav"
-                                extract.export(export_file_path_org, format="wav")
-                                idx += extract_size                                
-                                
-                                end_trim = self.detect_leading_silence(extract.reverse())
-                                print(f"end_trim = {end_trim}")
-                               
-                                if end_trim < extract_size:
-                                        final_sound = extract[:extract_size-end_trim]
-                                        print(f"final_sound segment RMS = {final_sound.dBFS}")
-                                        
-                                        if not (final_sound.dBFS == "-inf" or final_sound.dBFS < too_silent_threshold):
-                                                final_sound.export(export_file_path, format="wav")
+                                ## velocites à 0 = parts vides des sequences Mulab                                
+                                if velocities[cpt_velocity] != 0:
+                                        extract = paudio[idx:extract_size+idx]
+                                        dest_dir = f"{self.result_sound_dir}{os.path.sep}{dest_dir_name}{os.path.sep}{cpt_sound}{sounds[cpt_sound]}"
+                                        if not os.path.exists(dest_dir):
+                                                os.mkdir(dest_dir) 
+                                        export_file_path = f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"                                        
+                                        # export_file_path_org = f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}_org.wav"
+                                        # extract.export(export_file_path_org, format="wav")
+                                        end_trim = self.detect_leading_silence(sound=extract.reverse(), silence_threshold=split_threshold, chunk_size=split_time)
+                                        print(f"end_trim = {end_trim}")
+                                        if end_trim < extract_size:
+                                                final_sound = extract[:extract_size-end_trim]
+                                                print(f"final_sound segment RMS = {final_sound.dBFS}")
+                                                final_sound.export(export_file_path, format="wav")                                        
                                         else:                                        
-                                                print(f"TOO SILENT = export_file_path = {export_file_path}")
-                                                export_file_path_silent = f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}_silent.wav"
-                                                final_sound.export(export_file_path_silent, format="wav")
-                                else:                                        
-                                        print(f"SILENT = export_file_path = {export_file_path}")
-                                
+                                                print(f"SILENT = export_file_path = {export_file_path}")
+                                idx += extract_size
         
         @_trace_decorator        
         @_error_decorator()

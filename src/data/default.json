@@ -6,7 +6,7 @@
     "drumkit_path":"/media/steph/1Tera/VERSSTOCK/drumkits/ez",    
     "drumkit_name":"jazz",
     "velocities":[
-        127, 111, 95, 79, 63, 47
+        127, 111, 95, 79, 63, 47, 0, 0
     ],    
     "sounds":[
         "kikhitin","kikopenin",
@@ -40,13 +40,8 @@
         "ftomcenter","ftomcenter alt","ftomrimshot","ftomrimonly",
         "clap","shake","tambourine","sticks"
     ],   
-    "empty_parts":2,
-    "split_threshold":60,
+    "split_threshold":50,
     "split_time":10,
-    "seek_step":1,
-    "too_silent_threshold":80,
-    "loop_wait":0,    
-    "size_threshold": {"min":0.03, "max":5.9},
     "move_drumkits":false,
     "clean_dirs_at_end": false
 }
