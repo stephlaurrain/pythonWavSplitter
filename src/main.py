@@ -63,6 +63,15 @@ class Wavesplit:
                 if not os.path.exists(version_dir):
                         os.mkdir(version_dir)  
                 return dest_dir_name              
+
+        def detect_leading_silence(self, sound, silence_threshold=-50.0, chunk_size=10):
+                trim_ms = 0 # ms
+
+                assert chunk_size > 0 # to avoid infinite loop
+                while sound[trim_ms:trim_ms+chunk_size].dBFS < silence_threshold and trim_ms < len(sound):
+                        trim_ms += chunk_size
+
+                return trim_ms
         
         @_trace_decorator        
         @_error_decorator()
@@ -76,88 +85,46 @@ class Wavesplit:
 
                 velocities = self.jsprms.prms['velocities']
                 sounds = self.jsprms.prms['sounds']
-                extract_size = paudio.duration_seconds / (len(velocities)*len(sounds))*1000
-                print(extract_size)
+                split_time = self.jsprms.prms['split_time']
+                split_threshold = -self.jsprms.prms['split_threshold']
+                seek_step = self.jsprms.prms['seek_step']
+                too_silent_threshold = -self.jsprms.prms['too_silent_threshold']
+                sample_number = (len(velocities)+self.jsprms.prms['empty_parts'])*len(sounds)
+                print(f"number of sounds = {len(sounds)}")
+                extract_size = paudio.duration_seconds / sample_number *1000
+                #print(f"sample_number = {sample_number}")
+                print(f"extract_size = {extract_size}")
                 
                 # print(f"audio segment RMS = {snd.dBFS}")
                 print(f"audio segment RMS = {paudio.dBFS}")
-                cpt_sound = 0
-                cpt_velocity = 0
-                dest_dir = f"{self.result_sound_dir}{os.path.sep}{dest_dir_name}{os.path.sep}{cpt_sound}{sounds[cpt_sound]}"
-                if not os.path.exists(dest_dir):
-                                                os.mkdir(dest_dir) 
-                export_file_path = f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"
-                extract = paudio[:extract_size]
-                res = silence.detect_nonsilent(extract, 80, -50)
-                non_silence_len = res[0][1]
-                print(non_silence_len)
-                
-                final_sound = extract[:non_silence_len]
-                print(f"final_sound segment RMS = {final_sound.dBFS}")
-                final_sound.export(export_file_path, format="wav")
-                return
-                
-                
-                
-                cpt_velocity = 0
-                cpt_sound = 0
-               
-                error_found = False
-             
-             
-                if res_length <= good_length+tolerance_length and res_length >= good_length-tolerance_length:                
-                        self.log.lg(f"FOUND GOOD SEGMENTS TAB LENGTH")                       
-                        for idx, snd in enumerate(res):
-                                # print(f"audio segment RMS = {snd.dBFS}")
-                                if calculate is False:
-                                        dest_dir = f"{self.result_sound_dir}{os.path.sep}{dest_dir_name}{os.path.sep}{cpt_sound}{sounds[cpt_sound]}"
-                                        if not os.path.exists(dest_dir):
-                                                os.mkdir(dest_dir)                                                                                
-                                        export_file_path = f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"
-                                        print(f"{export_file_path}, duration_seconds = {snd.duration_seconds}")                                
-                                if snd.duration_seconds > self.jsprms.prms['size_threshold']['min'] and snd.duration_seconds < self.jsprms.prms['size_threshold']['max']:  
-                                        if calculate is False:
-                                                snd.export(export_file_path, format="wav")
-                                                if loop_wait > 0:
-                                                        time.sleep(loop_wait)                                                   
-                                        cpt_velocity += 1
-                                        if cpt_velocity >= len(velocities):
-                                                cpt_velocity = 0
-                                                cpt_sound += 1
-                                                if cpt_sound >= len(sounds):
-                                                        cpt_sound = 0
-                                else:
-                                        self.log.lg(f"FILE HAS BAD SIZE = {velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav duration = {snd.duration_seconds}") 
-                                        self.log.lg(f"CONF IS NOT GOOD") 
-                                        error_found = True
-                                        break
-                else : 
-                        print(f"ERROR tab length is not GOOD") 
-                        error_found = True                                              
-                if calculate and not error_found:
-                        self.log.lg(f"=== GOOD CONF FOUND ! ===")
-                        process_time = time.process_time() - watch_time_start                        
-                        good_res = GoodRes(split_threshold=psplit_threshold, split_time=psplit_time, seek_step=pseek_step, process_time=process_time, len=res_length)
-                        self.save_good_res_to_statfile(pwavefile_path, good_res, good_length)
-                        self.goodRes_array.append(good_res)                        
-                        self.log.lg(str(good_res))
-                        return process_time
-                return 9999                                           
-        
-        @_trace_decorator        
-        @_error_decorator()
-        def save_good_res_to_statfile(self, wavefile_path, good_res, good_length):
-                statfile_path =  f"{self.root_app}{os.path.sep}data{os.path.sep}statfile.txt"
-                head, tail = os.path.split(wavefile_path)
-                dest_dir_name = os.path.splitext(tail)[0]
-                text_file = open(statfile_path, "a")
-                text_file.write('#####################\n')
-                text_file.write(f'{datetime.now().strftime(r"%y%m%d%H%M")} good_length = {good_length}\n')
-                text_file.write(f"{self.jsprms.prms['drumkit_name']} - {dest_dir_name}\n")
-                #for good_res in self.goodRes_array:                        
-                text_file.write(f"{str(good_res)}\n")
-                text_file.close()
-
+                idx = 0
+                for cpt_sound in range(len(sounds)):
+                        for cpt_velocity in range(len(velocities)):
+                                dest_dir = f"{self.result_sound_dir}{os.path.sep}{dest_dir_name}{os.path.sep}{cpt_sound}{sounds[cpt_sound]}"
+                                if not os.path.exists(dest_dir):
+                                                                os.mkdir(dest_dir) 
+                                export_file_path = f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"
+                                extract = paudio[idx:extract_size+idx]
+                                export_file_path_org = f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}_org.wav"
+                                extract.export(export_file_path_org, format="wav")
+                                idx += extract_size                                
+                                
+                                end_trim = self.detect_leading_silence(extract.reverse())
+                                print(f"end_trim = {end_trim}")
+                               
+                                if end_trim < extract_size:
+                                        final_sound = extract[:extract_size-end_trim]
+                                        print(f"final_sound segment RMS = {final_sound.dBFS}")
+                                        
+                                        if not (final_sound.dBFS == "-inf" or final_sound.dBFS < too_silent_threshold):
+                                                final_sound.export(export_file_path, format="wav")
+                                        else:                                        
+                                                print(f"TOO SILENT = export_file_path = {export_file_path}")
+                                                export_file_path_silent = f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}_silent.wav"
+                                                final_sound.export(export_file_path_silent, format="wav")
+                                else:                                        
+                                        print(f"SILENT = export_file_path = {export_file_path}")
+                                
         
         @_trace_decorator        
         @_error_decorator()
@@ -166,10 +133,8 @@ class Wavesplit:
                 for wavefile_path in sorted(Path(self.org_sound_dir).rglob('*.Wav')):
                                 if wavefile_path.is_file():                                        
                                         myaudio = AudioSegment.from_wav(wavefile_path) 
-                                        
                                         self.treat_wave(pwavefile_path=wavefile_path, paudio=myaudio)
-                                        
-                                        
+
         def move_drum_kit(self):
                 drumkit_path = f"{self.jsprms.prms['drumkit_path']}{os.path.sep}{self.jsprms.prms['drumkit_name']}"
                 if not os.path.exists(drumkit_path):
@@ -178,7 +143,6 @@ class Wavesplit:
                 for dir_path in os.scandir(self.result_sound_dir):
                         if dir_path.is_dir():       
                                 shutil.move(dir_path.path, drumkit_path)
-
 
         def main(self, command="", jsonfile="", param1="", param2=""):
                 try:
