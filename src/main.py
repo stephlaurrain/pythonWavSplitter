@@ -123,7 +123,7 @@ class Wavesplit:
                                                 final_sound = extract[:extract_size-end_trim]
                                                 self.log.lg(f"export_file_path = {export_file_path}")
                                                 self.log.lg(f"final_sound segment RMS = {final_sound.dBFS}")                                                
-                                                if final_sound.dBFS < split_threshold:
+                                                if final_sound.dBFS < split_threshold or final_sound.duration_seconds < self.jsprms.prms['duration_threshold']:
                                                         self.log.lg(f"TROP FAIBLE = export_file_path = {export_file_path}")        
                                                         #input ("VERIFIE")
                                                 else:
@@ -177,7 +177,8 @@ class Wavesplit:
                                         # if not hashobj in hashlist:                                                
                                                 hashlist.append(hashobj)    
                                                 print(f'append {pth} hash={hashobj.hash}')
-                                        else:                                                
+                                        else:                                       
+                                                os.unlink(pth)         
                                                 self.write_to_deleted_files(text_file, pth, hash_of_file, res)                                                                                      
                 text_file.close()                                
                                         

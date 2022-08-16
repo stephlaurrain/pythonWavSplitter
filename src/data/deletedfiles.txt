@@ -44,11 +44,6 @@ delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/resul
 hash of file =8094b278082d0336f9849fa26d68492404089c2188fc476330f60f24b350bf468cb21ca513d77297d4339ccb098c69d80a929bd4fcee6d536f8fd9b9bc6fa0f0 = hash found 8094b278082d0336f9849fa26d68492404089c2188fc476330f60f24b350bf468cb21ca513d77297d4339ccb098c69d80a929bd4fcee6d536f8fd9b9bc6fa0f0
 IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZdirect/43hhclosedtip/127-hhclosedtip.wav
 #####################
-jazz - 63-hhbellclosed
-delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZdirect/50hhbellclosed/63-hhbellclosed.wav
-hash of file =d4353a820f7c8216222d65a56dc52921e0b468f824b1b9f110dd21ca83c2dee083aad08d30a99b28aae426fbafbe1d678e841ec2404a13ea9f5d214931226b36 = hash found d4353a820f7c8216222d65a56dc52921e0b468f824b1b9f110dd21ca83c2dee083aad08d30a99b28aae426fbafbe1d678e841ec2404a13ea9f5d214931226b36
-IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZdirect/45hhtightip/63-hhtightip.wav
-#####################
 jazz - 79-hhbellclosed
 delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZdirect/50hhbellclosed/79-hhbellclosed.wav
 hash of file =1895773f5f1adddeb3e35cf3b9cf3ff810f13b67a202bef5c1f09e28fb2b98f4d9259a762072ab185a596ee8105eb80b027654102ea05198bf2f780921bccca7 = hash found 1895773f5f1adddeb3e35cf3b9cf3ff810f13b67a202bef5c1f09e28fb2b98f4d9259a762072ab185a596ee8105eb80b027654102ea05198bf2f780921bccca7
@@ -63,11 +58,6 @@ jazz - 127-hhclosedtip2
 delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZdirect/58hhclosedtip2/127-hhclosedtip2.wav
 hash of file =8cc40a55e404e974af8123dcd15512002124a0ccc1c1fa08eff749578160b1a298ece5604e0239322a2486ce2b193c0655e86070a9960acb6dbb113e38054c8d = hash found 8cc40a55e404e974af8123dcd15512002124a0ccc1c1fa08eff749578160b1a298ece5604e0239322a2486ce2b193c0655e86070a9960acb6dbb113e38054c8d
 IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZdirect/45hhtightip/127-hhtightip.wav
-#####################
-jazz - 63-hhclosedtip2
-delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZdirect/58hhclosedtip2/63-hhclosedtip2.wav
-hash of file =56ad330f0e9544bbf8e07b8301abfabefa436fb4b85ee741654032594aeac6cd555fb057edb229c5b84fb22a5ae6e527eb3fd1ba3515c40d8517ad3962394846 = hash found 56ad330f0e9544bbf8e07b8301abfabefa436fb4b85ee741654032594aeac6cd555fb057edb229c5b84fb22a5ae6e527eb3fd1ba3515c40d8517ad3962394846
-IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZdirect/43hhclosedtip/63-hhclosedtip.wav
 #####################
 jazz - 79-hhclosedtip2
 delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZdirect/58hhclosedtip2/79-hhclosedtip2.wav
