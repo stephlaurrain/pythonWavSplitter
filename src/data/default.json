@@ -3,7 +3,7 @@
     "keep_log_unit":"m",
     "org_sound_dir":"org",
     "result_sound_dir":"result",
-    "drumkit_path":"/media/steph/1Tera/VERSSTOCK/drumkits/ez",    
+    "drumkit_path":"/media/steph/1Tera/VERSSTOCK/drumkits/ez",
     "drumkit_name":"jazz",
     "velocities":[
         127, 111, 95, 79, 63, 47, 0, 0
@@ -27,9 +27,9 @@
         "ridebowtip","ridebowshank-chinacrash","ridebelltip","ridebellshank","rideedge","ridemute",
         "chinamutehit",
         "tom1center","tom1rimshot","tom1rimonly",
-        "tom2center","tom2center alt","tom2rimshot","tom2rimonly",
-        "ftomcenter","ftomcenter alt","ftomrimshot","ftomrimonly",
-        "ftom2center","ftom2center alt","ftom2rimshot","ftom2rimonly",
+        "tom2center","tom2centeralt","tom2rimshot","tom2rimonly",
+        "ftomcenter","ftomcenteralt","ftomrimshot","ftomrimonly",
+        "ftom2center","ftom2centeralt","ftom2rimshot","ftom2rimonly",
         "clap","shake","tambourine","sticks"
     ],      
     "expected_nb_sounds":99,    

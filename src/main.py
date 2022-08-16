@@ -51,13 +51,6 @@ class Wavesplit:
                         self.org_sound_dir = f"{self.sounds_dir}{os.path.sep}{self.jsprms.prms['org_sound_dir']}"                        
                         self.result_sound_dir = f"{self.sounds_dir}{os.path.sep}{self.jsprms.prms['result_sound_dir']}"
                         self.drumkit_path = f"{self.jsprms.prms['drumkit_path']}{os.path.sep}{self.jsprms.prms['drumkit_name']}"
-                        if not os.path.exists(self.drumkit_path):
-                                os.mkdir(self.drumkit_path)
-                        else: 
-                                if input ('drumkit path already exists, remove it ? (type yes) : ')=='yes':
-                                        file_utils.clean_dir(self.drumkit_path)
-                                else:
-                                        raise ValueError('drumkit path already exists')
                         self.global_error = False
                         self.log.lg("=HERE WE GO=")
                         keep_log_time = self.jsprms.prms['keep_log_time']
@@ -86,7 +79,6 @@ class Wavesplit:
                 assert chunk_size > 0 # to avoid infinite loop
                 while sound[trim_ms:trim_ms+chunk_size].dBFS < silence_threshold and trim_ms < len(sound):
                         trim_ms += chunk_size
-
                 return trim_ms
         
         @_trace_decorator        
@@ -164,11 +156,11 @@ class Wavesplit:
 
         @_trace_decorator        
         @_error_decorator()
-        def deletedoubles(self):
+        def delete_doubles(self, dest_dir):
                 hashlist = []
                 deleted_file_path =  f"{self.root_app}{os.path.sep}data{os.path.sep}deletedfiles.txt"
                 text_file = open(deleted_file_path, "w")
-                for pth in sorted(Path(self.result_sound_dir).rglob('*.wav')):
+                for pth in sorted(Path(dest_dir).rglob('*.wav')):
                                 if pth.is_file():            
                                         hash_of_file = self.getfilehash(pth)                            
                                         hashobj = Hashes(hash=hash_of_file, filepath=pth)
@@ -179,6 +171,9 @@ class Wavesplit:
                                                 print(f'append {pth} hash={hashobj.hash}')
                                         else:                                       
                                                 os.unlink(pth)         
+                                                pth_path = os.path.dirname(pth)
+                                                if len(os.listdir(pth_path)) == 0:
+                                                        os.rmdir(pth_path)
                                                 self.write_to_deleted_files(text_file, pth, hash_of_file, res)                                                                                      
                 text_file.close()                                
                                         
@@ -213,17 +208,26 @@ class Wavesplit:
                         print(command)     
                         # command="split"
                         self.init_main(command, jsonfile)                                                
-                        if (command == "split"):                                
+                        if (command == "split"):        
+                                if not os.path.exists(self.drumkit_path):
+                                        os.mkdir(self.drumkit_path)
+                                else: 
+                                        if input ('drumkit path already exists, remove it ? (type yes) : ')=='yes':
+                                                file_utils.clean_dir(self.drumkit_path)
+                                        else:
+                                                raise ValueError('drumkit path already exists')                        
                                 # input("Press Enter to continue...")
                                 self.split_waves()
                                 # input("Press Enter to copy drumkit and clean org path...")
-                                if self.jsprms.prms['delete_doubles']:self.deletedoubles()
+                                if self.jsprms.prms['delete_doubles']:self.delete_doubles(self.result_sound_dir)
                                 if self.global_error is False:
                                         if self.jsprms.prms['move_drumkits']:
                                                 self.move_drum_kit() 
                                         if self.jsprms.prms['move_drumkits'] and self.jsprms.prms['clean_dirs_at_end']:
                                                 file_utils.clean_dir(self.org_sound_dir)
                                                 # file_utils.clean_dir(self.result_sound_dir)          
+                        if (command == "clean"):
+                                self.delete_doubles(self.drumkit_path)
                         self.log.lg("=>> THE END COMPLETE <<=")
                 except KeyboardInterrupt:
                         print("==>> Interrupted <<==")
