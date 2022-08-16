@@ -51,7 +51,7 @@ class Wavesplit:
                         self.goodRes_array = []
                         file_utils.remove_old_files(f"{self.root_app}{os.path.sep}log", keep_log_time, keep_log_unit)
                 except Exception as e:
-                        print(f"Wasted, very wasted : {e}")
+                        self.log.errlg(f"Wasted, very wasted : {e}")
                         raise
 
         @_trace_decorator        
@@ -79,11 +79,11 @@ class Wavesplit:
         @_error_decorator()
         def treat_wave(self, pwavefile_path, paudio):                
                 dest_dir_name = self.set_version_dir(pwavefile_path)  
-                print(paudio.duration_seconds)
+                self.log.lg(paudio.duration_seconds)
                 velocities = self.jsprms.prms['velocities']
                 sounds = self.jsprms.prms['sounds']
                 expected_nb_sounds = self.jsprms.prms['expected_nb_sounds']
-                print(f"expected sounds = {expected_nb_sounds} / number of sounds = {len(sounds)}")
+                self.log.lg(f"expected sounds = {expected_nb_sounds} / number of sounds = {len(sounds)}")
                 if len(sounds)!= expected_nb_sounds:
                         return
                 split_time = self.jsprms.prms['split_time']
@@ -91,9 +91,9 @@ class Wavesplit:
                 sample_number = len(velocities)*len(sounds)
                 
                 extract_size = paudio.duration_seconds / sample_number *1000
-                print(f"sample_number = {sample_number}")
-                print(f"extract_size = {extract_size}")                
-                print(f"audio segment RMS = {paudio.dBFS}")
+                self.log.lg(f"sample_number = {sample_number}")
+                self.log.lg(f"extract_size = {extract_size}")                
+                self.log.lg(f"audio segment RMS = {paudio.dBFS}")
                 idx = 0
                 for cpt_sound in range(len(sounds)):
                         for cpt_velocity in range(len(velocities)):
@@ -105,13 +105,13 @@ class Wavesplit:
                                         # export_file_path_org = f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}_org.wav"
                                         # extract.export(export_file_path_org, format="wav")
                                         end_trim = self.detect_leading_silence(sound=extract.reverse(), silence_threshold=split_threshold, chunk_size=split_time)
-                                        print(f"end_trim = {end_trim}")
+                                        self.log.lg(f"end_trim = {end_trim}")
                                         if end_trim < extract_size:
                                                 final_sound = extract[:extract_size-end_trim]
-                                                print(f"export_file_path = {export_file_path}")
-                                                print(f"final_sound segment RMS = {final_sound.dBFS}")                                                
+                                                self.log.lg(f"export_file_path = {export_file_path}")
+                                                self.log.lg(f"final_sound segment RMS = {final_sound.dBFS}")                                                
                                                 if final_sound.dBFS < split_threshold:
-                                                        print(f"TROP FAIBLE = export_file_path = {export_file_path}")        
+                                                        self.log.lg(f"TROP FAIBLE = export_file_path = {export_file_path}")        
                                                         #input ("VERIFIE")
                                                 else:
                                                         if not os.path.exists(dest_dir):
@@ -119,7 +119,7 @@ class Wavesplit:
                                                         final_sound.export(export_file_path, format="wav") 
                                                                                        
                                         else:                                        
-                                                print(f"SILENT = export_file_path = {export_file_path}")
+                                                self.log.lg(f"SILENT = export_file_path = {export_file_path}")
                                 idx += extract_size
         
         @_trace_decorator        
