@@ -92,7 +92,10 @@ class Wavesplit:
                         res_sound = sound.fade_in(fade_in_len)
                 if fade_out_percent > 0:
                         fade_out_len = round(sound.duration_seconds*1000*fade_out_percent/100)
-                        res_sound = res_sound.fade_out(fade_out_len)
+                        if fade_in_percent > 0:
+                                res_sound = res_sound.fade_out(fade_out_len)
+                        else:
+                                res_sound = sound.fade_out(fade_out_len)
                 return res_sound
 
         @_trace_decorator        
