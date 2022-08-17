@@ -94,7 +94,8 @@ while True:
             prm1 = "" if (len(prmcmdlist) < 1) else prmcmdlist[0]
             prm2 = "" if (len(prmcmdlist) < 2) else prmcmdlist[1]
 
-            wavesplit.main(cmd, jsonfile, prm1, prm2)            
+            if wavesplit.main(cmd, jsonfile, prm1, prm2) is False:
+                raise SystemError('Splitter had a problem')
 
     except Exception as e:
         print (e)

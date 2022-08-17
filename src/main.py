@@ -51,9 +51,9 @@ class Wavesplit:
                         self.org_sound_dir = f"{self.sounds_dir}{os.path.sep}{self.jsprms.prms['org_sound_dir']}"                        
                         self.result_sound_dir = f"{self.sounds_dir}{os.path.sep}{self.jsprms.prms['result_sound_dir']}"
                         self.drumkit_main_path = self.jsprms.prms['drumkit_main_path']
-                        drumkit_master = param1 if param1 !=''else self.jsprms.prms['drumkit_master']
-                        drumkit_name = param2 if param2 != '' else self.jsprms.prms['drumkit_name']
-                        self.drumkit_dest_path = f"{self.drumkit_main_path}{os.path.sep}{drumkit_master}{os.path.sep}{drumkit_name}"
+                        self.drumkit_master = param1 if param1 !=''else self.jsprms.prms['drumkit_master']
+                        self.drumkit_name = param2 if param2 != '' else self.jsprms.prms['drumkit_name']
+                        self.drumkit_dest_path = f"{self.drumkit_main_path}{os.path.sep}{self.drumkit_master}{os.path.sep}{self.drumkit_name}"
                         self.global_error = False
                         self.log.lg("=HERE WE GO=")
                         keep_log_time = self.jsprms.prms['keep_log_time']
@@ -212,7 +212,7 @@ class Wavesplit:
                         # command="split"
                         self.init_main(command, jsonfile, param1, param2)                                                
                         if (command == "split"):  
-                                master_path = f"{self.drumkit_main_path}{os.path.sep}{self.jsprms.prms['drumkit_master']}"    
+                                master_path = f"{self.drumkit_main_path}{os.path.sep}{self.drumkit_master}"    
                                 if not os.path.exists(master_path):
                                         os.mkdir(master_path)
                                 if not os.path.exists(self.drumkit_dest_path):
@@ -242,6 +242,7 @@ class Wavesplit:
                 except Exception as e:
                         print("==>> GLOBAL MAIN EXCEPTION <<==")
                         self.log.errlg(e)
+                        return False
                         # raise                        
                 finally:
                         print("==>> DONE <<==")
