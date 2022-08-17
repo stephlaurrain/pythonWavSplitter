@@ -86,6 +86,17 @@ class Wavesplit:
         
         @_trace_decorator        
         @_error_decorator()
+        def treat_fade(self, sound, fade_in_percent, fade_out_percent):
+                if fade_in_percent > 0:
+                        fade_in_len = round(sound.duration_seconds*1000*fade_in_percent/100)                        
+                        res_sound = sound.fade_in(fade_in_len)
+                if fade_out_percent > 0:
+                        fade_out_len = round(sound.duration_seconds*1000*fade_out_percent/100)
+                        res_sound = res_sound.fade_out(fade_out_len)
+                return res_sound
+
+        @_trace_decorator        
+        @_error_decorator()
         def treat_wave(self, pwavefile_path, paudio):                
                 dest_dir_name = self.set_version_dir(pwavefile_path)  
                 self.log.lg(paudio.duration_seconds)
@@ -124,6 +135,11 @@ class Wavesplit:
                                                 else:
                                                         if not os.path.exists(dest_dir):
                                                                 os.mkdir(dest_dir)
+                                                        #final_sound.fade_out(16) # final_sound.duration_seconds / 2)
+                                                        fade_in_percent = self.jsprms.prms['fade_percent']['in']
+                                                        fade_out_percent = self.jsprms.prms['fade_percent']['out']
+                                                        if fade_in_percent > 0 or fade_out_percent > 0:
+                                                                final_sound = self.treat_fade(final_sound, fade_in_percent, fade_out_percent)                                                                                           
                                                         final_sound.export(export_file_path, format="wav") 
                                         else:                                        
                                                 self.log.lg(f"SILENT = export_file_path = {export_file_path}")

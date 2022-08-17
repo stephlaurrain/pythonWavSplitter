@@ -38,7 +38,8 @@
     "split_threshold":50,
     "split_time":10,
     "duration_threshold":0.012,
+    "fade_percent":{"in":0, "out":0},
     "delete_doubles":true,
     "move_drumkits":true,
-    "clean_dirs_at_end": false
+    "clean_dirs_at_end": true
 }

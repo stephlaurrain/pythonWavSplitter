@@ -51,7 +51,7 @@ pipenv --rm
 pip freeze > requirements.txt
 
 # References
-
+https://github.com/jiaaro/pydub
 https://github.com/jiaaro/pydub/blob/master/pydub/silence.py
 normalization :
 https://stackoverflow.com/questions/42492246/how-to-normalize-the-volume-of-an-audio-file-in-python

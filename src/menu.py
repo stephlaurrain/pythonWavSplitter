@@ -56,6 +56,7 @@ while True:
     menulist.append(Menuitem("split", "split files from EZ sounds", 2, "Ez"))    
     menulist.append(Menuitem("split", "split files from EZdkfh sounds", 2, "Ezdkfh"))
     menulist.append(Menuitem("split", "split files from Kult2", 2, "Kult2"))    
+    menulist.append(Menuitem("split", "split files from other", 2, "extractFade"))        
     menulist.append(Menuitem("clean", "delete files that has same hash"))
     menulist.append(Menuitem("test", "test something", "default"))
 
@@ -100,3 +101,4 @@ while True:
     except Exception as e:
         print (e)
         print(f"\n{hardgreen}bad command (something went wrong){normalcolor}\n")
+        raise
