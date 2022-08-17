@@ -11,7 +11,7 @@ extract tracks
 
 copy tracks into sounds/org
 
-run with run.sh
+run with menu.sh
 
 you'll find your splitted drumkit into data/sounds/result
 
