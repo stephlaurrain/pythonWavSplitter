@@ -7,11 +7,11 @@ from datetime import datetime
 wavesplit = Wavesplit()
 
 class Menuitem:
-    def __init__(self, command, label, jsonfilename='default', nb_params=0, ret=False):
+    def __init__(self, command, label, nb_params=0, jsonfilename='default', ret=False):
         self.command = command
         self.label = label
-        self.jsonfilename = jsonfilename
         self.nb_params = nb_params        
+        self.jsonfilename = jsonfilename
         self.ret = ret
 
 root_app = os.getcwd()
@@ -49,11 +49,13 @@ while True:
     print(drkcol("\nHi Neo, I'm your wave splitter"))
     print(drkcol("Your wish is my order\n"))
     print(drkcol("What I can do for you :\n"))
-
+    print(drkcol("usage :\n"))
+    print(drkcol("param 0 = drumkit_master path :\n"))
+    print(drkcol("param 1 = drumkit_name :\n"))
     menulist = []
-    menulist.append(Menuitem("split", "split files from EZ sounds", "Ez"))    
-    menulist.append(Menuitem("split", "split files from EZdkfh sounds", "Ezdkfh"))
-    menulist.append(Menuitem("split", "split files from Kult2", "Kult2"))    
+    menulist.append(Menuitem("split", "split files from EZ sounds", 2, "Ez"))    
+    menulist.append(Menuitem("split", "split files from EZdkfh sounds", 2, "Ezdkfh"))
+    menulist.append(Menuitem("split", "split files from Kult2", 2, "Kult2"))    
     menulist.append(Menuitem("clean", "delete files that has same hash"))
     menulist.append(Menuitem("test", "test something", "default"))
 
@@ -90,8 +92,9 @@ while True:
             for i in range(prms):
                 prmcmdlist.append(input(drkcol(f"enter param {i} :")))
             prm1 = "" if (len(prmcmdlist) < 1) else prmcmdlist[0]
+            prm2 = "" if (len(prmcmdlist) < 2) else prmcmdlist[1]
 
-            wavesplit.main(cmd, jsonfile, prm1)            
+            wavesplit.main(cmd, jsonfile, prm1, prm2)            
 
     except Exception as e:
         print (e)
