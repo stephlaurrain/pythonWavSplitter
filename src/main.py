@@ -44,7 +44,7 @@ class Wavesplit:
                         self.log = mylog.Log()
                         self.log.init(jsonfile)
                         self.trace(inspect.stack()[0])
-                        jsonFn = f"{self.root_app}{os.path.sep}data{os.path.sep}{jsonfile}.json"
+                        jsonFn = f"{self.root_app}{os.path.sep}data{os.path.sep}conf{os.path.sep}{jsonfile}.json"
                         self.jsprms = jsonprms.Prms(jsonFn)
                         # self.test = self.jsprms.prms['test']
                         self.sounds_dir = f"{self.root_app}{os.path.sep}data{os.path.sep}sounds"

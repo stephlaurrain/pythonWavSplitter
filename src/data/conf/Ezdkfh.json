@@ -4,7 +4,7 @@
     "org_sound_dir":"org",
     "result_sound_dir":"result",
     "drumkit_main_path":"/media/steph/1Tera/VERSSTOCK/drumkits/ez",
-    "drumkit_master":"dkfromhell",
+    "drumkit_master":"electronic",
     "drumkit_name":"basic",
     "velocities":[
         127, 111, 95, 79, 63, 47, 0, 0
@@ -34,7 +34,7 @@
         "ftom2center","ftom2rimshot",
         "clap","shake","tambourine","sticks-crashbcrescdkfh"        
     ],      
-    "mulab_length":115,    
+    "mulab_length":461,    
     "mulab_step":4,
     "split_threshold":50,
     "split_time":10,
