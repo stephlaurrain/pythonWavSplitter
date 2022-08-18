@@ -181,22 +181,23 @@ class Wavesplit:
         def delete_doubles(self, dest_dir):
                 hashlist = []
                 deleted_file_path =  f"{self.root_app}{os.path.sep}data{os.path.sep}deletedfiles.txt"
-                text_file = open(deleted_file_path, "w")
+                text_file = open(deleted_file_path, "w")                
                 for pth in sorted(Path(dest_dir).rglob('*.wav')):
-                                if pth.is_file():            
-                                        hash_of_file = self.getfilehash(pth)                            
-                                        hashobj = Hashes(hash=hash_of_file, filepath=pth)
-                                        res = self.is_in_hashes(hashobj, hashlist)
-                                        if res is False:
-                                        # if not hashobj in hashlist:                                                
-                                                hashlist.append(hashobj)    
-                                                print(f'append {pth} hash={hashobj.hash}')
-                                        else:                                       
-                                                os.unlink(pth)         
-                                                pth_path = os.path.dirname(pth)
-                                                if len(os.listdir(pth_path)) == 0:
-                                                        os.rmdir(pth_path)
-                                                self.write_to_deleted_files(text_file, pth, hash_of_file, res)                                                                                      
+                        print("ici")
+                        if pth.is_file():            
+                                hash_of_file = self.getfilehash(pth)                            
+                                hashobj = Hashes(hash=hash_of_file, filepath=pth)
+                                res = self.is_in_hashes(hashobj, hashlist)
+                                if res is False:
+                                # if not hashobj in hashlist:                                                
+                                        hashlist.append(hashobj)    
+                                        print(f'append {pth} hash={hashobj.hash}')
+                                else:                                       
+                                        os.unlink(pth)         
+                                        pth_path = os.path.dirname(pth)
+                                        if len(os.listdir(pth_path)) == 0:
+                                                os.rmdir(pth_path)
+                                        self.write_to_deleted_files(text_file, pth, hash_of_file, res)                                                                                      
                 text_file.close()                                
                                         
         @_trace_decorator        
@@ -227,7 +228,7 @@ class Wavesplit:
                                 param3 = "default" if (nb_args < 6) else sys.argv[5].lower()      
                                 print("params=", command, jsonfile, param1, param2, param3)
                         # logs
-                        print(command)     
+                        print(f"command={command}")     
                         # command="split"
                         self.init_main(command, jsonfile, param1, param2)                                                
                         if (command == "split"):  
@@ -252,7 +253,7 @@ class Wavesplit:
                                         if self.jsprms.prms['move_drumkits'] and self.jsprms.prms['clean_dirs_at_end']:
                                                 file_utils.clean_dir(self.org_sound_dir)
                                                 # file_utils.clean_dir(self.result_sound_dir)          
-                        if (command == "clean"):
+                        if (command == "clean"):                                
                                 self.delete_doubles(self.drumkit_main_path)
                         self.log.lg("=>> THE END COMPLETE <<=")
                 except KeyboardInterrupt:
