@@ -1,0 +1,1310 @@
+#####################
+basic - 111-snfullcircle
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/11snfullcircle/111-snfullcircle.wav
+hash of file =4206a64f632a5357eb5c08d39eff967e91480e5d85ae5f937024e908465d9cc763870c45cd31ffa5000d78572e9127dc787040263c893137e1cffd6ecefa1238 = hash found 4206a64f632a5357eb5c08d39eff967e91480e5d85ae5f937024e908465d9cc763870c45cd31ffa5000d78572e9127dc787040263c893137e1cffd6ecefa1238
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/10snhalfcircle/111-snhalfcircle.wav
+#####################
+basic - 47-snfullcircle
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/11snfullcircle/47-snfullcircle.wav
+hash of file =c9c340c8c7107e3cceb08a4d2f16f114e35fc6caf585b05b8c0dcdf2e531b8037ba757e983022cea4640b53563c5e95de4fdfee1f37159d07f609e0e648358de = hash found c9c340c8c7107e3cceb08a4d2f16f114e35fc6caf585b05b8c0dcdf2e531b8037ba757e983022cea4640b53563c5e95de4fdfee1f37159d07f609e0e648358de
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/10snhalfcircle/47-snhalfcircle.wav
+#####################
+basic - 63-snfullcircle
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/11snfullcircle/63-snfullcircle.wav
+hash of file =5f77836f8cbf702f50acacf27c8fe354e2c934279c28f9146f5fc530514ea6a3215cee02a333927180bd1647021fd8862f0b144287032e22d39bd6a8536a882e = hash found 5f77836f8cbf702f50acacf27c8fe354e2c934279c28f9146f5fc530514ea6a3215cee02a333927180bd1647021fd8862f0b144287032e22d39bd6a8536a882e
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/10snhalfcircle/63-snhalfcircle.wav
+#####################
+basic - 79-snfullcircle
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/11snfullcircle/79-snfullcircle.wav
+hash of file =4b8ea7c9a412a22e1757284f1a47b43553523ed409b6b81a5a4a9aa2a028bdc28061388a80ab40b183b6a0b0f17ac3a90d88aa0e1322cf085c9f33920763ba6e = hash found 4b8ea7c9a412a22e1757284f1a47b43553523ed409b6b81a5a4a9aa2a028bdc28061388a80ab40b183b6a0b0f17ac3a90d88aa0e1322cf085c9f33920763ba6e
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/10snhalfcircle/79-snhalfcircle.wav
+#####################
+basic - 95-snfullcircle
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/11snfullcircle/95-snfullcircle.wav
+hash of file =ea609d84bc869629cb578937c56d18393b5702ceecc8a1053c092279be4cd743f14b04c752860982b58938abbeedd05dbface78f36997e55cd1156ca994866e4 = hash found ea609d84bc869629cb578937c56d18393b5702ceecc8a1053c092279be4cd743f14b04c752860982b58938abbeedd05dbface78f36997e55cd1156ca994866e4
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/10snhalfcircle/95-snhalfcircle.wav
+#####################
+basic - 111-hhtightip
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/16hhtightip/111-hhtightip.wav
+hash of file =d7d61a8af86d088d82fe1946011f258d6e045a3222eb4634f75e4de01a543bc7bb445a18584fc79515fe57a4ec528799ddc476fb02258d5367c1ec4e495c25da = hash found d7d61a8af86d088d82fe1946011f258d6e045a3222eb4634f75e4de01a543bc7bb445a18584fc79515fe57a4ec528799ddc476fb02258d5367c1ec4e495c25da
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/14hhclosedtip/111-hhclosedtip.wav
+#####################
+basic - 79-hhtightip
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/16hhtightip/79-hhtightip.wav
+hash of file =9a15e067b6ae513886af567ebba3670d5a3a6f0a0a926c4285508a5f6a689ec1117c5920f0227a149874d190ed97f595da1f4dfd606a2162f2d30866c46843e6 = hash found 9a15e067b6ae513886af567ebba3670d5a3a6f0a0a926c4285508a5f6a689ec1117c5920f0227a149874d190ed97f595da1f4dfd606a2162f2d30866c46843e6
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/14hhclosedtip/79-hhclosedtip.wav
+#####################
+basic - 95-hhtightip
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/16hhtightip/95-hhtightip.wav
+hash of file =e2913b4c7a76c2045955f2c65edacfa3011fb4e9156235e1d814444f26e1e2e0502fd4a20d2fdd193011f40e2e2d5395268d930f1f1c2e29f38745271730f348 = hash found e2913b4c7a76c2045955f2c65edacfa3011fb4e9156235e1d814444f26e1e2e0502fd4a20d2fdd193011f40e2e2d5395268d930f1f1c2e29f38745271730f348
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/14hhclosedtip/95-hhclosedtip.wav
+#####################
+basic - 79-hhhtrig
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/26hhhtrig/79-hhhtrig.wav
+hash of file =ed4bdf9701e45cb0fdda950bb51d3692be77acbd61ea3b9b7c8cd48ee8b8383fd71773ab21f15a599810494ef957e2903d0b60415f4e26a336048b009c13fa8a = hash found ed4bdf9701e45cb0fdda950bb51d3692be77acbd61ea3b9b7c8cd48ee8b8383fd71773ab21f15a599810494ef957e2903d0b60415f4e26a336048b009c13fa8a
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/20hhopn4/79-hhopn4.wav
+#####################
+basic - 95-hhhtrig
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/26hhhtrig/95-hhhtrig.wav
+hash of file =655514708a87eb560e25bf4663e3f3545cd42c4dfccc964affd2d6c230a4c83bae04abf8e4ad715deb7f71a193381290d23d12bb21ff98692820c5c9872074dd = hash found 655514708a87eb560e25bf4663e3f3545cd42c4dfccc964affd2d6c230a4c83bae04abf8e4ad715deb7f71a193381290d23d12bb21ff98692820c5c9872074dd
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/20hhopn4/95-hhopn4.wav
+#####################
+basic - 111-hhhtiptrig
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/27hhhtiptrig/111-hhhtiptrig.wav
+hash of file =1c2865eba1a8430d369b11afc84a5aff1490dbeb3424bfeaa75686c75b04154562a5f2bc96311f2ebc83deed686122baa275fdbe03f331ac490d219a4050a712 = hash found 1c2865eba1a8430d369b11afc84a5aff1490dbeb3424bfeaa75686c75b04154562a5f2bc96311f2ebc83deed686122baa275fdbe03f331ac490d219a4050a712
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/20hhopn4/111-hhopn4.wav
+#####################
+basic - 127-hhhtiptrig
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/27hhhtiptrig/127-hhhtiptrig.wav
+hash of file =f5a4a036386f988d8d78de2cd84907df2c8769d2b2ce20a7796598c8293789491eb4c1a95a3c85fa8ac769beb908e561df3290e3c4b1ae0275b538ba6cf13bbf = hash found f5a4a036386f988d8d78de2cd84907df2c8769d2b2ce20a7796598c8293789491eb4c1a95a3c85fa8ac769beb908e561df3290e3c4b1ae0275b538ba6cf13bbf
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/20hhopn4/127-hhopn4.wav
+#####################
+basic - 79-hhhtiptrig
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/27hhhtiptrig/79-hhhtiptrig.wav
+hash of file =ed4bdf9701e45cb0fdda950bb51d3692be77acbd61ea3b9b7c8cd48ee8b8383fd71773ab21f15a599810494ef957e2903d0b60415f4e26a336048b009c13fa8a = hash found ed4bdf9701e45cb0fdda950bb51d3692be77acbd61ea3b9b7c8cd48ee8b8383fd71773ab21f15a599810494ef957e2903d0b60415f4e26a336048b009c13fa8a
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/20hhopn4/79-hhopn4.wav
+#####################
+basic - 95-hhhtiptrig
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/27hhhtiptrig/95-hhhtiptrig.wav
+hash of file =655514708a87eb560e25bf4663e3f3545cd42c4dfccc964affd2d6c230a4c83bae04abf8e4ad715deb7f71a193381290d23d12bb21ff98692820c5c9872074dd = hash found 655514708a87eb560e25bf4663e3f3545cd42c4dfccc964affd2d6c230a4c83bae04abf8e4ad715deb7f71a193381290d23d12bb21ff98692820c5c9872074dd
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/20hhopn4/95-hhopn4.wav
+#####################
+basic - 111-hhclosedtip2
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/29hhclosedtip2/111-hhclosedtip2.wav
+hash of file =d7d61a8af86d088d82fe1946011f258d6e045a3222eb4634f75e4de01a543bc7bb445a18584fc79515fe57a4ec528799ddc476fb02258d5367c1ec4e495c25da = hash found d7d61a8af86d088d82fe1946011f258d6e045a3222eb4634f75e4de01a543bc7bb445a18584fc79515fe57a4ec528799ddc476fb02258d5367c1ec4e495c25da
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/14hhclosedtip/111-hhclosedtip.wav
+#####################
+basic - 79-hhclosedtip2
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/29hhclosedtip2/79-hhclosedtip2.wav
+hash of file =9a15e067b6ae513886af567ebba3670d5a3a6f0a0a926c4285508a5f6a689ec1117c5920f0227a149874d190ed97f595da1f4dfd606a2162f2d30866c46843e6 = hash found 9a15e067b6ae513886af567ebba3670d5a3a6f0a0a926c4285508a5f6a689ec1117c5920f0227a149874d190ed97f595da1f4dfd606a2162f2d30866c46843e6
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/14hhclosedtip/79-hhclosedtip.wav
+#####################
+basic - 95-hhclosedtip2
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/29hhclosedtip2/95-hhclosedtip2.wav
+hash of file =e2913b4c7a76c2045955f2c65edacfa3011fb4e9156235e1d814444f26e1e2e0502fd4a20d2fdd193011f40e2e2d5395268d930f1f1c2e29f38745271730f348 = hash found e2913b4c7a76c2045955f2c65edacfa3011fb4e9156235e1d814444f26e1e2e0502fd4a20d2fdd193011f40e2e2d5395268d930f1f1c2e29f38745271730f348
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/14hhclosedtip/95-hhclosedtip.wav
+#####################
+basic - 111-kikleft
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/2kikleft/111-kikleft.wav
+hash of file =3f4c4559ed65b950478831b0a29ac1b83a99335f3f7af884b69231c254a6bd1dcdf9497116dc8dc96c56e45043d8e779998e10767e3d89e34fa1babaf3cf3da5 = hash found 3f4c4559ed65b950478831b0a29ac1b83a99335f3f7af884b69231c254a6bd1dcdf9497116dc8dc96c56e45043d8e779998e10767e3d89e34fa1babaf3cf3da5
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/0kikhitin/111-kikhitin.wav
+#####################
+basic - 47-kikleft
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/2kikleft/47-kikleft.wav
+hash of file =5355e2f023110d66cf2d2c14c05aad7bcbc27dd3b0a389c910c95960e1de369684cd6a23ca8cd14f1cd8448f6d0bbb4e1e13ee112b914336eace9cb4e8ed4af9 = hash found 5355e2f023110d66cf2d2c14c05aad7bcbc27dd3b0a389c910c95960e1de369684cd6a23ca8cd14f1cd8448f6d0bbb4e1e13ee112b914336eace9cb4e8ed4af9
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/0kikhitin/47-kikhitin.wav
+#####################
+basic - 63-kikleft
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/2kikleft/63-kikleft.wav
+hash of file =c60c535d9e01a07bda2525e0be3fca4a7a843a6e8a86784a4fcdd0511aa9ade09317e0cf5cdd5a4efb671bbf12961424fc035fd728b7c3f0be56bc2257d2df4c = hash found c60c535d9e01a07bda2525e0be3fca4a7a843a6e8a86784a4fcdd0511aa9ade09317e0cf5cdd5a4efb671bbf12961424fc035fd728b7c3f0be56bc2257d2df4c
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/0kikhitin/63-kikhitin.wav
+#####################
+basic - 79-kikleft
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/2kikleft/79-kikleft.wav
+hash of file =48c6c5e4fe10e32146027f581319a875a22bda8f236517fc34bea9fcdff6b13ca967f65b576e6952383b0ab7bb43e80197cb2e0a06a996d64281d6ffc6b81003 = hash found 48c6c5e4fe10e32146027f581319a875a22bda8f236517fc34bea9fcdff6b13ca967f65b576e6952383b0ab7bb43e80197cb2e0a06a996d64281d6ffc6b81003
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/0kikhitin/79-kikhitin.wav
+#####################
+basic - 95-kikleft
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/2kikleft/95-kikleft.wav
+hash of file =c5c48eae6ef011180c35b6260c955a9557816106d4ce5118b87d4b7e3befb009f8b9e7e5b6c2db38f2176027504af288ae81486e74aeb767d17e812e0f793309 = hash found c5c48eae6ef011180c35b6260c955a9557816106d4ce5118b87d4b7e3befb009f8b9e7e5b6c2db38f2176027504af288ae81486e74aeb767d17e812e0f793309
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/0kikhitin/95-kikhitin.wav
+#####################
+basic - 111-hhseqhits
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/30hhseqhits/111-hhseqhits.wav
+hash of file =d7d61a8af86d088d82fe1946011f258d6e045a3222eb4634f75e4de01a543bc7bb445a18584fc79515fe57a4ec528799ddc476fb02258d5367c1ec4e495c25da = hash found d7d61a8af86d088d82fe1946011f258d6e045a3222eb4634f75e4de01a543bc7bb445a18584fc79515fe57a4ec528799ddc476fb02258d5367c1ec4e495c25da
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/14hhclosedtip/111-hhclosedtip.wav
+#####################
+basic - 79-hhseqhits
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/30hhseqhits/79-hhseqhits.wav
+hash of file =9a15e067b6ae513886af567ebba3670d5a3a6f0a0a926c4285508a5f6a689ec1117c5920f0227a149874d190ed97f595da1f4dfd606a2162f2d30866c46843e6 = hash found 9a15e067b6ae513886af567ebba3670d5a3a6f0a0a926c4285508a5f6a689ec1117c5920f0227a149874d190ed97f595da1f4dfd606a2162f2d30866c46843e6
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/14hhclosedtip/79-hhclosedtip.wav
+#####################
+basic - 95-hhseqhits
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/30hhseqhits/95-hhseqhits.wav
+hash of file =e2913b4c7a76c2045955f2c65edacfa3011fb4e9156235e1d814444f26e1e2e0502fd4a20d2fdd193011f40e2e2d5395268d930f1f1c2e29f38745271730f348 = hash found e2913b4c7a76c2045955f2c65edacfa3011fb4e9156235e1d814444f26e1e2e0502fd4a20d2fdd193011f40e2e2d5395268d930f1f1c2e29f38745271730f348
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/14hhclosedtip/95-hhclosedtip.wav
+#####################
+basic - 111-hhop0
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/31hhop0/111-hhop0.wav
+hash of file =195b4f64c29eeeb8160dad5014c067d859fbbdca74768010431ecce5107437ee1b1340102e1ea37c923f73440f107397c194f2a38187ef3a2c7440cea954588c = hash found 195b4f64c29eeeb8160dad5014c067d859fbbdca74768010431ecce5107437ee1b1340102e1ea37c923f73440f107397c194f2a38187ef3a2c7440cea954588c
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/13hhcloseedge/111-hhcloseedge.wav
+#####################
+basic - 79-hhop0
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/31hhop0/79-hhop0.wav
+hash of file =0426631210c3ae142ea1839adc883823ec238785943f738c01d963d3f11d75a4cdcc298c47782019781f6458c497270b2892c42605a6372b913218d716fcde0d = hash found 0426631210c3ae142ea1839adc883823ec238785943f738c01d963d3f11d75a4cdcc298c47782019781f6458c497270b2892c42605a6372b913218d716fcde0d
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/13hhcloseedge/79-hhcloseedge.wav
+#####################
+basic - 95-hhop0
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/31hhop0/95-hhop0.wav
+hash of file =75e880408941fda91daf01168f63146e890f9af629f29dc16b27f174975826d54b387ae3a4d9fb298c992f0f44f0fc03c3deae881a60b9fe86617d8be4678ee3 = hash found 75e880408941fda91daf01168f63146e890f9af629f29dc16b27f174975826d54b387ae3a4d9fb298c992f0f44f0fc03c3deae881a60b9fe86617d8be4678ee3
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/13hhcloseedge/95-hhcloseedge.wav
+#####################
+basic - 111-hhop5
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/32hhop5/111-hhop5.wav
+hash of file =898fb406fd52a4156ff9dfdf4e9877d0383cdb316269fc4e0925c22ec9065e7ea21fe4f3c4f78e7f4f376d20dbf8f1b799f9c527f73f255e89fb63469cde6d4b = hash found 898fb406fd52a4156ff9dfdf4e9877d0383cdb316269fc4e0925c22ec9065e7ea21fe4f3c4f78e7f4f376d20dbf8f1b799f9c527f73f255e89fb63469cde6d4b
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/26hhhtrig/111-hhhtrig.wav
+#####################
+basic - 127-hhop5
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/32hhop5/127-hhop5.wav
+hash of file =8a13027392dc555f975bf387d712dbe7063fd39c862efd333b5fea3e849e3ade241746e453bec6e938c07b1389c807b2af768c44674353af849d825184595c26 = hash found 8a13027392dc555f975bf387d712dbe7063fd39c862efd333b5fea3e849e3ade241746e453bec6e938c07b1389c807b2af768c44674353af849d825184595c26
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/26hhhtrig/127-hhhtrig.wav
+#####################
+basic - 79-hhop5
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/32hhop5/79-hhop5.wav
+hash of file =ed4bdf9701e45cb0fdda950bb51d3692be77acbd61ea3b9b7c8cd48ee8b8383fd71773ab21f15a599810494ef957e2903d0b60415f4e26a336048b009c13fa8a = hash found ed4bdf9701e45cb0fdda950bb51d3692be77acbd61ea3b9b7c8cd48ee8b8383fd71773ab21f15a599810494ef957e2903d0b60415f4e26a336048b009c13fa8a
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/20hhopn4/79-hhopn4.wav
+#####################
+basic - 95-hhop5
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/32hhop5/95-hhop5.wav
+hash of file =655514708a87eb560e25bf4663e3f3545cd42c4dfccc964affd2d6c230a4c83bae04abf8e4ad715deb7f71a193381290d23d12bb21ff98692820c5c9872074dd = hash found 655514708a87eb560e25bf4663e3f3545cd42c4dfccc964affd2d6c230a4c83bae04abf8e4ad715deb7f71a193381290d23d12bb21ff98692820c5c9872074dd
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/20hhopn4/95-hhopn4.wav
+#####################
+basic - 111-hhtiptrig2
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/33hhtiptrig2/111-hhtiptrig2.wav
+hash of file =1c2865eba1a8430d369b11afc84a5aff1490dbeb3424bfeaa75686c75b04154562a5f2bc96311f2ebc83deed686122baa275fdbe03f331ac490d219a4050a712 = hash found 1c2865eba1a8430d369b11afc84a5aff1490dbeb3424bfeaa75686c75b04154562a5f2bc96311f2ebc83deed686122baa275fdbe03f331ac490d219a4050a712
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/20hhopn4/111-hhopn4.wav
+#####################
+basic - 127-hhtiptrig2
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/33hhtiptrig2/127-hhtiptrig2.wav
+hash of file =f5a4a036386f988d8d78de2cd84907df2c8769d2b2ce20a7796598c8293789491eb4c1a95a3c85fa8ac769beb908e561df3290e3c4b1ae0275b538ba6cf13bbf = hash found f5a4a036386f988d8d78de2cd84907df2c8769d2b2ce20a7796598c8293789491eb4c1a95a3c85fa8ac769beb908e561df3290e3c4b1ae0275b538ba6cf13bbf
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/20hhopn4/127-hhopn4.wav
+#####################
+basic - 79-hhtiptrig2
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/33hhtiptrig2/79-hhtiptrig2.wav
+hash of file =ed4bdf9701e45cb0fdda950bb51d3692be77acbd61ea3b9b7c8cd48ee8b8383fd71773ab21f15a599810494ef957e2903d0b60415f4e26a336048b009c13fa8a = hash found ed4bdf9701e45cb0fdda950bb51d3692be77acbd61ea3b9b7c8cd48ee8b8383fd71773ab21f15a599810494ef957e2903d0b60415f4e26a336048b009c13fa8a
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/20hhopn4/79-hhopn4.wav
+#####################
+basic - 95-hhtiptrig2
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/33hhtiptrig2/95-hhtiptrig2.wav
+hash of file =655514708a87eb560e25bf4663e3f3545cd42c4dfccc964affd2d6c230a4c83bae04abf8e4ad715deb7f71a193381290d23d12bb21ff98692820c5c9872074dd = hash found 655514708a87eb560e25bf4663e3f3545cd42c4dfccc964affd2d6c230a4c83bae04abf8e4ad715deb7f71a193381290d23d12bb21ff98692820c5c9872074dd
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/20hhopn4/95-hhopn4.wav
+#####################
+basic - 63-splashcrash
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/36splashcrash/63-splashcrash.wav
+hash of file =29984f1d19b601960fc497b2e02bc10dc0dd1be62a249d8a71fbfee9edc0f6c4bf41c2cd2cf708e47c7d449e1bca5dc3adfba1923cbb1d828010f8268e118486 = hash found 29984f1d19b601960fc497b2e02bc10dc0dd1be62a249d8a71fbfee9edc0f6c4bf41c2cd2cf708e47c7d449e1bca5dc3adfba1923cbb1d828010f8268e118486
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/34cymbal1crash/63-cymbal1crash.wav
+#####################
+basic - 79-splashcrash
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/36splashcrash/79-splashcrash.wav
+hash of file =a5ed0c68c09ecc32702f19647369ced63988d733e381e16c2b794afa5e405b97b0140affa725ddf82f722857a944e67fe3726db1219ca6afca07467b77b2216d = hash found a5ed0c68c09ecc32702f19647369ced63988d733e381e16c2b794afa5e405b97b0140affa725ddf82f722857a944e67fe3726db1219ca6afca07467b77b2216d
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/34cymbal1crash/79-cymbal1crash.wav
+#####################
+basic - 63-splash2crashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/38splash2crashdkfh/63-splash2crashdkfh.wav
+hash of file =fca7efa465bd3e2b021d7da532d59687f3d846f9e0f32dfb55ea5e978a302a8678a7206011d09c4cc7aa27e9579530b09284e45de1b3175aff37d9574b866625 = hash found fca7efa465bd3e2b021d7da532d59687f3d846f9e0f32dfb55ea5e978a302a8678a7206011d09c4cc7aa27e9579530b09284e45de1b3175aff37d9574b866625
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/28hhhbelltrig-cymbal3crash/63-hhhbelltrig-cymbal3crash.wav
+#####################
+basic - 79-splash2crashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/38splash2crashdkfh/79-splash2crashdkfh.wav
+hash of file =8d685ca360994faba7e8dfc1763c4b4b9817952a3f10e8b57ada76c2248f777203d3fab4745db5a0bb7b93ebb35412e27679d2db4a5cb1d40e8a44614190164d = hash found 8d685ca360994faba7e8dfc1763c4b4b9817952a3f10e8b57ada76c2248f777203d3fab4745db5a0bb7b93ebb35412e27679d2db4a5cb1d40e8a44614190164d
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/28hhhbelltrig-cymbal3crash/79-hhhbelltrig-cymbal3crash.wav
+#####################
+basic - 63-splash3crashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/39splash3crashdkfh/63-splash3crashdkfh.wav
+hash of file =fca7efa465bd3e2b021d7da532d59687f3d846f9e0f32dfb55ea5e978a302a8678a7206011d09c4cc7aa27e9579530b09284e45de1b3175aff37d9574b866625 = hash found fca7efa465bd3e2b021d7da532d59687f3d846f9e0f32dfb55ea5e978a302a8678a7206011d09c4cc7aa27e9579530b09284e45de1b3175aff37d9574b866625
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/28hhhbelltrig-cymbal3crash/63-hhhbelltrig-cymbal3crash.wav
+#####################
+basic - 79-splash3crashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/39splash3crashdkfh/79-splash3crashdkfh.wav
+hash of file =8d685ca360994faba7e8dfc1763c4b4b9817952a3f10e8b57ada76c2248f777203d3fab4745db5a0bb7b93ebb35412e27679d2db4a5cb1d40e8a44614190164d = hash found 8d685ca360994faba7e8dfc1763c4b4b9817952a3f10e8b57ada76c2248f777203d3fab4745db5a0bb7b93ebb35412e27679d2db4a5cb1d40e8a44614190164d
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/28hhhbelltrig-cymbal3crash/79-hhhbelltrig-cymbal3crash.wav
+#####################
+basic - 111-sncenter
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/3sncenter/111-sncenter.wav
+hash of file =5b0d619b9575be630c230b21e957e39d27e236475c1c51af6619ce55b1393a46e60836a851da8baa97ac832a7a34f78ca263423eb68d0f183ebd9abd3eb2b169 = hash found 5b0d619b9575be630c230b21e957e39d27e236475c1c51af6619ce55b1393a46e60836a851da8baa97ac832a7a34f78ca263423eb68d0f183ebd9abd3eb2b169
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/12snflamsdkfh/111-snflamsdkfh.wav
+#####################
+basic - 47-sncenter
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/3sncenter/47-sncenter.wav
+hash of file =0ec8891bacb3a6587463976eb80b765cc299d9367c512054d48eec604f2a1818497a46bbf88ffb3e510a5edd9a07c36e6b258255d0187cff762d6f99ea8d1b17 = hash found 0ec8891bacb3a6587463976eb80b765cc299d9367c512054d48eec604f2a1818497a46bbf88ffb3e510a5edd9a07c36e6b258255d0187cff762d6f99ea8d1b17
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/12snflamsdkfh/47-snflamsdkfh.wav
+#####################
+basic - 63-sncenter
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/3sncenter/63-sncenter.wav
+hash of file =4e7c43e364f4ac9ee80f46133051b1f400a705b78609e528e58231376f0e98e9211ce8eb4f6cba4f54646861f278ac280f65f871e83f0ff206bbb5aff68133eb = hash found 4e7c43e364f4ac9ee80f46133051b1f400a705b78609e528e58231376f0e98e9211ce8eb4f6cba4f54646861f278ac280f65f871e83f0ff206bbb5aff68133eb
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/12snflamsdkfh/63-snflamsdkfh.wav
+#####################
+basic - 79-sncenter
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/3sncenter/79-sncenter.wav
+hash of file =21a8bf245104b59fec40396112b8013827b42ed0274d28c6f412a495b517ff23c2cbc619c9f7bad37b05552c84dc0a12d63ed9da859193520c5d6909a3cb10ac = hash found 21a8bf245104b59fec40396112b8013827b42ed0274d28c6f412a495b517ff23c2cbc619c9f7bad37b05552c84dc0a12d63ed9da859193520c5d6909a3cb10ac
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/12snflamsdkfh/79-snflamsdkfh.wav
+#####################
+basic - 95-sncenter
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/3sncenter/95-sncenter.wav
+hash of file =3988bdf30d773428ea270ab5b87208fe17e14720e601707ab54cfb962c3b129e9a0d07fcf0b7c29ee618b5a9f51b303ed1b7cc5d7cb10b8521f55b7e769301fb = hash found 3988bdf30d773428ea270ab5b87208fe17e14720e601707ab54cfb962c3b129e9a0d07fcf0b7c29ee618b5a9f51b303ed1b7cc5d7cb10b8521f55b7e769301fb
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/12snflamsdkfh/95-snflamsdkfh.wav
+#####################
+basic - 111-cymbal2crash-crshridecrash
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/40cymbal2crash-crshridecrash/111-cymbal2crash-crshridecrash.wav
+hash of file =7cdad4040f925e6ff3c6b0dfc11108269b1177ecd1bc778c5b4fa8ce169edfa51df4d60a0582626adee717b775ba00a96263afa5d06985bf2b014a91650d6a83 = hash found 7cdad4040f925e6ff3c6b0dfc11108269b1177ecd1bc778c5b4fa8ce169edfa51df4d60a0582626adee717b775ba00a96263afa5d06985bf2b014a91650d6a83
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/34cymbal1crash/111-cymbal1crash.wav
+#####################
+basic - 127-cymbal2crash-crshridecrash
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/40cymbal2crash-crshridecrash/127-cymbal2crash-crshridecrash.wav
+hash of file =b2463f8afc890e309b87eb6fd2a6c410ecdc0e5be0d80ea485dc092e4feb6637ac0c5d594e78f63771875971fa2b7799f8e26e431ca1f7daa64f1304cf6686b0 = hash found b2463f8afc890e309b87eb6fd2a6c410ecdc0e5be0d80ea485dc092e4feb6637ac0c5d594e78f63771875971fa2b7799f8e26e431ca1f7daa64f1304cf6686b0
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/34cymbal1crash/127-cymbal1crash.wav
+#####################
+basic - 63-cymbal2crash-crshridecrash
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/40cymbal2crash-crshridecrash/63-cymbal2crash-crshridecrash.wav
+hash of file =29984f1d19b601960fc497b2e02bc10dc0dd1be62a249d8a71fbfee9edc0f6c4bf41c2cd2cf708e47c7d449e1bca5dc3adfba1923cbb1d828010f8268e118486 = hash found 29984f1d19b601960fc497b2e02bc10dc0dd1be62a249d8a71fbfee9edc0f6c4bf41c2cd2cf708e47c7d449e1bca5dc3adfba1923cbb1d828010f8268e118486
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/34cymbal1crash/63-cymbal1crash.wav
+#####################
+basic - 79-cymbal2crash-crshridecrash
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/40cymbal2crash-crshridecrash/79-cymbal2crash-crshridecrash.wav
+hash of file =a5ed0c68c09ecc32702f19647369ced63988d733e381e16c2b794afa5e405b97b0140affa725ddf82f722857a944e67fe3726db1219ca6afca07467b77b2216d = hash found a5ed0c68c09ecc32702f19647369ced63988d733e381e16c2b794afa5e405b97b0140affa725ddf82f722857a944e67fe3726db1219ca6afca07467b77b2216d
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/34cymbal1crash/79-cymbal1crash.wav
+#####################
+basic - 95-cymbal2crash-crshridecrash
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/40cymbal2crash-crshridecrash/95-cymbal2crash-crshridecrash.wav
+hash of file =a9d04ec06667454bc80c9e55186113ae496699b0879fbf101ce83ba0ffac35431f27db1745d2e39d44d73f35197777de5eb6b59a9e65f7b70d3242846ecb4f70 = hash found a9d04ec06667454bc80c9e55186113ae496699b0879fbf101ce83ba0ffac35431f27db1745d2e39d44d73f35197777de5eb6b59a9e65f7b70d3242846ecb4f70
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/34cymbal1crash/95-cymbal1crash.wav
+#####################
+basic - 111-crshridemute
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/41crshridemute/111-crshridemute.wav
+hash of file =d58469c097bd2cb2e0d0501fb006d8ad529afe4711260f2bcd8faefb3085dff20e70aac610e6be7dafda7df3b9ffe6a07e0e187b3e20f15bd0c924b87f112577 = hash found d58469c097bd2cb2e0d0501fb006d8ad529afe4711260f2bcd8faefb3085dff20e70aac610e6be7dafda7df3b9ffe6a07e0e187b3e20f15bd0c924b87f112577
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/35cymbal1mutehit/111-cymbal1mutehit.wav
+#####################
+basic - 127-crshridemute
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/41crshridemute/127-crshridemute.wav
+hash of file =84f03b7544a4e73b31d405fd59d62a4735e86861f202dbc4d85831b343cd57fd64524a89808a1abdd775a58577d99bbc95b156659b6b3acbf2463498a1387883 = hash found 84f03b7544a4e73b31d405fd59d62a4735e86861f202dbc4d85831b343cd57fd64524a89808a1abdd775a58577d99bbc95b156659b6b3acbf2463498a1387883
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/35cymbal1mutehit/127-cymbal1mutehit.wav
+#####################
+basic - 47-crshridemute
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/41crshridemute/47-crshridemute.wav
+hash of file =dc77cfbc7a435bdbd308b319ba87f8c0a89a566509348ae8cc953c091384fa62f75aa136944e5f4a51f86b274bc016538a4837144fceced9b7c3125cdad5ca81 = hash found dc77cfbc7a435bdbd308b319ba87f8c0a89a566509348ae8cc953c091384fa62f75aa136944e5f4a51f86b274bc016538a4837144fceced9b7c3125cdad5ca81
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/35cymbal1mutehit/47-cymbal1mutehit.wav
+#####################
+basic - 63-crshridemute
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/41crshridemute/63-crshridemute.wav
+hash of file =4fbbf051b7b52471e473a1b1d3de6e0b82fc40f213dee04226ec95dbb071fd8a9c86787014a6f38ca50c5d5d26a0c90560f24b44a027fe033569f92147e473ea = hash found 4fbbf051b7b52471e473a1b1d3de6e0b82fc40f213dee04226ec95dbb071fd8a9c86787014a6f38ca50c5d5d26a0c90560f24b44a027fe033569f92147e473ea
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/35cymbal1mutehit/63-cymbal1mutehit.wav
+#####################
+basic - 79-crshridemute
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/41crshridemute/79-crshridemute.wav
+hash of file =fc98b676cfce794ee98c27e6eb82d037403102a896ee4674393c0506c225261bcb5f20465c0589298192532acdd0aad7d0f63f0e94fc198548a71c6a8b681f05 = hash found fc98b676cfce794ee98c27e6eb82d037403102a896ee4674393c0506c225261bcb5f20465c0589298192532acdd0aad7d0f63f0e94fc198548a71c6a8b681f05
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/35cymbal1mutehit/79-cymbal1mutehit.wav
+#####################
+basic - 95-crshridemute
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/41crshridemute/95-crshridemute.wav
+hash of file =f913376d9d076ac142dd31d287bcc844a7becf020bf7b212e71362fd0198b3f0800ba35f8a055b7f91e33c0c8dcbc8f09350d25747985054de03b9d445204ad8 = hash found f913376d9d076ac142dd31d287bcc844a7becf020bf7b212e71362fd0198b3f0800ba35f8a055b7f91e33c0c8dcbc8f09350d25747985054de03b9d445204ad8
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/35cymbal1mutehit/95-cymbal1mutehit.wav
+#####################
+basic - 63-crashride1punchdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/44crashride1punchdkfh/63-crashride1punchdkfh.wav
+hash of file =fca7efa465bd3e2b021d7da532d59687f3d846f9e0f32dfb55ea5e978a302a8678a7206011d09c4cc7aa27e9579530b09284e45de1b3175aff37d9574b866625 = hash found fca7efa465bd3e2b021d7da532d59687f3d846f9e0f32dfb55ea5e978a302a8678a7206011d09c4cc7aa27e9579530b09284e45de1b3175aff37d9574b866625
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/28hhhbelltrig-cymbal3crash/63-hhhbelltrig-cymbal3crash.wav
+#####################
+basic - 79-crashride1punchdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/44crashride1punchdkfh/79-crashride1punchdkfh.wav
+hash of file =8d685ca360994faba7e8dfc1763c4b4b9817952a3f10e8b57ada76c2248f777203d3fab4745db5a0bb7b93ebb35412e27679d2db4a5cb1d40e8a44614190164d = hash found 8d685ca360994faba7e8dfc1763c4b4b9817952a3f10e8b57ada76c2248f777203d3fab4745db5a0bb7b93ebb35412e27679d2db4a5cb1d40e8a44614190164d
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/28hhhbelltrig-cymbal3crash/79-hhhbelltrig-cymbal3crash.wav
+#####################
+basic - 63-crashride2belldkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/47crashride2belldkfh/63-crashride2belldkfh.wav
+hash of file =d4ee8b100930beb74270abdd8a39e63b19229bd1712d025ea9e4c371c0aaf4b3b29031b0f09c87f4ad7197c73d73aaa0f82185b26be2938b39ae89d4d649a5b1 = hash found d4ee8b100930beb74270abdd8a39e63b19229bd1712d025ea9e4c371c0aaf4b3b29031b0f09c87f4ad7197c73d73aaa0f82185b26be2938b39ae89d4d649a5b1
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/43crashride1belldkfh/63-crashride1belldkfh.wav
+#####################
+basic - 79-crashride2belldkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/47crashride2belldkfh/79-crashride2belldkfh.wav
+hash of file =7c305b4fab83afe82eb33be7796695fa5f8393e185fb1c902f2cc3d4a64e988ae7e691dc85344fd9b638197f52ff85fe690ad69356b6d98019d86eeae82ab001 = hash found 7c305b4fab83afe82eb33be7796695fa5f8393e185fb1c902f2cc3d4a64e988ae7e691dc85344fd9b638197f52ff85fe690ad69356b6d98019d86eeae82ab001
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/43crashride1belldkfh/79-crashride1belldkfh.wav
+#####################
+basic - 63-crashride2punchdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/48crashride2punchdkfh/63-crashride2punchdkfh.wav
+hash of file =fca7efa465bd3e2b021d7da532d59687f3d846f9e0f32dfb55ea5e978a302a8678a7206011d09c4cc7aa27e9579530b09284e45de1b3175aff37d9574b866625 = hash found fca7efa465bd3e2b021d7da532d59687f3d846f9e0f32dfb55ea5e978a302a8678a7206011d09c4cc7aa27e9579530b09284e45de1b3175aff37d9574b866625
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/28hhhbelltrig-cymbal3crash/63-hhhbelltrig-cymbal3crash.wav
+#####################
+basic - 79-crashride2punchdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/48crashride2punchdkfh/79-crashride2punchdkfh.wav
+hash of file =8d685ca360994faba7e8dfc1763c4b4b9817952a3f10e8b57ada76c2248f777203d3fab4745db5a0bb7b93ebb35412e27679d2db4a5cb1d40e8a44614190164d = hash found 8d685ca360994faba7e8dfc1763c4b4b9817952a3f10e8b57ada76c2248f777203d3fab4745db5a0bb7b93ebb35412e27679d2db4a5cb1d40e8a44614190164d
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/28hhhbelltrig-cymbal3crash/79-hhhbelltrig-cymbal3crash.wav
+#####################
+basic - 111-crashbcrashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/49crashbcrashdkfh/111-crashbcrashdkfh.wav
+hash of file =cb5f72fb66e233b4bdbbc056c3d81647bc3aed6fe0ba0795ebd9800875d0ac78282c9f6b65567c51be436ff2a485a129dedae9daf3c6273f8bdfdb6389343aed = hash found cb5f72fb66e233b4bdbbc056c3d81647bc3aed6fe0ba0795ebd9800875d0ac78282c9f6b65567c51be436ff2a485a129dedae9daf3c6273f8bdfdb6389343aed
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/44crashride1punchdkfh/111-crashride1punchdkfh.wav
+#####################
+basic - 127-crashbcrashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/49crashbcrashdkfh/127-crashbcrashdkfh.wav
+hash of file =a4fe0a61b35231abf9a7a724d06663b8bc6243f550681bff18366f990846ccabbee96e43251adcd0ade29ad83351fc5a1a12add1e4606f6cac2df134e3cbbbd0 = hash found a4fe0a61b35231abf9a7a724d06663b8bc6243f550681bff18366f990846ccabbee96e43251adcd0ade29ad83351fc5a1a12add1e4606f6cac2df134e3cbbbd0
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/44crashride1punchdkfh/127-crashride1punchdkfh.wav
+#####################
+basic - 63-crashbcrashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/49crashbcrashdkfh/63-crashbcrashdkfh.wav
+hash of file =fca7efa465bd3e2b021d7da532d59687f3d846f9e0f32dfb55ea5e978a302a8678a7206011d09c4cc7aa27e9579530b09284e45de1b3175aff37d9574b866625 = hash found fca7efa465bd3e2b021d7da532d59687f3d846f9e0f32dfb55ea5e978a302a8678a7206011d09c4cc7aa27e9579530b09284e45de1b3175aff37d9574b866625
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/28hhhbelltrig-cymbal3crash/63-hhhbelltrig-cymbal3crash.wav
+#####################
+basic - 79-crashbcrashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/49crashbcrashdkfh/79-crashbcrashdkfh.wav
+hash of file =8d685ca360994faba7e8dfc1763c4b4b9817952a3f10e8b57ada76c2248f777203d3fab4745db5a0bb7b93ebb35412e27679d2db4a5cb1d40e8a44614190164d = hash found 8d685ca360994faba7e8dfc1763c4b4b9817952a3f10e8b57ada76c2248f777203d3fab4745db5a0bb7b93ebb35412e27679d2db4a5cb1d40e8a44614190164d
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/28hhhbelltrig-cymbal3crash/79-hhhbelltrig-cymbal3crash.wav
+#####################
+basic - 95-crashbcrashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/49crashbcrashdkfh/95-crashbcrashdkfh.wav
+hash of file =ac5f2565831550ba3244dacf3aa52b5d41aae435d2a446159934a15b144ec30d45e80f49daa920df070e44261270b2fd6de5d25e9ba6c71daa7ab2f3015423e5 = hash found ac5f2565831550ba3244dacf3aa52b5d41aae435d2a446159934a15b144ec30d45e80f49daa920df070e44261270b2fd6de5d25e9ba6c71daa7ab2f3015423e5
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/44crashride1punchdkfh/95-crashride1punchdkfh.wav
+#####################
+basic - 79-ridebowshank-chinacrash
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/54ridebowshank-chinacrash/79-ridebowshank-chinacrash.wav
+hash of file =b3835bcab4351830c338a1df34132beae0cf7a78ede93502810b1596951899d899086d08ae385ae22a616e124649c0d7d30761682c2c3295da2554b10775ff17 = hash found b3835bcab4351830c338a1df34132beae0cf7a78ede93502810b1596951899d899086d08ae385ae22a616e124649c0d7d30761682c2c3295da2554b10775ff17
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/45crashride1crescdkfh/79-crashride1crescdkfh.wav
+#####################
+basic - 63-ridebellshank
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/55ridebellshank/63-ridebellshank.wav
+hash of file =d4ee8b100930beb74270abdd8a39e63b19229bd1712d025ea9e4c371c0aaf4b3b29031b0f09c87f4ad7197c73d73aaa0f82185b26be2938b39ae89d4d649a5b1 = hash found d4ee8b100930beb74270abdd8a39e63b19229bd1712d025ea9e4c371c0aaf4b3b29031b0f09c87f4ad7197c73d73aaa0f82185b26be2938b39ae89d4d649a5b1
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/43crashride1belldkfh/63-crashride1belldkfh.wav
+#####################
+basic - 63-rideedge
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/56rideedge/63-rideedge.wav
+hash of file =fca7efa465bd3e2b021d7da532d59687f3d846f9e0f32dfb55ea5e978a302a8678a7206011d09c4cc7aa27e9579530b09284e45de1b3175aff37d9574b866625 = hash found fca7efa465bd3e2b021d7da532d59687f3d846f9e0f32dfb55ea5e978a302a8678a7206011d09c4cc7aa27e9579530b09284e45de1b3175aff37d9574b866625
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/28hhhbelltrig-cymbal3crash/63-hhhbelltrig-cymbal3crash.wav
+#####################
+basic - 79-rideedge
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/56rideedge/79-rideedge.wav
+hash of file =8d685ca360994faba7e8dfc1763c4b4b9817952a3f10e8b57ada76c2248f777203d3fab4745db5a0bb7b93ebb35412e27679d2db4a5cb1d40e8a44614190164d = hash found 8d685ca360994faba7e8dfc1763c4b4b9817952a3f10e8b57ada76c2248f777203d3fab4745db5a0bb7b93ebb35412e27679d2db4a5cb1d40e8a44614190164d
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/28hhhbelltrig-cymbal3crash/79-hhhbelltrig-cymbal3crash.wav
+#####################
+basic - 111-china3crashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/57china3crashdkfh/111-china3crashdkfh.wav
+hash of file =53b06868ad1e230be6af351718aa435c67c68578f343162c4a3bb7ba83adae8a49d848d4850c1a2532ec1b05429ce5720b1863e67b6f1737cbf68a40a1f6e327 = hash found 53b06868ad1e230be6af351718aa435c67c68578f343162c4a3bb7ba83adae8a49d848d4850c1a2532ec1b05429ce5720b1863e67b6f1737cbf68a40a1f6e327
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/36splashcrash/111-splashcrash.wav
+#####################
+basic - 127-china3crashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/57china3crashdkfh/127-china3crashdkfh.wav
+hash of file =482848fed906929ba7c0ca65263f6f576a1fec95f08f64cdc68203c3684d8f8a4275df2daf2006ff39a9eeeb72d6238f1478090d3019e3d474c6b09c9c947bdd = hash found 482848fed906929ba7c0ca65263f6f576a1fec95f08f64cdc68203c3684d8f8a4275df2daf2006ff39a9eeeb72d6238f1478090d3019e3d474c6b09c9c947bdd
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/36splashcrash/127-splashcrash.wav
+#####################
+basic - 63-china3crashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/57china3crashdkfh/63-china3crashdkfh.wav
+hash of file =29984f1d19b601960fc497b2e02bc10dc0dd1be62a249d8a71fbfee9edc0f6c4bf41c2cd2cf708e47c7d449e1bca5dc3adfba1923cbb1d828010f8268e118486 = hash found 29984f1d19b601960fc497b2e02bc10dc0dd1be62a249d8a71fbfee9edc0f6c4bf41c2cd2cf708e47c7d449e1bca5dc3adfba1923cbb1d828010f8268e118486
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/34cymbal1crash/63-cymbal1crash.wav
+#####################
+basic - 79-china3crashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/57china3crashdkfh/79-china3crashdkfh.wav
+hash of file =a5ed0c68c09ecc32702f19647369ced63988d733e381e16c2b794afa5e405b97b0140affa725ddf82f722857a944e67fe3726db1219ca6afca07467b77b2216d = hash found a5ed0c68c09ecc32702f19647369ced63988d733e381e16c2b794afa5e405b97b0140affa725ddf82f722857a944e67fe3726db1219ca6afca07467b77b2216d
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/34cymbal1crash/79-cymbal1crash.wav
+#####################
+basic - 95-china3crashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/57china3crashdkfh/95-china3crashdkfh.wav
+hash of file =923754f51b99df420e9a571f222e15189d8610eee3d32d6d9eb7536cde9fa54c524b4f7efe5684f473b4ddf803ac1491a5e2e0234df6916e6d2a24a86e9666ee = hash found 923754f51b99df420e9a571f222e15189d8610eee3d32d6d9eb7536cde9fa54c524b4f7efe5684f473b4ddf803ac1491a5e2e0234df6916e6d2a24a86e9666ee
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/36splashcrash/95-splashcrash.wav
+#####################
+basic - 63-china2crashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/59china2crashdkfh/63-china2crashdkfh.wav
+hash of file =29984f1d19b601960fc497b2e02bc10dc0dd1be62a249d8a71fbfee9edc0f6c4bf41c2cd2cf708e47c7d449e1bca5dc3adfba1923cbb1d828010f8268e118486 = hash found 29984f1d19b601960fc497b2e02bc10dc0dd1be62a249d8a71fbfee9edc0f6c4bf41c2cd2cf708e47c7d449e1bca5dc3adfba1923cbb1d828010f8268e118486
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/34cymbal1crash/63-cymbal1crash.wav
+#####################
+basic - 79-china2crashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/59china2crashdkfh/79-china2crashdkfh.wav
+hash of file =a5ed0c68c09ecc32702f19647369ced63988d733e381e16c2b794afa5e405b97b0140affa725ddf82f722857a944e67fe3726db1219ca6afca07467b77b2216d = hash found a5ed0c68c09ecc32702f19647369ced63988d733e381e16c2b794afa5e405b97b0140affa725ddf82f722857a944e67fe3726db1219ca6afca07467b77b2216d
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/34cymbal1crash/79-cymbal1crash.wav
+#####################
+basic - 111-chinamutehit
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/60chinamutehit/111-chinamutehit.wav
+hash of file =d58469c097bd2cb2e0d0501fb006d8ad529afe4711260f2bcd8faefb3085dff20e70aac610e6be7dafda7df3b9ffe6a07e0e187b3e20f15bd0c924b87f112577 = hash found d58469c097bd2cb2e0d0501fb006d8ad529afe4711260f2bcd8faefb3085dff20e70aac610e6be7dafda7df3b9ffe6a07e0e187b3e20f15bd0c924b87f112577
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/35cymbal1mutehit/111-cymbal1mutehit.wav
+#####################
+basic - 127-chinamutehit
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/60chinamutehit/127-chinamutehit.wav
+hash of file =84f03b7544a4e73b31d405fd59d62a4735e86861f202dbc4d85831b343cd57fd64524a89808a1abdd775a58577d99bbc95b156659b6b3acbf2463498a1387883 = hash found 84f03b7544a4e73b31d405fd59d62a4735e86861f202dbc4d85831b343cd57fd64524a89808a1abdd775a58577d99bbc95b156659b6b3acbf2463498a1387883
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/35cymbal1mutehit/127-cymbal1mutehit.wav
+#####################
+basic - 47-chinamutehit
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/60chinamutehit/47-chinamutehit.wav
+hash of file =dc77cfbc7a435bdbd308b319ba87f8c0a89a566509348ae8cc953c091384fa62f75aa136944e5f4a51f86b274bc016538a4837144fceced9b7c3125cdad5ca81 = hash found dc77cfbc7a435bdbd308b319ba87f8c0a89a566509348ae8cc953c091384fa62f75aa136944e5f4a51f86b274bc016538a4837144fceced9b7c3125cdad5ca81
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/35cymbal1mutehit/47-cymbal1mutehit.wav
+#####################
+basic - 63-chinamutehit
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/60chinamutehit/63-chinamutehit.wav
+hash of file =4fbbf051b7b52471e473a1b1d3de6e0b82fc40f213dee04226ec95dbb071fd8a9c86787014a6f38ca50c5d5d26a0c90560f24b44a027fe033569f92147e473ea = hash found 4fbbf051b7b52471e473a1b1d3de6e0b82fc40f213dee04226ec95dbb071fd8a9c86787014a6f38ca50c5d5d26a0c90560f24b44a027fe033569f92147e473ea
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/35cymbal1mutehit/63-cymbal1mutehit.wav
+#####################
+basic - 79-chinamutehit
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/60chinamutehit/79-chinamutehit.wav
+hash of file =fc98b676cfce794ee98c27e6eb82d037403102a896ee4674393c0506c225261bcb5f20465c0589298192532acdd0aad7d0f63f0e94fc198548a71c6a8b681f05 = hash found fc98b676cfce794ee98c27e6eb82d037403102a896ee4674393c0506c225261bcb5f20465c0589298192532acdd0aad7d0f63f0e94fc198548a71c6a8b681f05
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/35cymbal1mutehit/79-cymbal1mutehit.wav
+#####################
+basic - 95-chinamutehit
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/60chinamutehit/95-chinamutehit.wav
+hash of file =f913376d9d076ac142dd31d287bcc844a7becf020bf7b212e71362fd0198b3f0800ba35f8a055b7f91e33c0c8dcbc8f09350d25747985054de03b9d445204ad8 = hash found f913376d9d076ac142dd31d287bcc844a7becf020bf7b212e71362fd0198b3f0800ba35f8a055b7f91e33c0c8dcbc8f09350d25747985054de03b9d445204ad8
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/35cymbal1mutehit/95-cymbal1mutehit.wav
+#####################
+basic - 111-tom1rimonly
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/63tom1rimonly/111-tom1rimonly.wav
+hash of file =6bb48f9f985eb8defc7cf687c78195b5b44ccd484c134a5a59074ce90a3a43591e887d72cd500ced3be34f7a8a2dee594c8dd1de571dafcd734da867d3c3674a = hash found 6bb48f9f985eb8defc7cf687c78195b5b44ccd484c134a5a59074ce90a3a43591e887d72cd500ced3be34f7a8a2dee594c8dd1de571dafcd734da867d3c3674a
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/62tom1rimshot/111-tom1rimshot.wav
+#####################
+basic - 95-tom1rimonly
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/63tom1rimonly/95-tom1rimonly.wav
+hash of file =6536b219f2e56461ef335ec4744dac57a92d1d7c507fcae1741c412ecc049311e2f80a61f0abe8ae0c0b5b7c18a58c457e4bb46d63f8d1a68dfbf766616cd103 = hash found 6536b219f2e56461ef335ec4744dac57a92d1d7c507fcae1741c412ecc049311e2f80a61f0abe8ae0c0b5b7c18a58c457e4bb46d63f8d1a68dfbf766616cd103
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/62tom1rimshot/95-tom1rimshot.wav
+#####################
+basic - 111-ftomcenter
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/69ftomcenter/111-ftomcenter.wav
+hash of file =81c03e29d33710e082db1c910faa6a1f47bb32d13f22509749f91f70973494d832535a886afd4ed10b04f2b0308214493b4c20078fc59e776f56051198a2c2d3 = hash found 81c03e29d33710e082db1c910faa6a1f47bb32d13f22509749f91f70973494d832535a886afd4ed10b04f2b0308214493b4c20078fc59e776f56051198a2c2d3
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/65tom2centeralt-tom3rightdkfh/111-tom2centeralt-tom3rightdkfh.wav
+#####################
+basic - 47-ftomcenter
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/69ftomcenter/47-ftomcenter.wav
+hash of file =9316536fea28384ea3f85f099f95e2ff14a93385236d5d56e2e9b8ae36284dff9bc9785046e5e2820dca3fc8cf09232b2e9b865541d0295ba61cbb3f190043e2 = hash found 9316536fea28384ea3f85f099f95e2ff14a93385236d5d56e2e9b8ae36284dff9bc9785046e5e2820dca3fc8cf09232b2e9b865541d0295ba61cbb3f190043e2
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/65tom2centeralt-tom3rightdkfh/47-tom2centeralt-tom3rightdkfh.wav
+#####################
+basic - 63-ftomcenter
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/69ftomcenter/63-ftomcenter.wav
+hash of file =8b926cbd323b1722648cdcc14ea2d6a41c4838985535111d0940aa43e745a2c4dc309d6cfcdb5dd03e12b55b3ab9f79984fa8c1ac09ac1876ca7e7246577e58d = hash found 8b926cbd323b1722648cdcc14ea2d6a41c4838985535111d0940aa43e745a2c4dc309d6cfcdb5dd03e12b55b3ab9f79984fa8c1ac09ac1876ca7e7246577e58d
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/65tom2centeralt-tom3rightdkfh/63-tom2centeralt-tom3rightdkfh.wav
+#####################
+basic - 79-ftomcenter
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/69ftomcenter/79-ftomcenter.wav
+hash of file =0973ac14020d12fc7316ef36a94966f19bdea903b46966a7b1f5157adc45087bcdb5dfd0aa401588285ed2a77656eb2c1a71e7eb4bd04766921a9f5bd8a223ea = hash found 0973ac14020d12fc7316ef36a94966f19bdea903b46966a7b1f5157adc45087bcdb5dfd0aa401588285ed2a77656eb2c1a71e7eb4bd04766921a9f5bd8a223ea
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/65tom2centeralt-tom3rightdkfh/79-tom2centeralt-tom3rightdkfh.wav
+#####################
+basic - 95-ftomcenter
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/69ftomcenter/95-ftomcenter.wav
+hash of file =1041ea1b676d6ff74ebbf6fe2e5b7235594fb8100f2302271bea3f675538969a7c5aeb200abac36c6cad01e14950fc2fffdd6f1b074c20319d552ca85995d845 = hash found 1041ea1b676d6ff74ebbf6fe2e5b7235594fb8100f2302271bea3f675538969a7c5aeb200abac36c6cad01e14950fc2fffdd6f1b074c20319d552ca85995d845
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/65tom2centeralt-tom3rightdkfh/95-tom2centeralt-tom3rightdkfh.wav
+#####################
+basic - 47-ftom2center
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/73ftom2center/47-ftom2center.wav
+hash of file =1bfffa5e0e402fa356f99f352f7c91dbba207f8d14840960451fa4b10970ca6b6f107e5c9a00f704647d1da8e3eb756bd66174610b45778ca303145bc03679f3 = hash found 1bfffa5e0e402fa356f99f352f7c91dbba207f8d14840960451fa4b10970ca6b6f107e5c9a00f704647d1da8e3eb756bd66174610b45778ca303145bc03679f3
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/70ftomcenteralt/47-ftomcenteralt.wav
+#####################
+basic - 63-ftom2center
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/73ftom2center/63-ftom2center.wav
+hash of file =70129e1a1581e273de7fae2c8e5ad0ce95d2f7fd5eede42fa7308a426cd86c675fa6bbd4ee07389a9472678ac547716ca7cfcb6bd1b6d92e75f37cbe37a20391 = hash found 70129e1a1581e273de7fae2c8e5ad0ce95d2f7fd5eede42fa7308a426cd86c675fa6bbd4ee07389a9472678ac547716ca7cfcb6bd1b6d92e75f37cbe37a20391
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/70ftomcenteralt/63-ftomcenteralt.wav
+#####################
+basic - 79-ftom2center
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/73ftom2center/79-ftom2center.wav
+hash of file =5c497a791e87c58f77a7e66c92e92fb9a566d66389c1a27ed4a6ae128b78af1e091e46ab14eaa9e3c0570539c8d57260c9f74e5da210442754d0cca4f7172571 = hash found 5c497a791e87c58f77a7e66c92e92fb9a566d66389c1a27ed4a6ae128b78af1e091e46ab14eaa9e3c0570539c8d57260c9f74e5da210442754d0cca4f7172571
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/70ftomcenteralt/79-ftomcenteralt.wav
+#####################
+basic - 95-ftom2center
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/73ftom2center/95-ftom2center.wav
+hash of file =570e0f72cbc1499a9c7c9aae157eca33b2919685831ed2bc5a54d798a539a4d64ec08524e9e33adb482ca0c2c5500a7e8d4e7d8f25a391141dd84b938383d4ec = hash found 570e0f72cbc1499a9c7c9aae157eca33b2919685831ed2bc5a54d798a539a4d64ec08524e9e33adb482ca0c2c5500a7e8d4e7d8f25a391141dd84b938383d4ec
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/70ftomcenteralt/95-ftomcenteralt.wav
+#####################
+basic - 47-ftom2rimshot
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/74ftom2rimshot/47-ftom2rimshot.wav
+hash of file =2591225fbef941465665765643b8ff8a9eb93ddecc4da81282e03d12c4ac954c0a6d8703eb98eab4179f291c3517c70beaeae05c5eee91668861283eac6ad8a3 = hash found 2591225fbef941465665765643b8ff8a9eb93ddecc4da81282e03d12c4ac954c0a6d8703eb98eab4179f291c3517c70beaeae05c5eee91668861283eac6ad8a3
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/71ftomrimshot/47-ftomrimshot.wav
+#####################
+basic - 63-ftom2rimshot
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/74ftom2rimshot/63-ftom2rimshot.wav
+hash of file =9e670792e98a049a0e97e4ce678dbabf2fd669755d0a85a6bd73f82163161b1f9d8eec0d6f20969ca5640aa1ce1ec5e50eeb99b5d4787e4b5d195aab8ee58007 = hash found 9e670792e98a049a0e97e4ce678dbabf2fd669755d0a85a6bd73f82163161b1f9d8eec0d6f20969ca5640aa1ce1ec5e50eeb99b5d4787e4b5d195aab8ee58007
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/71ftomrimshot/63-ftomrimshot.wav
+#####################
+basic - 79-ftom2rimshot
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/74ftom2rimshot/79-ftom2rimshot.wav
+hash of file =5d35625dc18df0036d593f0cde49d7e5ff8aba117fa6ab70c1faa1288161156b9763df8a4ef6decbfc95dd8a1971f67b3d55b446fe763e54889c2c544212959f = hash found 5d35625dc18df0036d593f0cde49d7e5ff8aba117fa6ab70c1faa1288161156b9763df8a4ef6decbfc95dd8a1971f67b3d55b446fe763e54889c2c544212959f
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/71ftomrimshot/79-ftomrimshot.wav
+#####################
+basic - 95-ftom2rimshot
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/74ftom2rimshot/95-ftom2rimshot.wav
+hash of file =f0195ebd88a93700ad1a528e0039121e9f22beb2be8a865e28fda3009ca3dd52038e9fe1e0b1053a94d1abf6579d9ef2d31041fdbe335848074972206abdb546 = hash found f0195ebd88a93700ad1a528e0039121e9f22beb2be8a865e28fda3009ca3dd52038e9fe1e0b1053a94d1abf6579d9ef2d31041fdbe335848074972206abdb546
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/71ftomrimshot/95-ftomrimshot.wav
+#####################
+basic - 111-snsidestick
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/7snsidestick/111-snsidestick.wav
+hash of file =4206a64f632a5357eb5c08d39eff967e91480e5d85ae5f937024e908465d9cc763870c45cd31ffa5000d78572e9127dc787040263c893137e1cffd6ecefa1238 = hash found 4206a64f632a5357eb5c08d39eff967e91480e5d85ae5f937024e908465d9cc763870c45cd31ffa5000d78572e9127dc787040263c893137e1cffd6ecefa1238
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/10snhalfcircle/111-snhalfcircle.wav
+#####################
+basic - 47-snsidestick
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/7snsidestick/47-snsidestick.wav
+hash of file =c9c340c8c7107e3cceb08a4d2f16f114e35fc6caf585b05b8c0dcdf2e531b8037ba757e983022cea4640b53563c5e95de4fdfee1f37159d07f609e0e648358de = hash found c9c340c8c7107e3cceb08a4d2f16f114e35fc6caf585b05b8c0dcdf2e531b8037ba757e983022cea4640b53563c5e95de4fdfee1f37159d07f609e0e648358de
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/10snhalfcircle/47-snhalfcircle.wav
+#####################
+basic - 63-snsidestick
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/7snsidestick/63-snsidestick.wav
+hash of file =5f77836f8cbf702f50acacf27c8fe354e2c934279c28f9146f5fc530514ea6a3215cee02a333927180bd1647021fd8862f0b144287032e22d39bd6a8536a882e = hash found 5f77836f8cbf702f50acacf27c8fe354e2c934279c28f9146f5fc530514ea6a3215cee02a333927180bd1647021fd8862f0b144287032e22d39bd6a8536a882e
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/10snhalfcircle/63-snhalfcircle.wav
+#####################
+basic - 79-snsidestick
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/7snsidestick/79-snsidestick.wav
+hash of file =4b8ea7c9a412a22e1757284f1a47b43553523ed409b6b81a5a4a9aa2a028bdc28061388a80ab40b183b6a0b0f17ac3a90d88aa0e1322cf085c9f33920763ba6e = hash found 4b8ea7c9a412a22e1757284f1a47b43553523ed409b6b81a5a4a9aa2a028bdc28061388a80ab40b183b6a0b0f17ac3a90d88aa0e1322cf085c9f33920763ba6e
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/10snhalfcircle/79-snhalfcircle.wav
+#####################
+basic - 95-snsidestick
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/7snsidestick/95-snsidestick.wav
+hash of file =ea609d84bc869629cb578937c56d18393b5702ceecc8a1053c092279be4cd743f14b04c752860982b58938abbeedd05dbface78f36997e55cd1156ca994866e4 = hash found ea609d84bc869629cb578937c56d18393b5702ceecc8a1053c092279be4cd743f14b04c752860982b58938abbeedd05dbface78f36997e55cd1156ca994866e4
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/10snhalfcircle/95-snhalfcircle.wav
+#####################
+basic - 111-snmuted
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/8snmuted/111-snmuted.wav
+hash of file =9d987dbf8f3375420f5ebfed03d1f170ddc6e5ef4ddc83fbbd98ca6b953ee817e31da3afe5a73f324b78940bc0ab93ff5cf74feb5fc69fcb969b6fa0e152f8a8 = hash found 9d987dbf8f3375420f5ebfed03d1f170ddc6e5ef4ddc83fbbd98ca6b953ee817e31da3afe5a73f324b78940bc0ab93ff5cf74feb5fc69fcb969b6fa0e152f8a8
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/4sncenteralt/111-sncenteralt.wav
+#####################
+basic - 47-snmuted
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/8snmuted/47-snmuted.wav
+hash of file =433ef6cdecfecf7cd46a3076247295a98d3f6dc6e87f21e698475fba4328613c220c7db572b8933e3d5a6df17ec2fddebb71fb8f73e8440f0f258d1b3f14461c = hash found 433ef6cdecfecf7cd46a3076247295a98d3f6dc6e87f21e698475fba4328613c220c7db572b8933e3d5a6df17ec2fddebb71fb8f73e8440f0f258d1b3f14461c
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/4sncenteralt/47-sncenteralt.wav
+#####################
+basic - 63-snmuted
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/8snmuted/63-snmuted.wav
+hash of file =110f0c31f7acdd7405f6ce1f6eaf5c55bd999c7fafd62701f3a035313d418d6c85d48293ff37174c9c0b52ea817c827f51faa6f0e860b7378814037571ca8835 = hash found 110f0c31f7acdd7405f6ce1f6eaf5c55bd999c7fafd62701f3a035313d418d6c85d48293ff37174c9c0b52ea817c827f51faa6f0e860b7378814037571ca8835
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/4sncenteralt/63-sncenteralt.wav
+#####################
+basic - 79-snmuted
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/8snmuted/79-snmuted.wav
+hash of file =1159935bfdfe34019193209095b00c079672f6997d76f1bce4f99dcd1e47a3a4353d1a96ce6ac360b121e2f08cdbf57ffbcd6e8f54014fbe196f17209b4fd807 = hash found 1159935bfdfe34019193209095b00c079672f6997d76f1bce4f99dcd1e47a3a4353d1a96ce6ac360b121e2f08cdbf57ffbcd6e8f54014fbe196f17209b4fd807
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/4sncenteralt/79-sncenteralt.wav
+#####################
+basic - 95-snmuted
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/8snmuted/95-snmuted.wav
+hash of file =8fb1101068a93634585af7853227b60c4cb3664c960e18f729a236803b0c1cecdb99b7504a101863e662ec57a37812e4a76025b5408c11cd94a93ffbf08903c5 = hash found 8fb1101068a93634585af7853227b60c4cb3664c960e18f729a236803b0c1cecdb99b7504a101863e662ec57a37812e4a76025b5408c11cd94a93ffbf08903c5
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/4sncenteralt/95-sncenteralt.wav
+#####################
+basic - 111-snshortdrag
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/9snshortdrag/111-snshortdrag.wav
+hash of file =5b0d619b9575be630c230b21e957e39d27e236475c1c51af6619ce55b1393a46e60836a851da8baa97ac832a7a34f78ca263423eb68d0f183ebd9abd3eb2b169 = hash found 5b0d619b9575be630c230b21e957e39d27e236475c1c51af6619ce55b1393a46e60836a851da8baa97ac832a7a34f78ca263423eb68d0f183ebd9abd3eb2b169
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/12snflamsdkfh/111-snflamsdkfh.wav
+#####################
+basic - 47-snshortdrag
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/9snshortdrag/47-snshortdrag.wav
+hash of file =0ec8891bacb3a6587463976eb80b765cc299d9367c512054d48eec604f2a1818497a46bbf88ffb3e510a5edd9a07c36e6b258255d0187cff762d6f99ea8d1b17 = hash found 0ec8891bacb3a6587463976eb80b765cc299d9367c512054d48eec604f2a1818497a46bbf88ffb3e510a5edd9a07c36e6b258255d0187cff762d6f99ea8d1b17
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/12snflamsdkfh/47-snflamsdkfh.wav
+#####################
+basic - 63-snshortdrag
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/9snshortdrag/63-snshortdrag.wav
+hash of file =4e7c43e364f4ac9ee80f46133051b1f400a705b78609e528e58231376f0e98e9211ce8eb4f6cba4f54646861f278ac280f65f871e83f0ff206bbb5aff68133eb = hash found 4e7c43e364f4ac9ee80f46133051b1f400a705b78609e528e58231376f0e98e9211ce8eb4f6cba4f54646861f278ac280f65f871e83f0ff206bbb5aff68133eb
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/12snflamsdkfh/63-snflamsdkfh.wav
+#####################
+basic - 79-snshortdrag
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/9snshortdrag/79-snshortdrag.wav
+hash of file =21a8bf245104b59fec40396112b8013827b42ed0274d28c6f412a495b517ff23c2cbc619c9f7bad37b05552c84dc0a12d63ed9da859193520c5d6909a3cb10ac = hash found 21a8bf245104b59fec40396112b8013827b42ed0274d28c6f412a495b517ff23c2cbc619c9f7bad37b05552c84dc0a12d63ed9da859193520c5d6909a3cb10ac
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/12snflamsdkfh/79-snflamsdkfh.wav
+#####################
+basic - 95-snshortdrag
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/9snshortdrag/95-snshortdrag.wav
+hash of file =3988bdf30d773428ea270ab5b87208fe17e14720e601707ab54cfb962c3b129e9a0d07fcf0b7c29ee618b5a9f51b303ed1b7cc5d7cb10b8521f55b7e769301fb = hash found 3988bdf30d773428ea270ab5b87208fe17e14720e601707ab54cfb962c3b129e9a0d07fcf0b7c29ee618b5a9f51b303ed1b7cc5d7cb10b8521f55b7e769301fb
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/1EZdirect/12snflamsdkfh/95-snflamsdkfh.wav
+#####################
+basic - 111-snfullcircle
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/11snfullcircle/111-snfullcircle.wav
+hash of file =206cd1b872ff1d17ae3de475194617c3bebc2502af9f2ba8116084dccff1a6979c6eb0416f67c69ff983a60b4d8516d22a6182097b881a892ac14f03fb290aa6 = hash found 206cd1b872ff1d17ae3de475194617c3bebc2502af9f2ba8116084dccff1a6979c6eb0416f67c69ff983a60b4d8516d22a6182097b881a892ac14f03fb290aa6
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/10snhalfcircle/111-snhalfcircle.wav
+#####################
+basic - 47-snfullcircle
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/11snfullcircle/47-snfullcircle.wav
+hash of file =dedc4b5205c3b0053953d4f1797c11075427c9824deac7be0a91e46a4c301a5f7515f7e1fde6fc32828d28479d5c87c0b9e142a2ea1343f1ac28a6e4df421d52 = hash found dedc4b5205c3b0053953d4f1797c11075427c9824deac7be0a91e46a4c301a5f7515f7e1fde6fc32828d28479d5c87c0b9e142a2ea1343f1ac28a6e4df421d52
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/10snhalfcircle/47-snhalfcircle.wav
+#####################
+basic - 63-snfullcircle
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/11snfullcircle/63-snfullcircle.wav
+hash of file =207df00164b33476c8de38350630d4ad91f656df9c10caa33957e1b063458066ab02aa567045cf4b50b750615b535bfa40e72de7fe0fc9dcbb3eb6e683d4879c = hash found 207df00164b33476c8de38350630d4ad91f656df9c10caa33957e1b063458066ab02aa567045cf4b50b750615b535bfa40e72de7fe0fc9dcbb3eb6e683d4879c
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/10snhalfcircle/63-snhalfcircle.wav
+#####################
+basic - 79-snfullcircle
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/11snfullcircle/79-snfullcircle.wav
+hash of file =b3477b99a88659834bdcd1a0b031cc29e68a5c95c6fa4b88b6e695fbf46460664cb6c1a09d7d2d62a04bf75c7615e337906f1c79ea0898fd119b30b36cde9650 = hash found b3477b99a88659834bdcd1a0b031cc29e68a5c95c6fa4b88b6e695fbf46460664cb6c1a09d7d2d62a04bf75c7615e337906f1c79ea0898fd119b30b36cde9650
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/10snhalfcircle/79-snhalfcircle.wav
+#####################
+basic - 95-snfullcircle
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/11snfullcircle/95-snfullcircle.wav
+hash of file =1de10e8a581919a9fcf0d5c201f146b7bc920266b0569cf8873c065214c842c48b6da694db43cee236efa3aa67a13f05bc3e85161522033b5bff3a919ee23287 = hash found 1de10e8a581919a9fcf0d5c201f146b7bc920266b0569cf8873c065214c842c48b6da694db43cee236efa3aa67a13f05bc3e85161522033b5bff3a919ee23287
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/10snhalfcircle/95-snhalfcircle.wav
+#####################
+basic - 79-hhtightip
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/16hhtightip/79-hhtightip.wav
+hash of file =3f545697bb82464e4b00878001931a43595a658ce7ca2e20d7aa0fd48dd09787ae11402f0ac063c462f7692ed21b2da59a3546e728d2f70329d53de207ea83ce = hash found 3f545697bb82464e4b00878001931a43595a658ce7ca2e20d7aa0fd48dd09787ae11402f0ac063c462f7692ed21b2da59a3546e728d2f70329d53de207ea83ce
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/14hhclosedtip/79-hhclosedtip.wav
+#####################
+basic - 95-hhtightip
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/16hhtightip/95-hhtightip.wav
+hash of file =4d7314e35b5a6752943d44ed0a3d63b333c82756334f17ec888454beedbf8d5f242f1c0d508e9146fc4583c99fa85260eb46a828ce966804eb5fe41757fafdf7 = hash found 4d7314e35b5a6752943d44ed0a3d63b333c82756334f17ec888454beedbf8d5f242f1c0d508e9146fc4583c99fa85260eb46a828ce966804eb5fe41757fafdf7
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/14hhclosedtip/95-hhclosedtip.wav
+#####################
+basic - 63-hhhtrig
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/26hhhtrig/63-hhhtrig.wav
+hash of file =5558f2103fa6f535669d0db27ebae363fe188129a5b66271f072fef249f591fb80b7db6235f799a3638f4d534fefcc34902c2a8fc0a3e97b508e26b2479e7be5 = hash found 5558f2103fa6f535669d0db27ebae363fe188129a5b66271f072fef249f591fb80b7db6235f799a3638f4d534fefcc34902c2a8fc0a3e97b508e26b2479e7be5
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/20hhopn4/63-hhopn4.wav
+#####################
+basic - 79-hhhtrig
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/26hhhtrig/79-hhhtrig.wav
+hash of file =cd51da342cc1399d84b376c6439229d8b1a286052aef64ac567c58fb11eb44f3e9bb253dd4478318c116a56e2197924e64d0d375c99fca2f86b46409a20fe8dc = hash found cd51da342cc1399d84b376c6439229d8b1a286052aef64ac567c58fb11eb44f3e9bb253dd4478318c116a56e2197924e64d0d375c99fca2f86b46409a20fe8dc
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/20hhopn4/79-hhopn4.wav
+#####################
+basic - 95-hhhtrig
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/26hhhtrig/95-hhhtrig.wav
+hash of file =877cc779e3935d204f67ab5fb7ef4bb1b25d56f6db599b114aa05aa172363ba177b9c6a77795fae97c64e00afad8a82cebd82a8468bc5a2fc2c9c3a91a55c18c = hash found 877cc779e3935d204f67ab5fb7ef4bb1b25d56f6db599b114aa05aa172363ba177b9c6a77795fae97c64e00afad8a82cebd82a8468bc5a2fc2c9c3a91a55c18c
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/20hhopn4/95-hhopn4.wav
+#####################
+basic - 111-hhhtiptrig
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/27hhhtiptrig/111-hhhtiptrig.wav
+hash of file =79a9b033c05bb2ed3341f81766e6aaf36b9faeaafb085b8ed5a6b14fb1b16b4a2f9cc357cf39ee9e82ceed6e7bf43a5bb1f3971f04f15e9ee3edaa3c8b2d91e8 = hash found 79a9b033c05bb2ed3341f81766e6aaf36b9faeaafb085b8ed5a6b14fb1b16b4a2f9cc357cf39ee9e82ceed6e7bf43a5bb1f3971f04f15e9ee3edaa3c8b2d91e8
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/20hhopn4/111-hhopn4.wav
+#####################
+basic - 127-hhhtiptrig
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/27hhhtiptrig/127-hhhtiptrig.wav
+hash of file =5b690321ea5fe9f3d5df9d755938549da8eb03cfcb163dfb7960e5533a8b77eb33d651d75a8d9e67e58c026eeb00fd5cbffdd352faa9d938c2fc42a4c0e3972d = hash found 5b690321ea5fe9f3d5df9d755938549da8eb03cfcb163dfb7960e5533a8b77eb33d651d75a8d9e67e58c026eeb00fd5cbffdd352faa9d938c2fc42a4c0e3972d
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/20hhopn4/127-hhopn4.wav
+#####################
+basic - 63-hhhtiptrig
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/27hhhtiptrig/63-hhhtiptrig.wav
+hash of file =5558f2103fa6f535669d0db27ebae363fe188129a5b66271f072fef249f591fb80b7db6235f799a3638f4d534fefcc34902c2a8fc0a3e97b508e26b2479e7be5 = hash found 5558f2103fa6f535669d0db27ebae363fe188129a5b66271f072fef249f591fb80b7db6235f799a3638f4d534fefcc34902c2a8fc0a3e97b508e26b2479e7be5
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/20hhopn4/63-hhopn4.wav
+#####################
+basic - 79-hhhtiptrig
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/27hhhtiptrig/79-hhhtiptrig.wav
+hash of file =cd51da342cc1399d84b376c6439229d8b1a286052aef64ac567c58fb11eb44f3e9bb253dd4478318c116a56e2197924e64d0d375c99fca2f86b46409a20fe8dc = hash found cd51da342cc1399d84b376c6439229d8b1a286052aef64ac567c58fb11eb44f3e9bb253dd4478318c116a56e2197924e64d0d375c99fca2f86b46409a20fe8dc
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/20hhopn4/79-hhopn4.wav
+#####################
+basic - 95-hhhtiptrig
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/27hhhtiptrig/95-hhhtiptrig.wav
+hash of file =877cc779e3935d204f67ab5fb7ef4bb1b25d56f6db599b114aa05aa172363ba177b9c6a77795fae97c64e00afad8a82cebd82a8468bc5a2fc2c9c3a91a55c18c = hash found 877cc779e3935d204f67ab5fb7ef4bb1b25d56f6db599b114aa05aa172363ba177b9c6a77795fae97c64e00afad8a82cebd82a8468bc5a2fc2c9c3a91a55c18c
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/20hhopn4/95-hhopn4.wav
+#####################
+basic - 111-hhclosedtip2
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/29hhclosedtip2/111-hhclosedtip2.wav
+hash of file =77cc21c2cd6c66f76fe45ecdfcf17a2146caf09b30c2f62bcea1b0d22661b396b2b7e2e77477212c8870dceca0ee9d74d6ac1d681ee1926db783400ed21c908e = hash found 77cc21c2cd6c66f76fe45ecdfcf17a2146caf09b30c2f62bcea1b0d22661b396b2b7e2e77477212c8870dceca0ee9d74d6ac1d681ee1926db783400ed21c908e
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/14hhclosedtip/111-hhclosedtip.wav
+#####################
+basic - 79-hhclosedtip2
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/29hhclosedtip2/79-hhclosedtip2.wav
+hash of file =3f545697bb82464e4b00878001931a43595a658ce7ca2e20d7aa0fd48dd09787ae11402f0ac063c462f7692ed21b2da59a3546e728d2f70329d53de207ea83ce = hash found 3f545697bb82464e4b00878001931a43595a658ce7ca2e20d7aa0fd48dd09787ae11402f0ac063c462f7692ed21b2da59a3546e728d2f70329d53de207ea83ce
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/14hhclosedtip/79-hhclosedtip.wav
+#####################
+basic - 95-hhclosedtip2
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/29hhclosedtip2/95-hhclosedtip2.wav
+hash of file =4d7314e35b5a6752943d44ed0a3d63b333c82756334f17ec888454beedbf8d5f242f1c0d508e9146fc4583c99fa85260eb46a828ce966804eb5fe41757fafdf7 = hash found 4d7314e35b5a6752943d44ed0a3d63b333c82756334f17ec888454beedbf8d5f242f1c0d508e9146fc4583c99fa85260eb46a828ce966804eb5fe41757fafdf7
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/14hhclosedtip/95-hhclosedtip.wav
+#####################
+basic - 111-kikleft
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/2kikleft/111-kikleft.wav
+hash of file =ee3c81f3090d4ea79415dd65cc48135b9510195203269f1871068b354b123600bb934187235a3c18b3f12bdbe5d353d3fe613c9e86e2cd552d7b2359e7f63233 = hash found ee3c81f3090d4ea79415dd65cc48135b9510195203269f1871068b354b123600bb934187235a3c18b3f12bdbe5d353d3fe613c9e86e2cd552d7b2359e7f63233
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/0kikhitin/111-kikhitin.wav
+#####################
+basic - 47-kikleft
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/2kikleft/47-kikleft.wav
+hash of file =3790747bb28e2722a225c1889b08b29519103154ae1021da9d560d226124eadf88c1e4b7f05d1a19bce47408dbafe47e7de99821ba36af7b6328bf1935ec9203 = hash found 3790747bb28e2722a225c1889b08b29519103154ae1021da9d560d226124eadf88c1e4b7f05d1a19bce47408dbafe47e7de99821ba36af7b6328bf1935ec9203
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/0kikhitin/47-kikhitin.wav
+#####################
+basic - 63-kikleft
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/2kikleft/63-kikleft.wav
+hash of file =f43491256dd0316a82ff3ce5b4fef0ec6851ccbdc2a51c463596ef300dbd0ab3c0b4550e6b645442fbf3b07cf2104e989ce097788e639a644863715c187b2086 = hash found f43491256dd0316a82ff3ce5b4fef0ec6851ccbdc2a51c463596ef300dbd0ab3c0b4550e6b645442fbf3b07cf2104e989ce097788e639a644863715c187b2086
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/0kikhitin/63-kikhitin.wav
+#####################
+basic - 79-kikleft
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/2kikleft/79-kikleft.wav
+hash of file =e560866d6cd6df79671b8c52337368655d7ab096521d2e43cbfafb2d692374f45275d702b0bada3ba7afcfc4830164365a2e42fc0ad9dd40bd9d1f63646537cd = hash found e560866d6cd6df79671b8c52337368655d7ab096521d2e43cbfafb2d692374f45275d702b0bada3ba7afcfc4830164365a2e42fc0ad9dd40bd9d1f63646537cd
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/0kikhitin/79-kikhitin.wav
+#####################
+basic - 95-kikleft
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/2kikleft/95-kikleft.wav
+hash of file =170626217914d562330446118ce66c6ae29903f9b372c29a0d8e46bc6fa3dfac6b1498250d289f6d62e2811a6a8517789d75d688230bd7075040523d4a53c7a1 = hash found 170626217914d562330446118ce66c6ae29903f9b372c29a0d8e46bc6fa3dfac6b1498250d289f6d62e2811a6a8517789d75d688230bd7075040523d4a53c7a1
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/0kikhitin/95-kikhitin.wav
+#####################
+basic - 111-hhseqhits
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/30hhseqhits/111-hhseqhits.wav
+hash of file =77cc21c2cd6c66f76fe45ecdfcf17a2146caf09b30c2f62bcea1b0d22661b396b2b7e2e77477212c8870dceca0ee9d74d6ac1d681ee1926db783400ed21c908e = hash found 77cc21c2cd6c66f76fe45ecdfcf17a2146caf09b30c2f62bcea1b0d22661b396b2b7e2e77477212c8870dceca0ee9d74d6ac1d681ee1926db783400ed21c908e
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/14hhclosedtip/111-hhclosedtip.wav
+#####################
+basic - 79-hhseqhits
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/30hhseqhits/79-hhseqhits.wav
+hash of file =3f545697bb82464e4b00878001931a43595a658ce7ca2e20d7aa0fd48dd09787ae11402f0ac063c462f7692ed21b2da59a3546e728d2f70329d53de207ea83ce = hash found 3f545697bb82464e4b00878001931a43595a658ce7ca2e20d7aa0fd48dd09787ae11402f0ac063c462f7692ed21b2da59a3546e728d2f70329d53de207ea83ce
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/14hhclosedtip/79-hhclosedtip.wav
+#####################
+basic - 95-hhseqhits
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/30hhseqhits/95-hhseqhits.wav
+hash of file =4d7314e35b5a6752943d44ed0a3d63b333c82756334f17ec888454beedbf8d5f242f1c0d508e9146fc4583c99fa85260eb46a828ce966804eb5fe41757fafdf7 = hash found 4d7314e35b5a6752943d44ed0a3d63b333c82756334f17ec888454beedbf8d5f242f1c0d508e9146fc4583c99fa85260eb46a828ce966804eb5fe41757fafdf7
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/14hhclosedtip/95-hhclosedtip.wav
+#####################
+basic - 111-hhop0
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/31hhop0/111-hhop0.wav
+hash of file =406031649d49e800ec6772f36214ce14c3a7315b12e5a0bbee8f4cf57bdc83b6e930878eb8efbcce6edae21550e4e9fa8991cf894e0a52d10059d38802731c9d = hash found 406031649d49e800ec6772f36214ce14c3a7315b12e5a0bbee8f4cf57bdc83b6e930878eb8efbcce6edae21550e4e9fa8991cf894e0a52d10059d38802731c9d
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/13hhcloseedge/111-hhcloseedge.wav
+#####################
+basic - 79-hhop0
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/31hhop0/79-hhop0.wav
+hash of file =8761a22284cc705f906394c42ae5576154d85fd3b23617100bd08709fff1b27a1fbce9d5267df1e8739a20a551141a7c3d6fed1795e0656cfd972830c5ca5900 = hash found 8761a22284cc705f906394c42ae5576154d85fd3b23617100bd08709fff1b27a1fbce9d5267df1e8739a20a551141a7c3d6fed1795e0656cfd972830c5ca5900
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/13hhcloseedge/79-hhcloseedge.wav
+#####################
+basic - 95-hhop0
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/31hhop0/95-hhop0.wav
+hash of file =8950e65a0d7793ba34e52928b737a30c8e394ad2e3539bca25dd215d70b8ff3b04e6c4a24c4f1e63f809d2459d1e708d786370b777d71896452673fa05d068f3 = hash found 8950e65a0d7793ba34e52928b737a30c8e394ad2e3539bca25dd215d70b8ff3b04e6c4a24c4f1e63f809d2459d1e708d786370b777d71896452673fa05d068f3
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/13hhcloseedge/95-hhcloseedge.wav
+#####################
+basic - 111-hhop5
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/32hhop5/111-hhop5.wav
+hash of file =56b45aa210ee55bdda45eb681f0644471500df6408f0c615bd42341e74400bc9189dd85ea4a85be6128e2e463c5bb92ff1fba263ed7e5237d5ffe3ddc0692aa9 = hash found 56b45aa210ee55bdda45eb681f0644471500df6408f0c615bd42341e74400bc9189dd85ea4a85be6128e2e463c5bb92ff1fba263ed7e5237d5ffe3ddc0692aa9
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/26hhhtrig/111-hhhtrig.wav
+#####################
+basic - 127-hhop5
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/32hhop5/127-hhop5.wav
+hash of file =6b825cca006f6e79328636432b66cde6406b8d81e3da3e4e5de7e225a47421c40ecfa5ddaccb35cca508807056fb85ab1a871c299ebc325b05aa0042a486cbe7 = hash found 6b825cca006f6e79328636432b66cde6406b8d81e3da3e4e5de7e225a47421c40ecfa5ddaccb35cca508807056fb85ab1a871c299ebc325b05aa0042a486cbe7
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/26hhhtrig/127-hhhtrig.wav
+#####################
+basic - 63-hhop5
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/32hhop5/63-hhop5.wav
+hash of file =5558f2103fa6f535669d0db27ebae363fe188129a5b66271f072fef249f591fb80b7db6235f799a3638f4d534fefcc34902c2a8fc0a3e97b508e26b2479e7be5 = hash found 5558f2103fa6f535669d0db27ebae363fe188129a5b66271f072fef249f591fb80b7db6235f799a3638f4d534fefcc34902c2a8fc0a3e97b508e26b2479e7be5
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/20hhopn4/63-hhopn4.wav
+#####################
+basic - 79-hhop5
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/32hhop5/79-hhop5.wav
+hash of file =cd51da342cc1399d84b376c6439229d8b1a286052aef64ac567c58fb11eb44f3e9bb253dd4478318c116a56e2197924e64d0d375c99fca2f86b46409a20fe8dc = hash found cd51da342cc1399d84b376c6439229d8b1a286052aef64ac567c58fb11eb44f3e9bb253dd4478318c116a56e2197924e64d0d375c99fca2f86b46409a20fe8dc
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/20hhopn4/79-hhopn4.wav
+#####################
+basic - 95-hhop5
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/32hhop5/95-hhop5.wav
+hash of file =877cc779e3935d204f67ab5fb7ef4bb1b25d56f6db599b114aa05aa172363ba177b9c6a77795fae97c64e00afad8a82cebd82a8468bc5a2fc2c9c3a91a55c18c = hash found 877cc779e3935d204f67ab5fb7ef4bb1b25d56f6db599b114aa05aa172363ba177b9c6a77795fae97c64e00afad8a82cebd82a8468bc5a2fc2c9c3a91a55c18c
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/20hhopn4/95-hhopn4.wav
+#####################
+basic - 111-hhtiptrig2
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/33hhtiptrig2/111-hhtiptrig2.wav
+hash of file =79a9b033c05bb2ed3341f81766e6aaf36b9faeaafb085b8ed5a6b14fb1b16b4a2f9cc357cf39ee9e82ceed6e7bf43a5bb1f3971f04f15e9ee3edaa3c8b2d91e8 = hash found 79a9b033c05bb2ed3341f81766e6aaf36b9faeaafb085b8ed5a6b14fb1b16b4a2f9cc357cf39ee9e82ceed6e7bf43a5bb1f3971f04f15e9ee3edaa3c8b2d91e8
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/20hhopn4/111-hhopn4.wav
+#####################
+basic - 127-hhtiptrig2
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/33hhtiptrig2/127-hhtiptrig2.wav
+hash of file =5b690321ea5fe9f3d5df9d755938549da8eb03cfcb163dfb7960e5533a8b77eb33d651d75a8d9e67e58c026eeb00fd5cbffdd352faa9d938c2fc42a4c0e3972d = hash found 5b690321ea5fe9f3d5df9d755938549da8eb03cfcb163dfb7960e5533a8b77eb33d651d75a8d9e67e58c026eeb00fd5cbffdd352faa9d938c2fc42a4c0e3972d
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/20hhopn4/127-hhopn4.wav
+#####################
+basic - 63-hhtiptrig2
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/33hhtiptrig2/63-hhtiptrig2.wav
+hash of file =5558f2103fa6f535669d0db27ebae363fe188129a5b66271f072fef249f591fb80b7db6235f799a3638f4d534fefcc34902c2a8fc0a3e97b508e26b2479e7be5 = hash found 5558f2103fa6f535669d0db27ebae363fe188129a5b66271f072fef249f591fb80b7db6235f799a3638f4d534fefcc34902c2a8fc0a3e97b508e26b2479e7be5
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/20hhopn4/63-hhopn4.wav
+#####################
+basic - 79-hhtiptrig2
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/33hhtiptrig2/79-hhtiptrig2.wav
+hash of file =cd51da342cc1399d84b376c6439229d8b1a286052aef64ac567c58fb11eb44f3e9bb253dd4478318c116a56e2197924e64d0d375c99fca2f86b46409a20fe8dc = hash found cd51da342cc1399d84b376c6439229d8b1a286052aef64ac567c58fb11eb44f3e9bb253dd4478318c116a56e2197924e64d0d375c99fca2f86b46409a20fe8dc
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/20hhopn4/79-hhopn4.wav
+#####################
+basic - 95-hhtiptrig2
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/33hhtiptrig2/95-hhtiptrig2.wav
+hash of file =877cc779e3935d204f67ab5fb7ef4bb1b25d56f6db599b114aa05aa172363ba177b9c6a77795fae97c64e00afad8a82cebd82a8468bc5a2fc2c9c3a91a55c18c = hash found 877cc779e3935d204f67ab5fb7ef4bb1b25d56f6db599b114aa05aa172363ba177b9c6a77795fae97c64e00afad8a82cebd82a8468bc5a2fc2c9c3a91a55c18c
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/20hhopn4/95-hhopn4.wav
+#####################
+basic - 63-splashcrash
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/36splashcrash/63-splashcrash.wav
+hash of file =557b8d8fedca1d4e06d87fe40b3dee2dff60c7bf6d9a38c36697860482b14baabcf6716d997ef02032e8d9c4070620c2dffb5004e6b90efbae210851740a8bf5 = hash found 557b8d8fedca1d4e06d87fe40b3dee2dff60c7bf6d9a38c36697860482b14baabcf6716d997ef02032e8d9c4070620c2dffb5004e6b90efbae210851740a8bf5
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/34cymbal1crash/63-cymbal1crash.wav
+#####################
+basic - 79-splashcrash
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/36splashcrash/79-splashcrash.wav
+hash of file =0ee4db7ee1d986137eae4da8a2909cc4df3b51ab4d5e0a83df6b0c12f932245ed126f2312c913bac2122fe3c318a371d3c0e1ed3891becdec61c6153c89c9fc9 = hash found 0ee4db7ee1d986137eae4da8a2909cc4df3b51ab4d5e0a83df6b0c12f932245ed126f2312c913bac2122fe3c318a371d3c0e1ed3891becdec61c6153c89c9fc9
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/34cymbal1crash/79-cymbal1crash.wav
+#####################
+basic - 63-splash2crashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/38splash2crashdkfh/63-splash2crashdkfh.wav
+hash of file =caecdaac244712bbc1c88d78790f71cd674fa4d3ab19e3dca63db72d30c56e72333c7b8f9786ca7bbeaafc0fe6f19e143e8a8bc7645f0c122a3552e0e5cb7c05 = hash found caecdaac244712bbc1c88d78790f71cd674fa4d3ab19e3dca63db72d30c56e72333c7b8f9786ca7bbeaafc0fe6f19e143e8a8bc7645f0c122a3552e0e5cb7c05
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/28hhhbelltrig-cymbal3crash/63-hhhbelltrig-cymbal3crash.wav
+#####################
+basic - 79-splash2crashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/38splash2crashdkfh/79-splash2crashdkfh.wav
+hash of file =de350a565f34d148db011660bb0457a218d26fc6378297d3249c84f08819565ab162517dcbb7b809eaa708779f772f89617d9f9a976415e616f50d894385223d = hash found de350a565f34d148db011660bb0457a218d26fc6378297d3249c84f08819565ab162517dcbb7b809eaa708779f772f89617d9f9a976415e616f50d894385223d
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/28hhhbelltrig-cymbal3crash/79-hhhbelltrig-cymbal3crash.wav
+#####################
+basic - 63-splash3crashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/39splash3crashdkfh/63-splash3crashdkfh.wav
+hash of file =caecdaac244712bbc1c88d78790f71cd674fa4d3ab19e3dca63db72d30c56e72333c7b8f9786ca7bbeaafc0fe6f19e143e8a8bc7645f0c122a3552e0e5cb7c05 = hash found caecdaac244712bbc1c88d78790f71cd674fa4d3ab19e3dca63db72d30c56e72333c7b8f9786ca7bbeaafc0fe6f19e143e8a8bc7645f0c122a3552e0e5cb7c05
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/28hhhbelltrig-cymbal3crash/63-hhhbelltrig-cymbal3crash.wav
+#####################
+basic - 79-splash3crashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/39splash3crashdkfh/79-splash3crashdkfh.wav
+hash of file =de350a565f34d148db011660bb0457a218d26fc6378297d3249c84f08819565ab162517dcbb7b809eaa708779f772f89617d9f9a976415e616f50d894385223d = hash found de350a565f34d148db011660bb0457a218d26fc6378297d3249c84f08819565ab162517dcbb7b809eaa708779f772f89617d9f9a976415e616f50d894385223d
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/28hhhbelltrig-cymbal3crash/79-hhhbelltrig-cymbal3crash.wav
+#####################
+basic - 111-sncenter
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/3sncenter/111-sncenter.wav
+hash of file =1cb491ff9e7bafee8349585947a96af0a33e013f523f235319cd64296a7e6493eded3c8a7aba65bdf3673025379cbe82d2a0996b46e55d906f91f0e416f5a24f = hash found 1cb491ff9e7bafee8349585947a96af0a33e013f523f235319cd64296a7e6493eded3c8a7aba65bdf3673025379cbe82d2a0996b46e55d906f91f0e416f5a24f
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/12snflamsdkfh/111-snflamsdkfh.wav
+#####################
+basic - 47-sncenter
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/3sncenter/47-sncenter.wav
+hash of file =f38fc632ec252f4744679c496cc83e677fc7477cb8d823123db9b2253bebbbe87f9bd46cb83bce8e0aca01c146f5c755cb209aedf53214ff1abb132f2b8de9ef = hash found f38fc632ec252f4744679c496cc83e677fc7477cb8d823123db9b2253bebbbe87f9bd46cb83bce8e0aca01c146f5c755cb209aedf53214ff1abb132f2b8de9ef
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/12snflamsdkfh/47-snflamsdkfh.wav
+#####################
+basic - 63-sncenter
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/3sncenter/63-sncenter.wav
+hash of file =b1d1f0b5135e750d79b51e25002fb15930708cdd7bbdfe9d590148946c18440eca84ad83ea3a5b6d3dfe493e3d666d1ec5bbdd85df5b0f509edd048fafd391fc = hash found b1d1f0b5135e750d79b51e25002fb15930708cdd7bbdfe9d590148946c18440eca84ad83ea3a5b6d3dfe493e3d666d1ec5bbdd85df5b0f509edd048fafd391fc
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/12snflamsdkfh/63-snflamsdkfh.wav
+#####################
+basic - 79-sncenter
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/3sncenter/79-sncenter.wav
+hash of file =5edc78a8b581e66009f030aac230673dff39f30ce5404cc8583135cd8853dc1cce729efab87d8dcc5de62372ba6ed912dee5a49d4433affcda654840520a6c61 = hash found 5edc78a8b581e66009f030aac230673dff39f30ce5404cc8583135cd8853dc1cce729efab87d8dcc5de62372ba6ed912dee5a49d4433affcda654840520a6c61
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/12snflamsdkfh/79-snflamsdkfh.wav
+#####################
+basic - 95-sncenter
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/3sncenter/95-sncenter.wav
+hash of file =18deab9d133e5ff3b091563057efcc7b3a08ed955a3532a9bb7cc6651b631d220c6fff07a801ba8abf234b7ab9d64e00c41c57b811cc23a32c3ac08ae695d7d2 = hash found 18deab9d133e5ff3b091563057efcc7b3a08ed955a3532a9bb7cc6651b631d220c6fff07a801ba8abf234b7ab9d64e00c41c57b811cc23a32c3ac08ae695d7d2
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/12snflamsdkfh/95-snflamsdkfh.wav
+#####################
+basic - 111-cymbal2crash-crshridecrash
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/40cymbal2crash-crshridecrash/111-cymbal2crash-crshridecrash.wav
+hash of file =90253e5e41c1a79c42074b2103fb628458294db1256500d7c882eb00d0f02c494793ab54c4095df4155a3d9498b2e351a2845169699a9503edd7cd851050081f = hash found 90253e5e41c1a79c42074b2103fb628458294db1256500d7c882eb00d0f02c494793ab54c4095df4155a3d9498b2e351a2845169699a9503edd7cd851050081f
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/34cymbal1crash/111-cymbal1crash.wav
+#####################
+basic - 127-cymbal2crash-crshridecrash
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/40cymbal2crash-crshridecrash/127-cymbal2crash-crshridecrash.wav
+hash of file =5cc73ed4a382c55b973770bd0ec59faa16c6ac69afc5f492d737c1b56a192062ddc677d2f8d1e71e92209155d36ea59d7977aa92b0d6f16cc4d3aca59581df72 = hash found 5cc73ed4a382c55b973770bd0ec59faa16c6ac69afc5f492d737c1b56a192062ddc677d2f8d1e71e92209155d36ea59d7977aa92b0d6f16cc4d3aca59581df72
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/34cymbal1crash/127-cymbal1crash.wav
+#####################
+basic - 63-cymbal2crash-crshridecrash
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/40cymbal2crash-crshridecrash/63-cymbal2crash-crshridecrash.wav
+hash of file =557b8d8fedca1d4e06d87fe40b3dee2dff60c7bf6d9a38c36697860482b14baabcf6716d997ef02032e8d9c4070620c2dffb5004e6b90efbae210851740a8bf5 = hash found 557b8d8fedca1d4e06d87fe40b3dee2dff60c7bf6d9a38c36697860482b14baabcf6716d997ef02032e8d9c4070620c2dffb5004e6b90efbae210851740a8bf5
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/34cymbal1crash/63-cymbal1crash.wav
+#####################
+basic - 79-cymbal2crash-crshridecrash
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/40cymbal2crash-crshridecrash/79-cymbal2crash-crshridecrash.wav
+hash of file =0ee4db7ee1d986137eae4da8a2909cc4df3b51ab4d5e0a83df6b0c12f932245ed126f2312c913bac2122fe3c318a371d3c0e1ed3891becdec61c6153c89c9fc9 = hash found 0ee4db7ee1d986137eae4da8a2909cc4df3b51ab4d5e0a83df6b0c12f932245ed126f2312c913bac2122fe3c318a371d3c0e1ed3891becdec61c6153c89c9fc9
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/34cymbal1crash/79-cymbal1crash.wav
+#####################
+basic - 95-cymbal2crash-crshridecrash
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/40cymbal2crash-crshridecrash/95-cymbal2crash-crshridecrash.wav
+hash of file =301bb08fdef86267097646e447d18c3726f52d7b965d05baaa82711b232d9ce307b331b495be570b5a92ae0a1ae23afa73fdd6cf3a9881e39b44a17c4f331308 = hash found 301bb08fdef86267097646e447d18c3726f52d7b965d05baaa82711b232d9ce307b331b495be570b5a92ae0a1ae23afa73fdd6cf3a9881e39b44a17c4f331308
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/34cymbal1crash/95-cymbal1crash.wav
+#####################
+basic - 111-crshridemute
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/41crshridemute/111-crshridemute.wav
+hash of file =7c91a8a331aba5ee1bbe9e621330803a51a6b771afbabf0dfca05b6cba863ccebc2d7331103adb52045d65eed130fe3f2f9b199fb0b5a4549a70e118e7368e73 = hash found 7c91a8a331aba5ee1bbe9e621330803a51a6b771afbabf0dfca05b6cba863ccebc2d7331103adb52045d65eed130fe3f2f9b199fb0b5a4549a70e118e7368e73
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/35cymbal1mutehit/111-cymbal1mutehit.wav
+#####################
+basic - 127-crshridemute
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/41crshridemute/127-crshridemute.wav
+hash of file =25c8bab85ec2b62d1dfed580f428a5b465d420c6ff5dadc49390f474d6727f28e0a452b4ae45ae5f72bc2c299fbd1f1f92064ba5c8dba1e3761aed03246a4e3b = hash found 25c8bab85ec2b62d1dfed580f428a5b465d420c6ff5dadc49390f474d6727f28e0a452b4ae45ae5f72bc2c299fbd1f1f92064ba5c8dba1e3761aed03246a4e3b
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/35cymbal1mutehit/127-cymbal1mutehit.wav
+#####################
+basic - 47-crshridemute
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/41crshridemute/47-crshridemute.wav
+hash of file =4d3483b2d6f1c41a62fa786887286b28924fddc7f9d9d5b5d886ad5deaa261fcc1287b730ad124fabbdf25d91f5dd1c85c026bd1374858a739ad4590b12f3615 = hash found 4d3483b2d6f1c41a62fa786887286b28924fddc7f9d9d5b5d886ad5deaa261fcc1287b730ad124fabbdf25d91f5dd1c85c026bd1374858a739ad4590b12f3615
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/35cymbal1mutehit/47-cymbal1mutehit.wav
+#####################
+basic - 63-crshridemute
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/41crshridemute/63-crshridemute.wav
+hash of file =44dc4dfc1e75a3d991bb759ba50667266bb1b54c3cc562fdfe672696e4838768a171335fb15574106c0abb760022e8d3cf6ef633dcbdc352620f02e5046474a9 = hash found 44dc4dfc1e75a3d991bb759ba50667266bb1b54c3cc562fdfe672696e4838768a171335fb15574106c0abb760022e8d3cf6ef633dcbdc352620f02e5046474a9
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/35cymbal1mutehit/63-cymbal1mutehit.wav
+#####################
+basic - 79-crshridemute
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/41crshridemute/79-crshridemute.wav
+hash of file =1d9ff53d743effe6cdaeaed03111db889bd0bd088a4fd14d1e3b7cdc245f1076b46226180e2fca9eeb34773652467903b16751b8788768ff8c8bd5d56056885e = hash found 1d9ff53d743effe6cdaeaed03111db889bd0bd088a4fd14d1e3b7cdc245f1076b46226180e2fca9eeb34773652467903b16751b8788768ff8c8bd5d56056885e
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/35cymbal1mutehit/79-cymbal1mutehit.wav
+#####################
+basic - 95-crshridemute
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/41crshridemute/95-crshridemute.wav
+hash of file =e1b8e25e1c4c83d076882286b8c3225e71d9453d2da32989a160dc159d6491db3f6b3dafde2bb2c0d35fe0b2d12b03ecd6e4f805ff88d9a8e61415e4d4ff2de8 = hash found e1b8e25e1c4c83d076882286b8c3225e71d9453d2da32989a160dc159d6491db3f6b3dafde2bb2c0d35fe0b2d12b03ecd6e4f805ff88d9a8e61415e4d4ff2de8
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/35cymbal1mutehit/95-cymbal1mutehit.wav
+#####################
+basic - 63-crashride1punchdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/44crashride1punchdkfh/63-crashride1punchdkfh.wav
+hash of file =caecdaac244712bbc1c88d78790f71cd674fa4d3ab19e3dca63db72d30c56e72333c7b8f9786ca7bbeaafc0fe6f19e143e8a8bc7645f0c122a3552e0e5cb7c05 = hash found caecdaac244712bbc1c88d78790f71cd674fa4d3ab19e3dca63db72d30c56e72333c7b8f9786ca7bbeaafc0fe6f19e143e8a8bc7645f0c122a3552e0e5cb7c05
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/28hhhbelltrig-cymbal3crash/63-hhhbelltrig-cymbal3crash.wav
+#####################
+basic - 79-crashride1punchdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/44crashride1punchdkfh/79-crashride1punchdkfh.wav
+hash of file =de350a565f34d148db011660bb0457a218d26fc6378297d3249c84f08819565ab162517dcbb7b809eaa708779f772f89617d9f9a976415e616f50d894385223d = hash found de350a565f34d148db011660bb0457a218d26fc6378297d3249c84f08819565ab162517dcbb7b809eaa708779f772f89617d9f9a976415e616f50d894385223d
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/28hhhbelltrig-cymbal3crash/79-hhhbelltrig-cymbal3crash.wav
+#####################
+basic - 79-crashride2ridedkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/46crashride2ridedkfh/79-crashride2ridedkfh.wav
+hash of file =b30f69605a63c6999dc8b2dcebf76c8534758d9ad904679aec484e13f8a2cefea667f1bdb2100b25a65b7ce0a158e5ca8776d85342ee23daecadabc079f71805 = hash found b30f69605a63c6999dc8b2dcebf76c8534758d9ad904679aec484e13f8a2cefea667f1bdb2100b25a65b7ce0a158e5ca8776d85342ee23daecadabc079f71805
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/42crashride1ridedkfh/79-crashride1ridedkfh.wav
+#####################
+basic - 47-crashride2belldkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/47crashride2belldkfh/47-crashride2belldkfh.wav
+hash of file =e2ed7749667ffaa1b31894937a005bb371001a119f245d1b6a964d0f889bacc417bf3c154a306981de303410d1c693790c9f080a9cbf758f5cd2e01a9956f56b = hash found e2ed7749667ffaa1b31894937a005bb371001a119f245d1b6a964d0f889bacc417bf3c154a306981de303410d1c693790c9f080a9cbf758f5cd2e01a9956f56b
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/43crashride1belldkfh/47-crashride1belldkfh.wav
+#####################
+basic - 63-crashride2belldkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/47crashride2belldkfh/63-crashride2belldkfh.wav
+hash of file =c0796d151d1bdbb38ce46b476271f2f54c4da2afeb5d18389e9598ccb50b72b9cf7af6aed2ad2187294346a0c7d310f9f4921c6f2aa139a8e15ff7dea4710c5a = hash found c0796d151d1bdbb38ce46b476271f2f54c4da2afeb5d18389e9598ccb50b72b9cf7af6aed2ad2187294346a0c7d310f9f4921c6f2aa139a8e15ff7dea4710c5a
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/43crashride1belldkfh/63-crashride1belldkfh.wav
+#####################
+basic - 79-crashride2belldkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/47crashride2belldkfh/79-crashride2belldkfh.wav
+hash of file =133f765a97511b197a822a5baf7eb7913803f7aa2e18bbb1ad7729dcfedc30333005d63f6aa061509ec64b2c13c3795a2c11e81467a83caf8de7d2cab78ff216 = hash found 133f765a97511b197a822a5baf7eb7913803f7aa2e18bbb1ad7729dcfedc30333005d63f6aa061509ec64b2c13c3795a2c11e81467a83caf8de7d2cab78ff216
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/43crashride1belldkfh/79-crashride1belldkfh.wav
+#####################
+basic - 63-crashride2punchdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/48crashride2punchdkfh/63-crashride2punchdkfh.wav
+hash of file =caecdaac244712bbc1c88d78790f71cd674fa4d3ab19e3dca63db72d30c56e72333c7b8f9786ca7bbeaafc0fe6f19e143e8a8bc7645f0c122a3552e0e5cb7c05 = hash found caecdaac244712bbc1c88d78790f71cd674fa4d3ab19e3dca63db72d30c56e72333c7b8f9786ca7bbeaafc0fe6f19e143e8a8bc7645f0c122a3552e0e5cb7c05
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/28hhhbelltrig-cymbal3crash/63-hhhbelltrig-cymbal3crash.wav
+#####################
+basic - 79-crashride2punchdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/48crashride2punchdkfh/79-crashride2punchdkfh.wav
+hash of file =de350a565f34d148db011660bb0457a218d26fc6378297d3249c84f08819565ab162517dcbb7b809eaa708779f772f89617d9f9a976415e616f50d894385223d = hash found de350a565f34d148db011660bb0457a218d26fc6378297d3249c84f08819565ab162517dcbb7b809eaa708779f772f89617d9f9a976415e616f50d894385223d
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/28hhhbelltrig-cymbal3crash/79-hhhbelltrig-cymbal3crash.wav
+#####################
+basic - 111-crashbcrashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/49crashbcrashdkfh/111-crashbcrashdkfh.wav
+hash of file =f220cb65bbe0517a42947180320ace510fc67f3b92b79b1ac4ce4717fe2ed02cb72ddcce1adf958503adbb2c3658b22e3d41ad5761aadb96a7f945fbd0023b89 = hash found f220cb65bbe0517a42947180320ace510fc67f3b92b79b1ac4ce4717fe2ed02cb72ddcce1adf958503adbb2c3658b22e3d41ad5761aadb96a7f945fbd0023b89
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/44crashride1punchdkfh/111-crashride1punchdkfh.wav
+#####################
+basic - 127-crashbcrashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/49crashbcrashdkfh/127-crashbcrashdkfh.wav
+hash of file =7afeb62da24501ed1df03352a2aaef37d4384dc89ec42a65321aebe9a4355954833bed8752f9762d86ba7f4a8dfa4f6aa2f49b3877a8b8dff58bcb7119b8d81d = hash found 7afeb62da24501ed1df03352a2aaef37d4384dc89ec42a65321aebe9a4355954833bed8752f9762d86ba7f4a8dfa4f6aa2f49b3877a8b8dff58bcb7119b8d81d
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/44crashride1punchdkfh/127-crashride1punchdkfh.wav
+#####################
+basic - 63-crashbcrashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/49crashbcrashdkfh/63-crashbcrashdkfh.wav
+hash of file =caecdaac244712bbc1c88d78790f71cd674fa4d3ab19e3dca63db72d30c56e72333c7b8f9786ca7bbeaafc0fe6f19e143e8a8bc7645f0c122a3552e0e5cb7c05 = hash found caecdaac244712bbc1c88d78790f71cd674fa4d3ab19e3dca63db72d30c56e72333c7b8f9786ca7bbeaafc0fe6f19e143e8a8bc7645f0c122a3552e0e5cb7c05
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/28hhhbelltrig-cymbal3crash/63-hhhbelltrig-cymbal3crash.wav
+#####################
+basic - 79-crashbcrashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/49crashbcrashdkfh/79-crashbcrashdkfh.wav
+hash of file =de350a565f34d148db011660bb0457a218d26fc6378297d3249c84f08819565ab162517dcbb7b809eaa708779f772f89617d9f9a976415e616f50d894385223d = hash found de350a565f34d148db011660bb0457a218d26fc6378297d3249c84f08819565ab162517dcbb7b809eaa708779f772f89617d9f9a976415e616f50d894385223d
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/28hhhbelltrig-cymbal3crash/79-hhhbelltrig-cymbal3crash.wav
+#####################
+basic - 95-crashbcrashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/49crashbcrashdkfh/95-crashbcrashdkfh.wav
+hash of file =1b3848e61519f4d94d5d0fe2c1ba7c37516e7afa70e05019758f634280f76ca129cdbad59b0bdccdc48ac980d7fff2e46bc9bb46c606ba245e18544065166eec = hash found 1b3848e61519f4d94d5d0fe2c1ba7c37516e7afa70e05019758f634280f76ca129cdbad59b0bdccdc48ac980d7fff2e46bc9bb46c606ba245e18544065166eec
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/44crashride1punchdkfh/95-crashride1punchdkfh.wav
+#####################
+basic - 79-ridebowtip
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/53ridebowtip/79-ridebowtip.wav
+hash of file =b30f69605a63c6999dc8b2dcebf76c8534758d9ad904679aec484e13f8a2cefea667f1bdb2100b25a65b7ce0a158e5ca8776d85342ee23daecadabc079f71805 = hash found b30f69605a63c6999dc8b2dcebf76c8534758d9ad904679aec484e13f8a2cefea667f1bdb2100b25a65b7ce0a158e5ca8776d85342ee23daecadabc079f71805
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/42crashride1ridedkfh/79-crashride1ridedkfh.wav
+#####################
+basic - 63-ridebowshank-chinacrash
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/54ridebowshank-chinacrash/63-ridebowshank-chinacrash.wav
+hash of file =4fa87378c9ae9369aacbe1d23e134322802d2ddaeb62edd17c43dc7df00f6dfc69debcf42ef1267f68b5b5dbad21add5f27f25239e70bbdc9d4b74ff57454297 = hash found 4fa87378c9ae9369aacbe1d23e134322802d2ddaeb62edd17c43dc7df00f6dfc69debcf42ef1267f68b5b5dbad21add5f27f25239e70bbdc9d4b74ff57454297
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/45crashride1crescdkfh/63-crashride1crescdkfh.wav
+#####################
+basic - 79-ridebowshank-chinacrash
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/54ridebowshank-chinacrash/79-ridebowshank-chinacrash.wav
+hash of file =75abc553a6451a1eeb787f3f0b10b33e72b9bfdc1cf93da127ab5603cace129f86e9bb043090b348df3120b062917aa9a82bed12a3b9fca92739b2b5c4e71fc5 = hash found 75abc553a6451a1eeb787f3f0b10b33e72b9bfdc1cf93da127ab5603cace129f86e9bb043090b348df3120b062917aa9a82bed12a3b9fca92739b2b5c4e71fc5
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/45crashride1crescdkfh/79-crashride1crescdkfh.wav
+#####################
+basic - 47-ridebellshank
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/55ridebellshank/47-ridebellshank.wav
+hash of file =e2ed7749667ffaa1b31894937a005bb371001a119f245d1b6a964d0f889bacc417bf3c154a306981de303410d1c693790c9f080a9cbf758f5cd2e01a9956f56b = hash found e2ed7749667ffaa1b31894937a005bb371001a119f245d1b6a964d0f889bacc417bf3c154a306981de303410d1c693790c9f080a9cbf758f5cd2e01a9956f56b
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/43crashride1belldkfh/47-crashride1belldkfh.wav
+#####################
+basic - 63-ridebellshank
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/55ridebellshank/63-ridebellshank.wav
+hash of file =c0796d151d1bdbb38ce46b476271f2f54c4da2afeb5d18389e9598ccb50b72b9cf7af6aed2ad2187294346a0c7d310f9f4921c6f2aa139a8e15ff7dea4710c5a = hash found c0796d151d1bdbb38ce46b476271f2f54c4da2afeb5d18389e9598ccb50b72b9cf7af6aed2ad2187294346a0c7d310f9f4921c6f2aa139a8e15ff7dea4710c5a
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/43crashride1belldkfh/63-crashride1belldkfh.wav
+#####################
+basic - 63-rideedge
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/56rideedge/63-rideedge.wav
+hash of file =caecdaac244712bbc1c88d78790f71cd674fa4d3ab19e3dca63db72d30c56e72333c7b8f9786ca7bbeaafc0fe6f19e143e8a8bc7645f0c122a3552e0e5cb7c05 = hash found caecdaac244712bbc1c88d78790f71cd674fa4d3ab19e3dca63db72d30c56e72333c7b8f9786ca7bbeaafc0fe6f19e143e8a8bc7645f0c122a3552e0e5cb7c05
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/28hhhbelltrig-cymbal3crash/63-hhhbelltrig-cymbal3crash.wav
+#####################
+basic - 79-rideedge
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/56rideedge/79-rideedge.wav
+hash of file =de350a565f34d148db011660bb0457a218d26fc6378297d3249c84f08819565ab162517dcbb7b809eaa708779f772f89617d9f9a976415e616f50d894385223d = hash found de350a565f34d148db011660bb0457a218d26fc6378297d3249c84f08819565ab162517dcbb7b809eaa708779f772f89617d9f9a976415e616f50d894385223d
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/28hhhbelltrig-cymbal3crash/79-hhhbelltrig-cymbal3crash.wav
+#####################
+basic - 111-china3crashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/57china3crashdkfh/111-china3crashdkfh.wav
+hash of file =85b075f7259d984a24212049b8215d01266b05ec6cc3584019051f8e44aac66e880c5c3b3971e25aeb86a11068c04490edb9ab8229fdf0a047eeadc671574b46 = hash found 85b075f7259d984a24212049b8215d01266b05ec6cc3584019051f8e44aac66e880c5c3b3971e25aeb86a11068c04490edb9ab8229fdf0a047eeadc671574b46
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/36splashcrash/111-splashcrash.wav
+#####################
+basic - 127-china3crashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/57china3crashdkfh/127-china3crashdkfh.wav
+hash of file =21fb2ee4b1b5f2b27c9f0668fcbd72ab2ad38a321a3bf7c03e51d158af2f4e9b2e408e8e070e19c6d69bc8e64f55c34f931dd1d04e7938abb169442f13e4c92d = hash found 21fb2ee4b1b5f2b27c9f0668fcbd72ab2ad38a321a3bf7c03e51d158af2f4e9b2e408e8e070e19c6d69bc8e64f55c34f931dd1d04e7938abb169442f13e4c92d
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/36splashcrash/127-splashcrash.wav
+#####################
+basic - 63-china3crashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/57china3crashdkfh/63-china3crashdkfh.wav
+hash of file =557b8d8fedca1d4e06d87fe40b3dee2dff60c7bf6d9a38c36697860482b14baabcf6716d997ef02032e8d9c4070620c2dffb5004e6b90efbae210851740a8bf5 = hash found 557b8d8fedca1d4e06d87fe40b3dee2dff60c7bf6d9a38c36697860482b14baabcf6716d997ef02032e8d9c4070620c2dffb5004e6b90efbae210851740a8bf5
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/34cymbal1crash/63-cymbal1crash.wav
+#####################
+basic - 79-china3crashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/57china3crashdkfh/79-china3crashdkfh.wav
+hash of file =0ee4db7ee1d986137eae4da8a2909cc4df3b51ab4d5e0a83df6b0c12f932245ed126f2312c913bac2122fe3c318a371d3c0e1ed3891becdec61c6153c89c9fc9 = hash found 0ee4db7ee1d986137eae4da8a2909cc4df3b51ab4d5e0a83df6b0c12f932245ed126f2312c913bac2122fe3c318a371d3c0e1ed3891becdec61c6153c89c9fc9
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/34cymbal1crash/79-cymbal1crash.wav
+#####################
+basic - 95-china3crashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/57china3crashdkfh/95-china3crashdkfh.wav
+hash of file =a18b890cd4613d373d748a973b1563700d12b8210f20795e6e27789b06dae9efd32269269a979497ae5cc8461eb240b3dcc16b1e23aef25cdc9a81170c8e320f = hash found a18b890cd4613d373d748a973b1563700d12b8210f20795e6e27789b06dae9efd32269269a979497ae5cc8461eb240b3dcc16b1e23aef25cdc9a81170c8e320f
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/36splashcrash/95-splashcrash.wav
+#####################
+basic - 63-china2crashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/59china2crashdkfh/63-china2crashdkfh.wav
+hash of file =557b8d8fedca1d4e06d87fe40b3dee2dff60c7bf6d9a38c36697860482b14baabcf6716d997ef02032e8d9c4070620c2dffb5004e6b90efbae210851740a8bf5 = hash found 557b8d8fedca1d4e06d87fe40b3dee2dff60c7bf6d9a38c36697860482b14baabcf6716d997ef02032e8d9c4070620c2dffb5004e6b90efbae210851740a8bf5
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/34cymbal1crash/63-cymbal1crash.wav
+#####################
+basic - 79-china2crashdkfh
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/59china2crashdkfh/79-china2crashdkfh.wav
+hash of file =0ee4db7ee1d986137eae4da8a2909cc4df3b51ab4d5e0a83df6b0c12f932245ed126f2312c913bac2122fe3c318a371d3c0e1ed3891becdec61c6153c89c9fc9 = hash found 0ee4db7ee1d986137eae4da8a2909cc4df3b51ab4d5e0a83df6b0c12f932245ed126f2312c913bac2122fe3c318a371d3c0e1ed3891becdec61c6153c89c9fc9
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/34cymbal1crash/79-cymbal1crash.wav
+#####################
+basic - 111-chinamutehit
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/60chinamutehit/111-chinamutehit.wav
+hash of file =7c91a8a331aba5ee1bbe9e621330803a51a6b771afbabf0dfca05b6cba863ccebc2d7331103adb52045d65eed130fe3f2f9b199fb0b5a4549a70e118e7368e73 = hash found 7c91a8a331aba5ee1bbe9e621330803a51a6b771afbabf0dfca05b6cba863ccebc2d7331103adb52045d65eed130fe3f2f9b199fb0b5a4549a70e118e7368e73
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/35cymbal1mutehit/111-cymbal1mutehit.wav
+#####################
+basic - 127-chinamutehit
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/60chinamutehit/127-chinamutehit.wav
+hash of file =25c8bab85ec2b62d1dfed580f428a5b465d420c6ff5dadc49390f474d6727f28e0a452b4ae45ae5f72bc2c299fbd1f1f92064ba5c8dba1e3761aed03246a4e3b = hash found 25c8bab85ec2b62d1dfed580f428a5b465d420c6ff5dadc49390f474d6727f28e0a452b4ae45ae5f72bc2c299fbd1f1f92064ba5c8dba1e3761aed03246a4e3b
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/35cymbal1mutehit/127-cymbal1mutehit.wav
+#####################
+basic - 47-chinamutehit
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/60chinamutehit/47-chinamutehit.wav
+hash of file =4d3483b2d6f1c41a62fa786887286b28924fddc7f9d9d5b5d886ad5deaa261fcc1287b730ad124fabbdf25d91f5dd1c85c026bd1374858a739ad4590b12f3615 = hash found 4d3483b2d6f1c41a62fa786887286b28924fddc7f9d9d5b5d886ad5deaa261fcc1287b730ad124fabbdf25d91f5dd1c85c026bd1374858a739ad4590b12f3615
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/35cymbal1mutehit/47-cymbal1mutehit.wav
+#####################
+basic - 63-chinamutehit
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/60chinamutehit/63-chinamutehit.wav
+hash of file =44dc4dfc1e75a3d991bb759ba50667266bb1b54c3cc562fdfe672696e4838768a171335fb15574106c0abb760022e8d3cf6ef633dcbdc352620f02e5046474a9 = hash found 44dc4dfc1e75a3d991bb759ba50667266bb1b54c3cc562fdfe672696e4838768a171335fb15574106c0abb760022e8d3cf6ef633dcbdc352620f02e5046474a9
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/35cymbal1mutehit/63-cymbal1mutehit.wav
+#####################
+basic - 79-chinamutehit
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/60chinamutehit/79-chinamutehit.wav
+hash of file =1d9ff53d743effe6cdaeaed03111db889bd0bd088a4fd14d1e3b7cdc245f1076b46226180e2fca9eeb34773652467903b16751b8788768ff8c8bd5d56056885e = hash found 1d9ff53d743effe6cdaeaed03111db889bd0bd088a4fd14d1e3b7cdc245f1076b46226180e2fca9eeb34773652467903b16751b8788768ff8c8bd5d56056885e
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/35cymbal1mutehit/79-cymbal1mutehit.wav
+#####################
+basic - 95-chinamutehit
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/60chinamutehit/95-chinamutehit.wav
+hash of file =e1b8e25e1c4c83d076882286b8c3225e71d9453d2da32989a160dc159d6491db3f6b3dafde2bb2c0d35fe0b2d12b03ecd6e4f805ff88d9a8e61415e4d4ff2de8 = hash found e1b8e25e1c4c83d076882286b8c3225e71d9453d2da32989a160dc159d6491db3f6b3dafde2bb2c0d35fe0b2d12b03ecd6e4f805ff88d9a8e61415e4d4ff2de8
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/35cymbal1mutehit/95-cymbal1mutehit.wav
+#####################
+basic - 111-tom1rimonly
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/63tom1rimonly/111-tom1rimonly.wav
+hash of file =c099a50f83f70280128082f75af0442a44885201dfa9f0abfd311334552d1283f1598766e62d6b14b8a2eb3f5d4b015b07b0b6b5e6cce3b625138d56d55a875c = hash found c099a50f83f70280128082f75af0442a44885201dfa9f0abfd311334552d1283f1598766e62d6b14b8a2eb3f5d4b015b07b0b6b5e6cce3b625138d56d55a875c
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/62tom1rimshot/111-tom1rimshot.wav
+#####################
+basic - 95-tom1rimonly
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/63tom1rimonly/95-tom1rimonly.wav
+hash of file =644c288fa398258cb6518a3e56cfc8475e5488b80d97200abcfa28513141c46988db92b08689fd764d93d0fae026981f2392e709ea477cf9adf0c324e5a88924 = hash found 644c288fa398258cb6518a3e56cfc8475e5488b80d97200abcfa28513141c46988db92b08689fd764d93d0fae026981f2392e709ea477cf9adf0c324e5a88924
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/62tom1rimshot/95-tom1rimshot.wav
+#####################
+basic - 111-ftomcenter
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/69ftomcenter/111-ftomcenter.wav
+hash of file =2da5b50d63fc4557eb77a5d9dabcf253645f1f5e8f22dd614eef4a83ba4f8b63b2cc2fc08f9db4c952f6edcb833f5ae9bd93f8304ef0c5c149c5506a302a4e04 = hash found 2da5b50d63fc4557eb77a5d9dabcf253645f1f5e8f22dd614eef4a83ba4f8b63b2cc2fc08f9db4c952f6edcb833f5ae9bd93f8304ef0c5c149c5506a302a4e04
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/65tom2centeralt-tom3rightdkfh/111-tom2centeralt-tom3rightdkfh.wav
+#####################
+basic - 47-ftomcenter
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/69ftomcenter/47-ftomcenter.wav
+hash of file =f6b2c0a322a75a6cc8ad9e6b2d88d75dc18f54a17603779c296b7b30b885a58a586632e570b1ec1dd313d21cde681983c457f79ec125f53dddccb71d27637997 = hash found f6b2c0a322a75a6cc8ad9e6b2d88d75dc18f54a17603779c296b7b30b885a58a586632e570b1ec1dd313d21cde681983c457f79ec125f53dddccb71d27637997
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/65tom2centeralt-tom3rightdkfh/47-tom2centeralt-tom3rightdkfh.wav
+#####################
+basic - 63-ftomcenter
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/69ftomcenter/63-ftomcenter.wav
+hash of file =e6d3df24b1ee9b353954338dfd14b0ea1a9c4459b3489eaa5c20e22152f2087a1dcde7babc10d7c60086d1d4b0a33a6cb98a634f2d53b127c3b9b4d24e408708 = hash found e6d3df24b1ee9b353954338dfd14b0ea1a9c4459b3489eaa5c20e22152f2087a1dcde7babc10d7c60086d1d4b0a33a6cb98a634f2d53b127c3b9b4d24e408708
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/65tom2centeralt-tom3rightdkfh/63-tom2centeralt-tom3rightdkfh.wav
+#####################
+basic - 79-ftomcenter
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/69ftomcenter/79-ftomcenter.wav
+hash of file =32ccd84df699806dba6a0b13d34f3c80a39c53958454c67c805916ea753de7fa316080434c18d21e8da18583b53d0370a85fc64cee86ad6c4ef304a027bda621 = hash found 32ccd84df699806dba6a0b13d34f3c80a39c53958454c67c805916ea753de7fa316080434c18d21e8da18583b53d0370a85fc64cee86ad6c4ef304a027bda621
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/65tom2centeralt-tom3rightdkfh/79-tom2centeralt-tom3rightdkfh.wav
+#####################
+basic - 95-ftomcenter
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/69ftomcenter/95-ftomcenter.wav
+hash of file =36826d5f32302d0eaaedaf04db55b1b9dd1535c6d86c91a621872df74931333a66300628333d45ca55d441f6746d3580388a3dbda99b0d8824c26a2174fb0d71 = hash found 36826d5f32302d0eaaedaf04db55b1b9dd1535c6d86c91a621872df74931333a66300628333d45ca55d441f6746d3580388a3dbda99b0d8824c26a2174fb0d71
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/65tom2centeralt-tom3rightdkfh/95-tom2centeralt-tom3rightdkfh.wav
+#####################
+basic - 47-ftom2center
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/73ftom2center/47-ftom2center.wav
+hash of file =b7027dd7108e5373e7c8174dc2570edade836794cb7d457476f9e437c564270ba3cd42cb0037950659709cf8f05b63904c0b9f8eb6d2b88fb3027a37d3f14b39 = hash found b7027dd7108e5373e7c8174dc2570edade836794cb7d457476f9e437c564270ba3cd42cb0037950659709cf8f05b63904c0b9f8eb6d2b88fb3027a37d3f14b39
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/70ftomcenteralt/47-ftomcenteralt.wav
+#####################
+basic - 63-ftom2center
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/73ftom2center/63-ftom2center.wav
+hash of file =83b8f50e153fc15dcb3f146bb3cffe9f4c36a370e37a6f4fa283718488d43de5f6020cc771c24af38ef21aa15757483723544ef8cc0803235ca8c5615ce2789b = hash found 83b8f50e153fc15dcb3f146bb3cffe9f4c36a370e37a6f4fa283718488d43de5f6020cc771c24af38ef21aa15757483723544ef8cc0803235ca8c5615ce2789b
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/70ftomcenteralt/63-ftomcenteralt.wav
+#####################
+basic - 79-ftom2center
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/73ftom2center/79-ftom2center.wav
+hash of file =209e567274a52724bcfd94fc5f7780b606c19a2db0355379a3c11c4597db43c4b1c4b90b5083761173ed84a6f6d333c3fae0d7a554df38083eecd2b158caa828 = hash found 209e567274a52724bcfd94fc5f7780b606c19a2db0355379a3c11c4597db43c4b1c4b90b5083761173ed84a6f6d333c3fae0d7a554df38083eecd2b158caa828
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/70ftomcenteralt/79-ftomcenteralt.wav
+#####################
+basic - 95-ftom2center
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/73ftom2center/95-ftom2center.wav
+hash of file =5ac94ff08d8e8c0c86d667e2262cec09742b5a0df57def08e2832868d2f4167bae5d5f189fd728c39ff0526e05f9019e07372396863aa543f2a2e3c403518c32 = hash found 5ac94ff08d8e8c0c86d667e2262cec09742b5a0df57def08e2832868d2f4167bae5d5f189fd728c39ff0526e05f9019e07372396863aa543f2a2e3c403518c32
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/70ftomcenteralt/95-ftomcenteralt.wav
+#####################
+basic - 47-ftom2rimshot
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/74ftom2rimshot/47-ftom2rimshot.wav
+hash of file =6db43d2ac25ac2fc793f46a581ca2462bda8d3615e012257fda7fea622eb68a9a8ebd28b7c88569c0397b5561f9b507c5125d7d6a897a79b60c1594a4dae0348 = hash found 6db43d2ac25ac2fc793f46a581ca2462bda8d3615e012257fda7fea622eb68a9a8ebd28b7c88569c0397b5561f9b507c5125d7d6a897a79b60c1594a4dae0348
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/71ftomrimshot/47-ftomrimshot.wav
+#####################
+basic - 63-ftom2rimshot
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/74ftom2rimshot/63-ftom2rimshot.wav
+hash of file =90d2a9d77b185cf2bcab99581bf6a5b0bf6d10644fa8c33acd92053569db22b951014c34a29be06f1ac342a43e56540eb0e8d8d8d05857b0254c0b98e8f75073 = hash found 90d2a9d77b185cf2bcab99581bf6a5b0bf6d10644fa8c33acd92053569db22b951014c34a29be06f1ac342a43e56540eb0e8d8d8d05857b0254c0b98e8f75073
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/71ftomrimshot/63-ftomrimshot.wav
+#####################
+basic - 79-ftom2rimshot
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/74ftom2rimshot/79-ftom2rimshot.wav
+hash of file =357caee7ee7bfa71621040c10d2e43efe8270eb7b8ae5d8ae4fd1b9f0a2640f75b36ed1b3aaff9e011b0ed0fab8e4fa795bdb52af599827d0763d92520598a7b = hash found 357caee7ee7bfa71621040c10d2e43efe8270eb7b8ae5d8ae4fd1b9f0a2640f75b36ed1b3aaff9e011b0ed0fab8e4fa795bdb52af599827d0763d92520598a7b
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/71ftomrimshot/79-ftomrimshot.wav
+#####################
+basic - 95-ftom2rimshot
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/74ftom2rimshot/95-ftom2rimshot.wav
+hash of file =c33d1a79ec02c1e670fa8161119769a8166ad91f408ef05c19b2fae9acbbf13be3c5135947fccbec726fa3af833027b93aad8a7c76e9abc6a36d831e10f20171 = hash found c33d1a79ec02c1e670fa8161119769a8166ad91f408ef05c19b2fae9acbbf13be3c5135947fccbec726fa3af833027b93aad8a7c76e9abc6a36d831e10f20171
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/71ftomrimshot/95-ftomrimshot.wav
+#####################
+basic - 111-snsidestick
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/7snsidestick/111-snsidestick.wav
+hash of file =206cd1b872ff1d17ae3de475194617c3bebc2502af9f2ba8116084dccff1a6979c6eb0416f67c69ff983a60b4d8516d22a6182097b881a892ac14f03fb290aa6 = hash found 206cd1b872ff1d17ae3de475194617c3bebc2502af9f2ba8116084dccff1a6979c6eb0416f67c69ff983a60b4d8516d22a6182097b881a892ac14f03fb290aa6
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/10snhalfcircle/111-snhalfcircle.wav
+#####################
+basic - 47-snsidestick
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/7snsidestick/47-snsidestick.wav
+hash of file =dedc4b5205c3b0053953d4f1797c11075427c9824deac7be0a91e46a4c301a5f7515f7e1fde6fc32828d28479d5c87c0b9e142a2ea1343f1ac28a6e4df421d52 = hash found dedc4b5205c3b0053953d4f1797c11075427c9824deac7be0a91e46a4c301a5f7515f7e1fde6fc32828d28479d5c87c0b9e142a2ea1343f1ac28a6e4df421d52
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/10snhalfcircle/47-snhalfcircle.wav
+#####################
+basic - 63-snsidestick
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/7snsidestick/63-snsidestick.wav
+hash of file =207df00164b33476c8de38350630d4ad91f656df9c10caa33957e1b063458066ab02aa567045cf4b50b750615b535bfa40e72de7fe0fc9dcbb3eb6e683d4879c = hash found 207df00164b33476c8de38350630d4ad91f656df9c10caa33957e1b063458066ab02aa567045cf4b50b750615b535bfa40e72de7fe0fc9dcbb3eb6e683d4879c
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/10snhalfcircle/63-snhalfcircle.wav
+#####################
+basic - 79-snsidestick
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/7snsidestick/79-snsidestick.wav
+hash of file =b3477b99a88659834bdcd1a0b031cc29e68a5c95c6fa4b88b6e695fbf46460664cb6c1a09d7d2d62a04bf75c7615e337906f1c79ea0898fd119b30b36cde9650 = hash found b3477b99a88659834bdcd1a0b031cc29e68a5c95c6fa4b88b6e695fbf46460664cb6c1a09d7d2d62a04bf75c7615e337906f1c79ea0898fd119b30b36cde9650
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/10snhalfcircle/79-snhalfcircle.wav
+#####################
+basic - 95-snsidestick
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/7snsidestick/95-snsidestick.wav
+hash of file =1de10e8a581919a9fcf0d5c201f146b7bc920266b0569cf8873c065214c842c48b6da694db43cee236efa3aa67a13f05bc3e85161522033b5bff3a919ee23287 = hash found 1de10e8a581919a9fcf0d5c201f146b7bc920266b0569cf8873c065214c842c48b6da694db43cee236efa3aa67a13f05bc3e85161522033b5bff3a919ee23287
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/10snhalfcircle/95-snhalfcircle.wav
+#####################
+basic - 111-snmuted
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/8snmuted/111-snmuted.wav
+hash of file =cb627c5c9d3e16c33f734b2b01e0c983e4514c56edd5302f54f69186487817c696816016365e6db94ac5654eb7385e3788e9210331af2df44413e16a7dd30604 = hash found cb627c5c9d3e16c33f734b2b01e0c983e4514c56edd5302f54f69186487817c696816016365e6db94ac5654eb7385e3788e9210331af2df44413e16a7dd30604
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/4sncenteralt/111-sncenteralt.wav
+#####################
+basic - 47-snmuted
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/8snmuted/47-snmuted.wav
+hash of file =f1b1560d09f968d25821b939bb93611cf8bd8d9d498b5ee3eb150494185c6ec2a418d9e14453c894ab69f3e4abc630898d787dfb9356d688eac2602b2b7de6f0 = hash found f1b1560d09f968d25821b939bb93611cf8bd8d9d498b5ee3eb150494185c6ec2a418d9e14453c894ab69f3e4abc630898d787dfb9356d688eac2602b2b7de6f0
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/4sncenteralt/47-sncenteralt.wav
+#####################
+basic - 63-snmuted
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/8snmuted/63-snmuted.wav
+hash of file =f449d59ca740532c7ec39e5bd3901e879bfe5a15619f79a82087ead51fb166640a2d800a1eed2ce1fd4a78c57e39cdb2a3be03f18cd436f018b3f58b1111c0d0 = hash found f449d59ca740532c7ec39e5bd3901e879bfe5a15619f79a82087ead51fb166640a2d800a1eed2ce1fd4a78c57e39cdb2a3be03f18cd436f018b3f58b1111c0d0
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/4sncenteralt/63-sncenteralt.wav
+#####################
+basic - 79-snmuted
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/8snmuted/79-snmuted.wav
+hash of file =ddc34a74dfe2e73f3fb5c952084a2b936b47ed96fefd086655c9f7c2b81419218fe485f2527e6aac41f659f1db69fd5b03f4d196af06575cd26052ca0666ff17 = hash found ddc34a74dfe2e73f3fb5c952084a2b936b47ed96fefd086655c9f7c2b81419218fe485f2527e6aac41f659f1db69fd5b03f4d196af06575cd26052ca0666ff17
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/4sncenteralt/79-sncenteralt.wav
+#####################
+basic - 95-snmuted
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/8snmuted/95-snmuted.wav
+hash of file =f378c31fc518ef57c95fb4b3a4faa65bc111ab66117d947968b0b3b7c76ae6b948b12c3c6a2dcf7c6c62ea7f04d428a56da2764c34bb3a2dbf9a25324ad4f0b9 = hash found f378c31fc518ef57c95fb4b3a4faa65bc111ab66117d947968b0b3b7c76ae6b948b12c3c6a2dcf7c6c62ea7f04d428a56da2764c34bb3a2dbf9a25324ad4f0b9
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/4sncenteralt/95-sncenteralt.wav
+#####################
+basic - 111-snshortdrag
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/9snshortdrag/111-snshortdrag.wav
+hash of file =1cb491ff9e7bafee8349585947a96af0a33e013f523f235319cd64296a7e6493eded3c8a7aba65bdf3673025379cbe82d2a0996b46e55d906f91f0e416f5a24f = hash found 1cb491ff9e7bafee8349585947a96af0a33e013f523f235319cd64296a7e6493eded3c8a7aba65bdf3673025379cbe82d2a0996b46e55d906f91f0e416f5a24f
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/12snflamsdkfh/111-snflamsdkfh.wav
+#####################
+basic - 47-snshortdrag
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/9snshortdrag/47-snshortdrag.wav
+hash of file =f38fc632ec252f4744679c496cc83e677fc7477cb8d823123db9b2253bebbbe87f9bd46cb83bce8e0aca01c146f5c755cb209aedf53214ff1abb132f2b8de9ef = hash found f38fc632ec252f4744679c496cc83e677fc7477cb8d823123db9b2253bebbbe87f9bd46cb83bce8e0aca01c146f5c755cb209aedf53214ff1abb132f2b8de9ef
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/12snflamsdkfh/47-snflamsdkfh.wav
+#####################
+basic - 63-snshortdrag
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/9snshortdrag/63-snshortdrag.wav
+hash of file =b1d1f0b5135e750d79b51e25002fb15930708cdd7bbdfe9d590148946c18440eca84ad83ea3a5b6d3dfe493e3d666d1ec5bbdd85df5b0f509edd048fafd391fc = hash found b1d1f0b5135e750d79b51e25002fb15930708cdd7bbdfe9d590148946c18440eca84ad83ea3a5b6d3dfe493e3d666d1ec5bbdd85df5b0f509edd048fafd391fc
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/12snflamsdkfh/63-snflamsdkfh.wav
+#####################
+basic - 79-snshortdrag
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/9snshortdrag/79-snshortdrag.wav
+hash of file =5edc78a8b581e66009f030aac230673dff39f30ce5404cc8583135cd8853dc1cce729efab87d8dcc5de62372ba6ed912dee5a49d4433affcda654840520a6c61 = hash found 5edc78a8b581e66009f030aac230673dff39f30ce5404cc8583135cd8853dc1cce729efab87d8dcc5de62372ba6ed912dee5a49d4433affcda654840520a6c61
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/12snflamsdkfh/79-snflamsdkfh.wav
+#####################
+basic - 95-snshortdrag
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/9snshortdrag/95-snshortdrag.wav
+hash of file =18deab9d133e5ff3b091563057efcc7b3a08ed955a3532a9bb7cc6651b631d220c6fff07a801ba8abf234b7ab9d64e00c41c57b811cc23a32c3ac08ae695d7d2 = hash found 18deab9d133e5ff3b091563057efcc7b3a08ed955a3532a9bb7cc6651b631d220c6fff07a801ba8abf234b7ab9d64e00c41c57b811cc23a32c3ac08ae695d7d2
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/EZamb/12snflamsdkfh/95-snflamsdkfh.wav
+#####################
+basic - 111-snfullcircle
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/11snfullcircle/111-snfullcircle.wav
+hash of file =5e3c28ba762bfffff4fdd802dc78926bc70fdeef5587757cb06184867b1614bc9798cdd442a290b5e3320a92561e61d6d85feb079af2f7dda4f60676ca8af3de = hash found 5e3c28ba762bfffff4fdd802dc78926bc70fdeef5587757cb06184867b1614bc9798cdd442a290b5e3320a92561e61d6d85feb079af2f7dda4f60676ca8af3de
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/10snhalfcircle/111-snhalfcircle.wav
+#####################
+basic - 79-snfullcircle
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/11snfullcircle/79-snfullcircle.wav
+hash of file =cbe7ec1e639b81d9d87d00abda0ed5f398010d2da8f8e5d0202d7d015de9eb0def476207320c40d2dcdb93059f627faa33e8719dcf5a5252a475dcd7afb41b9b = hash found cbe7ec1e639b81d9d87d00abda0ed5f398010d2da8f8e5d0202d7d015de9eb0def476207320c40d2dcdb93059f627faa33e8719dcf5a5252a475dcd7afb41b9b
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/10snhalfcircle/79-snhalfcircle.wav
+#####################
+basic - 95-snfullcircle
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/11snfullcircle/95-snfullcircle.wav
+hash of file =5200ca38a2afe523ecde86f74f6fb0fccb7c10ba32fb5c6a41e99669e8812196e9e1887cf9efdcf27ea1b1b06c2c5ec4e319fa8ec1c14b4e9f44f862270c9f8f = hash found 5200ca38a2afe523ecde86f74f6fb0fccb7c10ba32fb5c6a41e99669e8812196e9e1887cf9efdcf27ea1b1b06c2c5ec4e319fa8ec1c14b4e9f44f862270c9f8f
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/10snhalfcircle/95-snhalfcircle.wav
+#####################
+basic - 111-kikleft
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/2kikleft/111-kikleft.wav
+hash of file =04169bfccb434ddf723457c2d0462dc8f8f3cf0bf3f1a3f17738c7bcc27c8d4d19e4be90ad6b7c336a4aa26ffcda5103acf6ed9be22f9f7b7154290365534bfa = hash found 04169bfccb434ddf723457c2d0462dc8f8f3cf0bf3f1a3f17738c7bcc27c8d4d19e4be90ad6b7c336a4aa26ffcda5103acf6ed9be22f9f7b7154290365534bfa
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/0kikhitin/111-kikhitin.wav
+#####################
+basic - 47-kikleft
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/2kikleft/47-kikleft.wav
+hash of file =2d193e9136706a62c28d091357ed0008411f9f00f65a07097cacf9007d22fbbae4d0f0143acf9360a4dc6738abc9b34d7c9693176d84a409b82c8dd6f43db360 = hash found 2d193e9136706a62c28d091357ed0008411f9f00f65a07097cacf9007d22fbbae4d0f0143acf9360a4dc6738abc9b34d7c9693176d84a409b82c8dd6f43db360
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/0kikhitin/47-kikhitin.wav
+#####################
+basic - 63-kikleft
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/2kikleft/63-kikleft.wav
+hash of file =c757772f81eabffcd8dd246a4fbfcd196d37bf4c6aea7c315ed0494369fc65c90900e89b1069530990b1e5c76afc4e5c78990aae0395d4b0f89555b756450089 = hash found c757772f81eabffcd8dd246a4fbfcd196d37bf4c6aea7c315ed0494369fc65c90900e89b1069530990b1e5c76afc4e5c78990aae0395d4b0f89555b756450089
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/0kikhitin/63-kikhitin.wav
+#####################
+basic - 79-kikleft
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/2kikleft/79-kikleft.wav
+hash of file =b128e560a152a019708163473d9ff09fee5785af4cd5c1c977d5f452dd125b9f76105cfeb04ce848e8cbec4dd410f7fed95f343b7c587f60a12b62dfc5a3a4e4 = hash found b128e560a152a019708163473d9ff09fee5785af4cd5c1c977d5f452dd125b9f76105cfeb04ce848e8cbec4dd410f7fed95f343b7c587f60a12b62dfc5a3a4e4
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/0kikhitin/79-kikhitin.wav
+#####################
+basic - 95-kikleft
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/2kikleft/95-kikleft.wav
+hash of file =8784f0f87f865c11cbe707b2a859d6f559f9057663151c3afb7516534fd091208f4c6eb70a7b9d024bceee58be5218067c643e26168af1ce310507b01a463aea = hash found 8784f0f87f865c11cbe707b2a859d6f559f9057663151c3afb7516534fd091208f4c6eb70a7b9d024bceee58be5218067c643e26168af1ce310507b01a463aea
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/0kikhitin/95-kikhitin.wav
+#####################
+basic - 111-sncenter
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/3sncenter/111-sncenter.wav
+hash of file =d0420acb29ae11a3e292cb5fe55ccd06bf4ad99e242cde4cd1458774cf0774d6033bea9a1c0e2fb5798850d487ba69f1506ad5ac4e91cb72286898810e670d9f = hash found d0420acb29ae11a3e292cb5fe55ccd06bf4ad99e242cde4cd1458774cf0774d6033bea9a1c0e2fb5798850d487ba69f1506ad5ac4e91cb72286898810e670d9f
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/12snflamsdkfh/111-snflamsdkfh.wav
+#####################
+basic - 63-sncenter
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/3sncenter/63-sncenter.wav
+hash of file =2f042d01778ebe193604a8b0241e424657515457d6beeef06afb864584c00a296e2edb49be4a7e8187f32f701a5cd2acc9ae38a577fb81ce275c570ae4ace0fb = hash found 2f042d01778ebe193604a8b0241e424657515457d6beeef06afb864584c00a296e2edb49be4a7e8187f32f701a5cd2acc9ae38a577fb81ce275c570ae4ace0fb
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/12snflamsdkfh/63-snflamsdkfh.wav
+#####################
+basic - 79-sncenter
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/3sncenter/79-sncenter.wav
+hash of file =16ef56a8c5407936a9d9338031cb1ffa9029f12c545e3281d8cde3edc137837420f70eaaf6fc79179cb041c56340486b1e86536a095ba119f62ab68dea0f84b7 = hash found 16ef56a8c5407936a9d9338031cb1ffa9029f12c545e3281d8cde3edc137837420f70eaaf6fc79179cb041c56340486b1e86536a095ba119f62ab68dea0f84b7
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/12snflamsdkfh/79-snflamsdkfh.wav
+#####################
+basic - 95-sncenter
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/3sncenter/95-sncenter.wav
+hash of file =494d749274f40a3e1ae87230a6983ab11e29fa0ec2fef4e84d9adf973cc9dda3f5f12ce6d45c4627736ff175b4dee1face27db64cf0a289a99270492b7d942fd = hash found 494d749274f40a3e1ae87230a6983ab11e29fa0ec2fef4e84d9adf973cc9dda3f5f12ce6d45c4627736ff175b4dee1face27db64cf0a289a99270492b7d942fd
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/12snflamsdkfh/95-snflamsdkfh.wav
+#####################
+basic - 111-snsidestick
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/7snsidestick/111-snsidestick.wav
+hash of file =5e3c28ba762bfffff4fdd802dc78926bc70fdeef5587757cb06184867b1614bc9798cdd442a290b5e3320a92561e61d6d85feb079af2f7dda4f60676ca8af3de = hash found 5e3c28ba762bfffff4fdd802dc78926bc70fdeef5587757cb06184867b1614bc9798cdd442a290b5e3320a92561e61d6d85feb079af2f7dda4f60676ca8af3de
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/10snhalfcircle/111-snhalfcircle.wav
+#####################
+basic - 79-snsidestick
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/7snsidestick/79-snsidestick.wav
+hash of file =cbe7ec1e639b81d9d87d00abda0ed5f398010d2da8f8e5d0202d7d015de9eb0def476207320c40d2dcdb93059f627faa33e8719dcf5a5252a475dcd7afb41b9b = hash found cbe7ec1e639b81d9d87d00abda0ed5f398010d2da8f8e5d0202d7d015de9eb0def476207320c40d2dcdb93059f627faa33e8719dcf5a5252a475dcd7afb41b9b
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/10snhalfcircle/79-snhalfcircle.wav
+#####################
+basic - 95-snsidestick
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/7snsidestick/95-snsidestick.wav
+hash of file =5200ca38a2afe523ecde86f74f6fb0fccb7c10ba32fb5c6a41e99669e8812196e9e1887cf9efdcf27ea1b1b06c2c5ec4e319fa8ec1c14b4e9f44f862270c9f8f = hash found 5200ca38a2afe523ecde86f74f6fb0fccb7c10ba32fb5c6a41e99669e8812196e9e1887cf9efdcf27ea1b1b06c2c5ec4e319fa8ec1c14b4e9f44f862270c9f8f
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/10snhalfcircle/95-snhalfcircle.wav
+#####################
+basic - 111-snmuted
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/8snmuted/111-snmuted.wav
+hash of file =5cde0c23ee3eff4d5c6137a146fe401270e2b9ec1ef7191ef77d54a6a1e581fdde335c76a2430571bfea8e94a131362a8cc898cf0588d71e555b6e03ba797790 = hash found 5cde0c23ee3eff4d5c6137a146fe401270e2b9ec1ef7191ef77d54a6a1e581fdde335c76a2430571bfea8e94a131362a8cc898cf0588d71e555b6e03ba797790
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/4sncenteralt/111-sncenteralt.wav
+#####################
+basic - 79-snmuted
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/8snmuted/79-snmuted.wav
+hash of file =e52c07b1b8270890af072fc8cb92ee9825e10409dc16eeac20e3d05375abdfca40048a2ad8343d18f26f8f0838f5e09b39b67755028c29d40a534f3570b99198 = hash found e52c07b1b8270890af072fc8cb92ee9825e10409dc16eeac20e3d05375abdfca40048a2ad8343d18f26f8f0838f5e09b39b67755028c29d40a534f3570b99198
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/4sncenteralt/79-sncenteralt.wav
+#####################
+basic - 95-snmuted
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/8snmuted/95-snmuted.wav
+hash of file =6e69dc1b1ea5db87be53df16caa87c8b0995e15ba319edfae5ae6381316c09274b96412d64fe9c31873d73e4085974604653f8e2b9a98d15f8f959d6e79aa143 = hash found 6e69dc1b1ea5db87be53df16caa87c8b0995e15ba319edfae5ae6381316c09274b96412d64fe9c31873d73e4085974604653f8e2b9a98d15f8f959d6e79aa143
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/4sncenteralt/95-sncenteralt.wav
+#####################
+basic - 111-snshortdrag
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/9snshortdrag/111-snshortdrag.wav
+hash of file =d0420acb29ae11a3e292cb5fe55ccd06bf4ad99e242cde4cd1458774cf0774d6033bea9a1c0e2fb5798850d487ba69f1506ad5ac4e91cb72286898810e670d9f = hash found d0420acb29ae11a3e292cb5fe55ccd06bf4ad99e242cde4cd1458774cf0774d6033bea9a1c0e2fb5798850d487ba69f1506ad5ac4e91cb72286898810e670d9f
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/12snflamsdkfh/111-snflamsdkfh.wav
+#####################
+basic - 63-snshortdrag
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/9snshortdrag/63-snshortdrag.wav
+hash of file =2f042d01778ebe193604a8b0241e424657515457d6beeef06afb864584c00a296e2edb49be4a7e8187f32f701a5cd2acc9ae38a577fb81ce275c570ae4ace0fb = hash found 2f042d01778ebe193604a8b0241e424657515457d6beeef06afb864584c00a296e2edb49be4a7e8187f32f701a5cd2acc9ae38a577fb81ce275c570ae4ace0fb
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/12snflamsdkfh/63-snflamsdkfh.wav
+#####################
+basic - 79-snshortdrag
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/9snshortdrag/79-snshortdrag.wav
+hash of file =16ef56a8c5407936a9d9338031cb1ffa9029f12c545e3281d8cde3edc137837420f70eaaf6fc79179cb041c56340486b1e86536a095ba119f62ab68dea0f84b7 = hash found 16ef56a8c5407936a9d9338031cb1ffa9029f12c545e3281d8cde3edc137837420f70eaaf6fc79179cb041c56340486b1e86536a095ba119f62ab68dea0f84b7
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/12snflamsdkfh/79-snflamsdkfh.wav
+#####################
+basic - 95-snshortdrag
+delete /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/9snshortdrag/95-snshortdrag.wav
+hash of file =494d749274f40a3e1ae87230a6983ab11e29fa0ec2fef4e84d9adf973cc9dda3f5f12ce6d45c4627736ff175b4dee1face27db64cf0a289a99270492b7d942fd = hash found 494d749274f40a3e1ae87230a6983ab11e29fa0ec2fef4e84d9adf973cc9dda3f5f12ce6d45c4627736ff175b4dee1face27db64cf0a289a99270492b7d942fd
+IS EQUAL TO /media/steph/SSD-dev/DEVPRO/Python/WavSplitter/main/src/data/sounds/result/mic123/12snflamsdkfh/95-snflamsdkfh.wav

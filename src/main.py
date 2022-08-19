@@ -214,6 +214,20 @@ class Wavesplit:
                         if dir_path.is_dir():       
                                 shutil.move(dir_path.path, self.drumkit_dest_path)
 
+        def presetconv(self):
+                file_to_convert = f"{self.root_app}{os.path.sep}data{os.path.sep}presets{os.path.sep}msMain1.MultiSample"
+                f=open(file_to_convert,"rb")
+                s=f.read()
+                f.close()
+                first = b'1KVLTdirect'
+                prout =b'2KVLToverrr'
+                s=s.replace(first ,prout)
+                result_file = f"{self.root_app}{os.path.sep}data{os.path.sep}presets{os.path.sep}msOver1.MultiSample"
+                f=open(result_file,"wb")
+                f.write(s)
+                f.close()
+
+
         def main(self, command="", jsonfile="", param1="", param2=""):
                 try:
                         # Init
@@ -229,7 +243,7 @@ class Wavesplit:
                                 print("params=", command, jsonfile, param1, param2, param3)
                         # logs
                         print(f"command={command}")     
-                        # command="split"
+                        # command="presetconv"
                         self.init_main(command, jsonfile, param1, param2)                                                
                         if (command == "split"):  
                                 master_path = f"{self.drumkit_main_path}{os.path.sep}{self.drumkit_master}"    
@@ -253,6 +267,8 @@ class Wavesplit:
                                         if self.jsprms.prms['move_drumkits'] and self.jsprms.prms['clean_dirs_at_end']:
                                                 file_utils.clean_dir(self.org_sound_dir)
                                                 # file_utils.clean_dir(self.result_sound_dir)          
+                        if (command == "presetconv"):
+                                self.presetconv()
                         if (command == "clean"):                                
                                 self.delete_doubles(self.drumkit_main_path)
                         self.log.lg("=>> THE END COMPLETE <<=")
