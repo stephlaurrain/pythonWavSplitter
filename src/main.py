@@ -123,7 +123,7 @@ class Wavesplit:
                                 if velocities[cpt_velocity] != 0:
                                         extract = paudio[idx:extract_size+idx]
                                         dest_dir = f"{self.result_sound_dir}{os.path.sep}{dest_dir_name}{os.path.sep}{cpt_sound}{sounds[cpt_sound]}"                                         
-                                        export_file_path = f"{dest_dir}{os.path.sep}{self.drumkit_name}-{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"                                        
+                                        export_file_path = f"{dest_dir}{os.path.sep}{dest_dir_name}-{self.drumkit_name}-{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"                                        
                                         # export_file_path_org = f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}_org.wav"
                                         # extract.export(export_file_path_org, format="wav")
                                         end_trim = self.detect_leading_silence(sound=extract.reverse(), silence_threshold=split_threshold, chunk_size=split_time)
