@@ -1,0 +1,24 @@
+{
+    "keep_log_time":1,
+    "keep_log_unit":"m",
+    "org_sound_dir":"org",
+    "result_sound_dir":"result",
+    "drumkit_main_path":"/media/steph/1Tera/VERSSTOCK",
+    "drumkit_master":"test",
+    "drumkit_name":"test",
+    "velocities":[
+        127, 0, 0, 0, 0, 0, 0, 0
+    ],    
+    "sounds":[
+        "test"       
+    ],      
+    "mulab_length":5,    
+    "mulab_step":4,
+    "split_threshold":50,
+    "split_time":10,
+    "duration_threshold":0.012,
+    "fade_percent":{"in":0, "out":50},
+    "delete_doubles":true,
+    "move_drumkits":true,    
+    "clean_dirs_at_end": false
+}

@@ -11,11 +11,7 @@ extract tracks
 
 copy tracks into sounds/org
 
-PythonWavSplitter finds the best parameters for split_threshold, split_time, seek_step and process time
-
-then splits the files
-
-run with run.sh
+run with menu.sh
 
 you'll find your splitted drumkit into data/sounds/result
 
@@ -25,10 +21,7 @@ enjoy !
 
 ## Parameters
 
-stop_at_good_score_found : if this value = 0, then it wont stop until the testing is complete
-else, this parameter is the threshold for process_time will stop the loop and beging the split
 
-example : stop_at_good_score_found : 1.6
 ## Create virtual env
 
 python3 -m venv env
@@ -58,7 +51,7 @@ pipenv --rm
 pip freeze > requirements.txt
 
 # References
-
+https://github.com/jiaaro/pydub
 https://github.com/jiaaro/pydub/blob/master/pydub/silence.py
 normalization :
 https://stackoverflow.com/questions/42492246/how-to-normalize-the-volume-of-an-audio-file-in-python
