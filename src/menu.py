@@ -53,9 +53,8 @@ while True:
     print(drkcol("param 0 = drumkit_master path :\n"))
     print(drkcol("param 1 = drumkit_name :\n"))
     menulist = []
-    # menulist.append(Menuitem("split", "split files from EZ sounds", 2, "Ez"))    
-    menulist.append(Menuitem("split", "split files from EZdkfh sounds", 2, "Ezdkfh"))
-    menulist.append(Menuitem("split", "split files from Kult2", 2, "Kult2"))    
+    menulist.append(Menuitem("split", "split files from EZdrummer", 0, "Ezdrummer"))
+    menulist.append(Menuitem("split", "split files from Kult2", 0, "kult2"))    
     menulist.append(Menuitem("split", "split files from other", 2, "extractFade"))        
     menulist.append(Menuitem("clean", "delete files that has same hash"))
     menulist.append(Menuitem("test", "test something", "default"))

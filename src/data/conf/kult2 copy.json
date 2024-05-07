@@ -4,10 +4,10 @@
     "org_sound_dir":"org",
     "result_sound_dir":"result",    
     "drumkit_main_path":"/home/steph/1Tera/tmp",
-    "drumkit_master":"origin",
-    "drumkit_name":"testkult",
+    "drumkit_master":"org",
+    "drumkit_name":"test",
     "velocities":[
-        127, 111, 95, 79, 63, 47, 31, 0
+        127, 111, 95, 79, 63, 47, 31
     ],    
     "sounds":[
         "kick", "snare", "hhcl", "hhcl2", "hhop", "splash1", "crash1",
@@ -17,10 +17,10 @@
     "mulab_length":89,    
     "mulab_step":4,
     "split_threshold":50,
-    "split_time":10,
+    "split_time":6,
     "duration_threshold":0.012,
     "fade_percent":{"in":0, "out":0},
     "delete_doubles":true,
-    "move_drumkits":true,
-    "clean_dirs_at_end": true
+    "move_drumkits":false,
+    "clean_dirs_at_end": false
 }
