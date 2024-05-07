@@ -10,23 +10,14 @@ import utils.file_utils as file_utils
 import utils.mylog as mylog
 import utils.jsonprms as jsonprms
 from utils.mydecorators import _error_decorator
-from pydub import AudioSegment, silence
+from pydub import AudioSegment
+from pydub.silence import split_on_silence
 from pathlib import Path
 from datetime import datetime
 import time
 
 import hashlib
 
-class GoodRes():
-        def __init__(self, split_threshold, split_time, seek_step, process_time, len): 
-                self.split_threshold = split_threshold
-                self.split_time = split_time
-                self.seek_step = seek_step
-                self.process_time = process_time
-                self.len = len
-        
-        def __str__(self):
-                return f"GOOD CONF : split_threshold = {self.split_dbfs_threshold}, split_time = {self.split_time}, seek_step = {self.seek_step}, process_time = {self.process_time}, segments tab length = {self.len}"
 
 class Hashes():
         def __init__(self, hash, filepath): 
@@ -58,8 +49,7 @@ class Wavesplit:
                         self.log.lg("=HERE WE GO=")
                         keep_log_time = self.jsprms.prms['keep_log_time']
                         keep_log_unit = self.jsprms.prms['keep_log_unit']
-                        self.log.lg(f"=>clean logs older than {keep_log_time} {keep_log_unit}")
-                        self.goodRes_array = []
+                        self.log.lg(f"=>clean logs older than {keep_log_time} {keep_log_unit}")                       
                         file_utils.remove_old_files(f"{self.root_app}{os.path.sep}log", keep_log_time, keep_log_unit)
                 except Exception as e:
                         self.log.errlg(f"Wasted, very wasted : {e}")
@@ -97,69 +87,22 @@ class Wavesplit:
                         else:
                                 res_sound = sound.fade_out(fade_out_len)
                 return res_sound
-
+       
         @_error_decorator()
-        def treat_wave_old(self, pwavefile_path, paudio):                
+        def split_to_many(self, paudio):
                 self.trace(inspect.stack())  
-                dest_dir_name = self.set_version_dir(pwavefile_path)  
-                self.log.lg(paudio.duration_seconds)
-                velocities = self.jsprms.prms['velocities']
-                sounds = self.jsprms.prms['sounds']                
-                expected_nb_sounds = (self.jsprms.prms['mulab_length']-1)/self.jsprms.prms['mulab_step']
-                self.log.lg(f"expected sounds = {expected_nb_sounds} / number of sounds = {len(sounds)}")
-                if len(sounds)!= expected_nb_sounds:
-                       raise ValueError('Expected number of sounds <> number of sounds.')
-                split_time = self.jsprms.prms['split_time']
-                split_threshold = -self.jsprms.prms['split_dbfs_threshold']                 
-                sample_number = len(velocities)*len(sounds)
-                extract_size = paudio.duration_seconds / sample_number *1000
-                self.log.lg(f"sample_number = {sample_number}")
-                self.log.lg(f"extract_size = {extract_size}")                
-                self.log.lg(f"audio segment RMS = {paudio.dBFS}")
-                idx = 0
-                for cpt_sound in range(len(sounds)):
-                        for cpt_velocity in range(len(velocities)):
-                                extract = paudio[idx:extract_size+idx]
-                                # non séparé dest_dir = f"{self.result_sound_dir}{os.path.sep}{dest_dir_name}"
-                                dest_dir = f"{self.result_sound_dir}{os.path.sep}{dest_dir_name}{os.path.sep}{cpt_sound}{sounds[cpt_sound]}"                                                                                  
-                                export_file_path = f"{dest_dir}{os.path.sep}{dest_dir_name}-{cpt_sound}{self.drumkit_name}-{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"                                        
-                                # export_file_path_org = f"{dest_dir}{os.path.sep}{velocities[cpt_velocity]}-{sounds[cpt_sound]}_org.wav"
-                                # extract.export(export_file_path_org, format="wav")
-                                end_trim = self.detect_leading_silence(sound=extract.reverse(), silence_threshold=split_threshold, chunk_size=split_time)
-                                self.log.lg(f"end_trim = {end_trim}")
-                                if end_trim < extract_size:
-                                        final_sound = extract[:extract_size-end_trim]
-                                        self.log.lg(f"export_file_path = {export_file_path}")
-                                        self.log.lg(f"final_sound segment RMS = {final_sound.dBFS}")                                                
-                                        if final_sound.dBFS < split_threshold or final_sound.duration_seconds < self.jsprms.prms['duration_threshold']:
-                                                self.log.lg(f"TOO WEAK = export_file_path = {export_file_path}")        
-                                                #input ("VERIFIE")
-                                        else:
-                                                if not os.path.exists(dest_dir):
-                                                        os.mkdir(dest_dir)
-                                                #final_sound.fade_out(16) # final_sound.duration_seconds / 2)
-                                                fade_in_percent = self.jsprms.prms['fade_percent']['in']
-                                                fade_out_percent = self.jsprms.prms['fade_percent']['out']
-                                                if fade_in_percent > 0 or fade_out_percent > 0:
-                                                        final_sound = self.treat_fade(final_sound, fade_in_percent, fade_out_percent)                                                                                           
-                                                final_sound.export(export_file_path, format="wav") 
-                                else:                                        
-                                        self.log.lg(f"SILENT = export_file_path = {export_file_path}")
-                                idx += extract_size
-        
-        @_error_decorator()
-        def split_to_many(self, paudio, segment_duration):
-                self.trace(inspect.stack())  
+                segment_duration = self.jsprms.prms['one_note_length']
                 segments = []                
-                current_time = 0
+                current_time = 0                                
                 while current_time < len(paudio):
                         end_time = current_time + segment_duration
                         if end_time > len(paudio):
                                 end_time = len(paudio)
+                        print(f"{current_time} {end_time}")
                         segment = paudio[current_time:end_time]
                         segments.append(segment)
 
-                        current_time = end_time
+                        current_time = end_time                
                 return segments
 
         @_error_decorator()
@@ -169,10 +112,9 @@ class Wavesplit:
                 self.log.lg(paudio.duration_seconds)                
                 velocities = self.jsprms.prms['velocities']
                 sounds = self.jsprms.prms['sounds']                                
-                split_threshold = -self.jsprms.prms['split_dbfs_threshold']  
                 self.log.lg(f"audio segment RMS = {paudio.dBFS}")
-                segment_duration = self.jsprms.prms['one_note_length']
-                segments = self.split_to_many(paudio, segment_duration)
+                
+                segments = self.split_to_many(paudio)
                 numero_segment = 1
                 cpt_sound = 0
                 cpt_velocity = 0
@@ -180,28 +122,32 @@ class Wavesplit:
                         dest_dir = f"{self.result_sound_dir}{os.path.sep}{dest_dir_name}{os.path.sep}{cpt_sound}{sounds[cpt_sound]}"                                                                                  
                         export_file_path = f"{dest_dir}{os.path.sep}{dest_dir_name}-{cpt_sound}{self.drumkit_name}-{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"                                        
                         # final_sound.export(export_file_path, format="wav")  # Ajustez le format si besoin
-                        print(f"{segment.dBFS} {segment.duration_seconds}")
-                        if segment.dBFS < split_threshold:
-                                self.log.lg(f"TOO WEAK = export_file_path = {export_file_path}")
-                                input()                                                                        
-                        # else:
-                        if not os.path.exists(dest_dir):
-                                os.mkdir(dest_dir)
-                        fade_in_percent = self.jsprms.prms['fade_percent']['in']
-                        fade_out_percent = self.jsprms.prms['fade_percent']['out']
-                        if fade_in_percent > 0 or fade_out_percent > 0:
-                                segment = self.treat_fade(segment, fade_in_percent, fade_out_percent)                                                                                           
-                        segment.export(export_file_path, format="wav") 
+                        # print(f"{segment.dBFS} {segment.duration_seconds}")
+                        min_silence_length = 100  # Durée minimale du silence en millisecondes
+                        silence_threshold = -50  # Seuil de silence en dBFS (plus la valeur est basse, plus le seuil est sensible)
+                        # Découper le fichier en segments en supprimant les parties silencieuses
+                        segments = split_on_silence(segment, min_silence_len=min_silence_length, silence_thresh=silence_threshold)                        
+                        if len(segments) > 0:
+                                # and segment[0].duration_seconds > self.jsprms.prms['duration_threshold']:
+                                segment = segments[0] 
+                                if not os.path.exists(dest_dir):
+                                        os.mkdir(dest_dir)
+                                fade_in_percent = self.jsprms.prms['fade_percent']['in']
+                                fade_out_percent = self.jsprms.prms['fade_percent']['out']
+                                if fade_in_percent > 0 or fade_out_percent > 0:
+                                        segment = self.treat_fade(segment, fade_in_percent, fade_out_percent)                                                                                           
+                                segment.export(export_file_path, format="wav") 
 
-                        numero_segment += 1
-                        if cpt_sound == len(sounds)-1:
-                                cpt_sound = 0
+                                numero_segment += 1
                         else:
-                                cpt_sound +=1
-                        if cpt_velocity == len(velocities)-1:
+                                self.log.lg(f"TOO WEAK = export_file_path = {export_file_path}")
+                        if cpt_velocity == len(velocities) - 1:
                                 cpt_velocity = 0
+                                cpt_sound += 1
                         else:
-                                cpt_velocity +=1
+                                cpt_velocity += 1
+                        
+                        
 
         @_error_decorator()
         def getfilehash(self,fname):

@@ -11,11 +11,8 @@
     ],    
     "sounds":[
         "test"       
-    ],      
-    "mulab_length":5,    
-    "mulab_step":4,
+    ],         
     "split_threshold":50,
-    "split_time":10,
     "duration_threshold":0.012,
     "fade_percent":{"in":0, "out":50},
     "delete_doubles":true,

@@ -13,11 +13,8 @@
         "kick", "snare", "hhcl", "hhcl2", "hhop", "splash1", "crash1",
         "crash1chok", "fxcymb1", "china2", "fxcymb2", "crash2", "crash2chok", "china1",
         "ridetop", "ridebell", "ridecrash", "tom1","tom2", "tom3", "tom4", "tom5"
-    ],        
-    "mulab_length":89,    
-    "mulab_step":4,
+    ],          
     "split_threshold":50,
-    "split_time":6,
     "duration_threshold":0.012,
     "fade_percent":{"in":0, "out":0},
     "delete_doubles":true,
