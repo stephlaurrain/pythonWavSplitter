@@ -97,8 +97,7 @@ class Wavesplit:
                 while current_time < len(paudio):
                         end_time = current_time + segment_duration
                         if end_time > len(paudio):
-                                end_time = len(paudio)
-                        print(f"{current_time} {end_time}")
+                                end_time = len(paudio)                        
                         segment = paudio[current_time:end_time]
                         segments.append(segment)
 
@@ -118,13 +117,18 @@ class Wavesplit:
                 numero_segment = 1
                 cpt_sound = 0
                 cpt_velocity = 0
+                
+                if len(segments) != len(sounds) * len(velocities) :
+                        input(f"BAD number of sounds segments ln = {len(segments)} sounds = {len(sounds)} velocities = {len(velocities)}")
                 for segment in segments:
                         dest_dir = f"{self.result_sound_dir}{os.path.sep}{dest_dir_name}{os.path.sep}{cpt_sound}{sounds[cpt_sound]}"                                                                                  
                         export_file_path = f"{dest_dir}{os.path.sep}{dest_dir_name}-{cpt_sound}{self.drumkit_name}-{velocities[cpt_velocity]}-{sounds[cpt_sound]}.wav"                                        
                         # final_sound.export(export_file_path, format="wav")  # Ajustez le format si besoin
                         # print(f"{segment.dBFS} {segment.duration_seconds}")
-                        min_silence_length = 100  # Durée minimale du silence en millisecondes
-                        silence_threshold = -50  # Seuil de silence en dBFS (plus la valeur est basse, plus le seuil est sensible)
+                        #min_silence_length = 100  # Durée minimale du silence en millisecondes
+                        #silence_threshold = -50  # Seuil de silence en dBFS (plus la valeur est basse, plus le seuil est sensible)
+                        min_silence_length = self.jsprms.prms['silence']['length']  # Durée minimale du silence en millisecondes
+                        silence_threshold = -self.jsprms.prms['silence']['dbfs_threshold']   # Seuil de silence en dBFS (plus la valeur est basse, plus le seuil est sensible)
                         # Découper le fichier en segments en supprimant les parties silencieuses
                         segments = split_on_silence(segment, min_silence_len=min_silence_length, silence_thresh=silence_threshold)                        
                         if len(segments) > 0:
@@ -183,8 +187,7 @@ class Wavesplit:
                 hashlist = []
                 deleted_file_path =  f"{self.root_app}{os.path.sep}data{os.path.sep}deletedfiles.txt"
                 text_file = open(deleted_file_path, "w")                
-                for pth in sorted(Path(dest_dir).rglob('*.wav')):
-                        print("ici")
+                for pth in sorted(Path(dest_dir).rglob('*.wav')):                        
                         if pth.is_file():            
                                 hash_of_file = self.getfilehash(pth)                            
                                 hashobj = Hashes(hash=hash_of_file, filepath=pth)

@@ -5,7 +5,7 @@
     "result_sound_dir": "result",
     "drumkit_main_path": "/home/steph/1Tera/tmp",
     "drumkit_master": "org",
-    "drumkit_name": "test",
+    "drumkit_name": "grind",
     "velocities": [
         127,
         111,
@@ -43,7 +43,7 @@
     "one_note_length":6000,
     "silence" :{
         "dbfs_threshold": 50,
-        "time": 100
+        "length": 100
     }, 
     "duration_threshold": 0.012,
     "fade_percent": {
@@ -51,6 +51,6 @@
         "out": 0
     },
     "delete_doubles": false,
-    "move_drumkits": false,
-    "clean_dirs_at_end": false
+    "move_drumkits": true,
+    "clean_dirs_at_end": true
 }

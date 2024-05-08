@@ -55,8 +55,8 @@ while True:
     menulist = []
     menulist.append(Menuitem("split", "split files from EZdrummer", 0, "Ezdrummer"))
     menulist.append(Menuitem("split", "split files from Kult2", 0, "kult2"))    
-    menulist.append(Menuitem("split", "split files from other", 2, "extractFade"))        
-    menulist.append(Menuitem("clean", "delete files that has same hash"))
+    menulist.append(Menuitem("split", "split files from other", 0, "extractFade"))        
+    menulist.append(Menuitem("clean", "delete files that has same hash into drumkit_main_path", 0, "Ezdrummer"))
     menulist.append(Menuitem("test", "test something", "default"))
 
     for idx, menuitem in enumerate(menulist):

@@ -4,8 +4,8 @@
     "org_sound_dir":"org",
     "result_sound_dir":"result",
     "drumkit_main_path":"/home/steph/1Tera/tmp",
-    "drumkit_master":"dkfh",
-    "drumkit_name":"default",
+    "drumkit_master":"org",
+    "drumkit_name":"dkfh",
     "velocities":[
         127, 111, 95, 79, 63, 47
     ],    
