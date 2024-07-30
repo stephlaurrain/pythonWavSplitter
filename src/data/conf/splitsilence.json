@@ -1,0 +1,11 @@
+{
+    "keep_log_time":1,
+    "keep_log_unit":"m",
+    "org_sound_dir":"org",
+    "result_sound_dir":"result",    
+    "silence" :{
+        "dbfs_threshold": 30,
+        "duration": 0.5
+    } 
+    
+}
