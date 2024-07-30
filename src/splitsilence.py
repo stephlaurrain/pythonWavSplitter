@@ -47,7 +47,7 @@ class SplitSilence:
         if not os.path.exists(res_dir):
             os.makedirs(res_dir)
         res_filename = f"{res_dir}{os.path.sep}{simple_filename}-"
-        input(silence_duration)
+
         # Détecter les silences et enregistrer les informations dans silence_info.txt
         subprocess.run([
             "ffmpeg", "-i", input_file, "-af", f"silencedetect=noise={silence_threshold}:d={silence_duration}",
@@ -90,7 +90,6 @@ class SplitSilence:
         try:
             self.init_main("splitsilence")          
             file_utils.clean_dir(self.result_sound_dir)
-            input()
             self.browsefiles(self.org_sound_dir)
 
         
